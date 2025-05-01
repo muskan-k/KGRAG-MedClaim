@@ -15,7 +15,11 @@ RUN pip3 install --upgrade pip && \
     pip3 uninstall -y numpy && \
     pip3 install numpy==1.26.4 && \
     pip3 install biopython networkx rdflib requests && \
-    pip3 install matplotlib
+    pip3 install matplotlib && \
+    pip3 install torch && \
+    pip3 install transformers && \
+    pip3 install protobuf && \
+    pip3 install sacremoses
 
 
 COPY en_core_sci_lg.tar.gz .
@@ -26,7 +30,7 @@ RUN pip3 install en_core_sci_lg.tar.gz && \
 WORKDIR /app
 
 # Copy your script
-COPY main.py .
+COPY llama2.py .
 
 # Run script
-CMD ["python3", "main.py"]
+CMD ["python3", "llama2.py"]

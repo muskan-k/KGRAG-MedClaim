@@ -7,6 +7,12 @@ from Bio import Entrez
 import networkx as nx
 import matplotlib.pyplot as plt
 from rdflib import Graph as RDFGraph, Namespace, URIRef
+from transformers import AutoTokenizer, AutoModelForCausalLM
+import torch
+
+biogpt_tokenizer = AutoTokenizer.from_pretrained("microsoft/BioGPT-Large")
+biogpt_model = AutoModelForCausalLM.from_pretrained("microsoft/BioGPT-Large")
+
 
 # ─── 0) Configuration ─────────────────────────────────────────────────────────
 Entrez.email = "mkothari@umass.edu"
@@ -63,31 +69,25 @@ def fetch_pubmed_abstracts(query, retmax=3):
     return out
 
 def extract_triples_llm(abstract_text):
-    full_prompt = PROMPT_INSTRUCTIONS + "\n\nAbstract:\n" + abstract_text
-    try:
-        response = requests.post(
-            "http://host.docker.internal:11434/api/generate",
-            json={"model": "mistral", "prompt": full_prompt, "stream": False}
-        )
-        response.raise_for_status()
-        content = response.json()["response"]
+    prompt = (
+        "Extract biomedical triplets (subject, predicate, object) from the following abstract:\n"
+        f"{abstract_text}\n\n"
+        "Triplets:\n"
+    )
 
-        match = re.search(r'\{.*"triplets"\s*:\s*\[.*?\]\s*\}', content, re.DOTALL)
-        if not match:
-            raise ValueError("No valid triplets JSON block found.")
-        data = json.loads(match.group(0))
+    input_ids = biogpt_tokenizer(prompt, return_tensors="pt").input_ids
+    outputs = biogpt_model.generate(input_ids, max_new_tokens=100, do_sample=False)
+    response = biogpt_tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-        triplets = []
-        for t in data.get("triplets", []):
-            s, p, o = t.get("subject"), t.get("predicate"), t.get("object")
-            if s and p and o:
-                triplets.append((truncate_clean(s), truncate_clean(p, 3), truncate_clean(o, 3)))
-            else:
-                print(f"⚠️ Malformed triplet skipped: {t}")
-        return triplets
-    except Exception as e:
-        print(f"LLM extraction failed: {e}")
-        return []
+    # Simple pattern match (you may want regex or JSON-like formats if BioGPT follows them)
+    triplets = []
+    lines = response.split("\n")
+    for line in lines:
+        if line.count(",") == 2:
+            parts = [p.strip(" .") for p in line.split(",")]
+            triplets.append((parts[0], parts[1], parts[2]))
+
+    return triplets
 
 def build_nx_graph(triples):
     G = nx.DiGraph()
