@@ -1,0 +1,10 @@
+@prefix ns1: <http://example.org/> .
+
+ns1:Pfizer-BioNTech_COVID-19_vaccine ns1:causes ns1:burning_mouth_syndrome .
+
+ns1:aspirin ns1:treats ns1:headache .
+
+ns1:treatment_regimen ns1:components ns1:zinc_supplementation .
+
+ns1:vaccine ns1:prevents ns1:COVID-19 .
+

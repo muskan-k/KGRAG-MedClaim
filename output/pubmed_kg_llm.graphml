@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="relation" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="aspirin" />
+    <node id="headache" />
+    <node id="treatment regimen" />
+    <node id="zinc supplementation" />
+    <node id="vaccine" />
+    <node id="COVID-19" />
+    <node id="Pfizer-BioNTech COVID-19 vaccine" />
+    <node id="burning mouth syndrome" />
+    <edge source="aspirin" target="headache">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="treatment regimen" target="zinc supplementation">
+      <data key="d0">components</data>
+    </edge>
+    <edge source="vaccine" target="COVID-19">
+      <data key="d0">prevents</data>
+    </edge>
+    <edge source="Pfizer-BioNTech COVID-19 vaccine" target="burning mouth syndrome">
+      <data key="d0">causes</data>
+    </edge>
+  </graph>
+</graphml>
