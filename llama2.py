@@ -7,6 +7,7 @@ from Bio import Entrez
 import networkx as nx
 import matplotlib.pyplot as plt
 from rdflib import Graph as RDFGraph, Namespace, URIRef
+from neo4j import GraphDatabase
 
 # ─── 0) Configuration ─────────────────────────────────────────────────────────
 Entrez.email = "mkothari@umass.edu"
@@ -45,7 +46,7 @@ def truncate_clean(text, max_words=3):
         clean = " ".join(clean.split()[:-1])
     return clean
 
-def fetch_pubmed_abstracts(query, retmax=1000):
+def fetch_pubmed_abstracts(query, retmax=3):
     handle = Entrez.esearch(db="pubmed", term=query, retmax=retmax)
     record = Entrez.read(handle)
     ids = record["IdList"]
@@ -122,15 +123,46 @@ def build_rdf_graph(triples, namespace="http://example.org/"):
         g.add((subj, pred, obj))
     return g
 
+def store_in_neo4j(triples):
+    uri = os.getenv("NEO4J_URI", "bolt://localhost:7687")
+    user = os.getenv("NEO4J_USER", "neo4j")
+    password = os.getenv("NEO4J_PASSWORD", "test123")
+    driver = GraphDatabase.driver(uri, auth=(user, password))
+
+    def add_triple(tx, s, p, o):
+        tx.run(
+            """
+            MERGE (a:Entity {name: $s})
+            MERGE (b:Entity {name: $o})
+            MERGE (a)-[r:RELATION]->(b)
+            SET r.type = $p
+            """,
+            s=s, p=p, o=o
+        )
+
+    with driver.session() as session:
+        for s, p, o in triples:
+            session.execute_write(add_triple, s, p, o)
+
+    driver.close()
+    print("Triplets stored in Neo4j")
+
+def save_triplets_to_json(triplets, path="output/triplets.json"):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    data = [{"subject": s, "predicate": p, "object": o} for (s, p, o) in triplets]
+    with open(path, "w") as f:
+        json.dump({"triplets": data}, f, indent=2)
+    print(f"Triplets saved to {path}")
+
 def main():
     print("Fetching PubMed abstracts...")
     articles = fetch_pubmed_abstracts("COVID-19 vaccine efficacy")
 
     print("Extracting triples with Mistral (Ollama)...")
-    all_triples = []
+    all_triples = set()
     for art in articles:
         triples = extract_triples_llm(art["abstract"])
-        all_triples.extend(triples)
+        all_triples.update(triples)
 
     print("\nExtracted Triplets:")
     for t in triples:
@@ -144,16 +176,24 @@ def main():
         print(f"{u} --[{relation}]--> {v}")
 
     print("Visualizing graph...")
-    visualize_graph(G)
+    visualize_graph(G, out_path="output/graph.png")
 
     print("Saving GraphML...")
-    serialize_graphml(G)
+    serialize_graphml(G, path="output/pubmed_kg_llm.graphml")
     print(f"GraphML saved: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges")
 
     print("Saving RDF...")
     rdf = build_rdf_graph(all_triples)
-    rdf.serialize(destination="pubmed_kg_llm.ttl", format="turtle")
+    rdf.serialize(destination="output/pubmed_kg_llm.ttl", format="turtle")
     print("RDF Turtle saved: pubmed_kg_llm.ttl")
+
+    print("Storing triplets in Neo4j...")
+    store_in_neo4j(all_triples)
+    print("Triplets stored in DB...")
+    
+    print("Storing triplets as JSON...")
+    save_triplets_to_json(all_triples)
+    print("Triplets stored as JSON...")
 
 if __name__ == "__main__":
     main()
