@@ -6,7 +6,7 @@ import json
 from typing import Dict
 
 from query_kg_utils import get_triples_for_claim
-from pubmed_fetch import fetch_abstracts
+from pubmed_fetch import get_relevant_abstracts
 from rag_llm import ask
 
 def format_triples(triples):
@@ -32,9 +32,11 @@ Claim: {claim}
 Answer (JSON with keys `verdict`, `justification`):
 """
 
-def verify_claim(claim: str, k: int = 20) -> Dict:
+def verify_claim(claim: str, k: int =20) -> Dict:
     triples = get_triples_for_claim(claim, limit=20)
-    abstracts = fetch_abstracts(claim, max_hits=k)
+    abstracts = get_relevant_abstracts(claim, top_k=k)
+    # if not triples and not abstracts:
+    #     return {"error": "No evidence retrieved – cannot verify claim."}
     prompt = build_prompt(claim, triples, abstracts)
     raw = ask(prompt)
     return {
@@ -48,7 +50,7 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description="Vanilla KG‑RAG verifier")
     parser.add_argument("claim", nargs="*", help="Claim sentence to verify")
-    parser.add_argument("-k", type=int, default=20, help="Max pubmed hits")
+    parser.add_argument("-k", type=int, default=5, help="How many PubMed abstracts to keep after BM25")
     args = parser.parse_args()
     claim = " ".join(args.claim) if args.claim else input("Enter claim: ")
     result = verify_claim(claim, args.k)

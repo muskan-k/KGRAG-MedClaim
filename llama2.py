@@ -46,7 +46,7 @@ def truncate_clean(text, max_words=3):
         clean = " ".join(clean.split()[:-1])
     return clean
 
-def fetch_pubmed_abstracts(query, retmax=3):
+def fetch_pubmed_abstracts(query, retmax=10):
     handle = Entrez.esearch(db="pubmed", term=query, retmax=retmax)
     record = Entrez.read(handle)
     ids = record["IdList"]
