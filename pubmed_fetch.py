@@ -12,7 +12,7 @@ from rank_bm25 import BM25Okapi  # tiny, pure‑python BM25 implementation
 # ---------------------------------------------------------------------------
 # CONFIG
 # ---------------------------------------------------------------------------
-Entrez.email = os.getenv("ENTREZ_EMAIL", "rag@example.com")
+Entrez.email = os.getenv("ENTREZ_EMAIL", "mkothari@umass.edu")
 Entrez.tool = "rag_pipeline_demo"
 
 MAX_CANDIDATES = 100      # abstracts pulled down before local re‑rank

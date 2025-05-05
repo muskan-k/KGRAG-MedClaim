@@ -1,5 +1,44 @@
-# ---------------- Dockerfile ----------------
-FROM python:3.9-slim
+###############################################################################
+# ─────────  Stage‑1  (GPU trainer / model builder)  ──────────────────────────
+###############################################################################
+FROM pytorch/pytorch:2.2.1-cuda12.1-cudnn8-runtime AS trainer
+
+# ---- tooling ---------------------------------------------------------------
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends git build-essential && \
+    rm -rf /var/lib/apt/lists/*
+
+ENV TRANSFORMERS_NO_TORCHVISION=1
+
+    # Force remove torchvision if auto-installed
+RUN pip uninstall -y torchvision || true
+    
+    # Now install what you actually need
+RUN pip install --no-cache-dir \
+    "transformers==4.40.0" \
+    "datasets" \
+    "trl==0.8.6" \
+    "bitsandbytes==0.43.0" \
+    "sentencepiece" \
+    "unsloth==2025.4.7"
+
+
+
+
+# ---- bring in data + training script (kept outside runtime image) ----------
+WORKDIR /train
+#   copy whatever script you use for SFT
+COPY scripts/train_healthver_sft.py ./
+COPY scripts/make_healthver_sft.py  ./
+
+# ---- run when you `--target trainer` ---------------------------------------
+# CMD ["python", "train_healthver_sft.py"]
+# (We leave CMD blank so the runtime stage becomes the default target.)
+
+###############################################################################
+# ─────────  Stage‑2  (slim runtime; keeps “vanilla” behaviour)  ─────────────
+###############################################################################
+FROM python:3.9-slim AS runtime 
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PIP_NO_INPUT=1
 WORKDIR /app
 
