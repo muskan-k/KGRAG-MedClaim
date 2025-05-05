@@ -1,14 +1,24 @@
 {
   "triplets": [
     {
-      "subject": "aspirin",
-      "predicate": "treats",
-      "object": "headache"
+      "subject": "COVID-19",
+      "predicate": "prevents",
+      "object": "vaccine"
     },
     {
-      "subject": "treatment regimen",
-      "predicate": "components",
-      "object": "zinc supplementation"
+      "subject": "clinical efficacy",
+      "predicate": "demonstrated",
+      "object": "mRNA vaccines"
+    },
+    {
+      "subject": "Pfizer-BioNTech COVID-19 vaccine",
+      "predicate": "causes",
+      "object": "burning mouth syndrome"
+    },
+    {
+      "subject": "challenge",
+      "predicate": "current research faces",
+      "object": "tumor antigen selection"
     },
     {
       "subject": "vaccine",
@@ -16,9 +26,19 @@
       "object": "COVID-19"
     },
     {
-      "subject": "Pfizer-BioNTech COVID-19 vaccine",
-      "predicate": "causes",
-      "object": "burning mouth syndrome"
+      "subject": "individuals",
+      "predicate": "determined",
+      "object": "participation"
+    },
+    {
+      "subject": "treats",
+      "predicate": "efficacy",
+      "object": "zinc supplementation"
+    },
+    {
+      "subject": "aspirin",
+      "predicate": "treats",
+      "object": "headache"
     }
   ]
 }

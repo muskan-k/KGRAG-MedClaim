@@ -24,9 +24,9 @@ services:
       - NEO4J_USER=neo4j
       - NEO4J_PASSWORD=test12345678
       - LLM_MODEL_ID=mistralai/Mistral-7B-Instruct-v0.2
-      - ENTREZ_EMAIL=your_email@example.com
+      - ENTREZ_EMAIL=tpjoshi@umass.edu
+      - ENTREZ_API_KEY=15173a0f7e119ea8f97385cc057712867708
     command: ["python3", "llama2.py"]
-
     volumes:
       - .:/app
 

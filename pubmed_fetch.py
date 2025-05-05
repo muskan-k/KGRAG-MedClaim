@@ -47,7 +47,7 @@ def _mesh_synonyms(term: str) -> List[str]:
         url = f"{NCBI_BASE}/esearch.fcgi"
         resp = requests.get(
             url,
-            params={"db": "pubmed", "term": term, "retmode": "json", "retmax": 0},
+            params={"db": "pubmed", "term": term, "retmode": "json", "retmax": 0, "api_key": os.getenv("ENTREZ_API_KEY", "")},
             timeout=6,
         )
         resp.raise_for_status()
@@ -113,7 +113,7 @@ def _build_pubmed_query(claim: str, *, verbose: bool = False) -> str:
 def _search_pubmed(term: str, retmax: int = MAX_CANDIDATES) -> List[str]:
     """Return PubMed IDs matching *term* (already formatted)."""
     url = f"{NCBI_BASE}/esearch.fcgi"
-    params = {"db": "pubmed", "term": term, "retmode": "json", "retmax": retmax}
+    params = {"db": "pubmed", "term": term, "retmode": "json", "retmax": retmax, "api_key": os.getenv("ENTREZ_API_KEY", "")}
     r = requests.get(url, params=params, timeout=10)
     r.raise_for_status()
     return r.json()["esearchresult"].get("idlist", [])
