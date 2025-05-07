@@ -1,14 +1,9 @@
 {
   "triplets": [
     {
-      "subject": "aspirin",
-      "predicate": "treats",
-      "object": "headache"
-    },
-    {
-      "subject": "treatment regimen",
-      "predicate": "components",
-      "object": "zinc supplementation"
+      "subject": "treats",
+      "predicate": "efficacy",
+      "object": "topical capsaicin"
     },
     {
       "subject": "vaccine",
@@ -19,6 +14,21 @@
       "subject": "Pfizer-BioNTech COVID-19 vaccine",
       "predicate": "causes",
       "object": "burning mouth syndrome"
+    },
+    {
+      "subject": "aspirin",
+      "predicate": "treats",
+      "object": "headache"
+    },
+    {
+      "subject": "treats",
+      "predicate": "efficacy",
+      "object": "zinc supplementation"
+    },
+    {
+      "subject": "treats",
+      "predicate": "efficacy",
+      "object": "acupuncture"
     }
   ]
 }

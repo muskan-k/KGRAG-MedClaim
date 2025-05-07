@@ -24,11 +24,21 @@ services:
       - NEO4J_USER=neo4j
       - NEO4J_PASSWORD=test12345678
       - LLM_MODEL_ID=mistralai/Mistral-7B-Instruct-v0.2
-      - ENTREZ_EMAIL=mkothari@example.com
+      - ENTREZ_EMAIL=mkothari@umass.edu
     command: ["python3", "llama2.py"]
-
     volumes:
       - .:/app
+
+  medrag:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runtime
+    container_name: medrag
+    volumes:
+      - ./data:/app/data:ro      # your HealthVer data
+      - ./models:/app/models     # trained & merged models
+    tty: true
 
 volumes:
   neo4j_data:
