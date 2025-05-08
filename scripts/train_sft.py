@@ -16,8 +16,8 @@ from peft import LoraConfig, get_peft_model
 # ─────────────────────────────────────────────────────────────────────────────
 # 0) CONFIG: how many batches per epoch
 # ─────────────────────────────────────────────────────────────────────────────
-BATCH_SIZE        = 4 if torch.cuda.is_available() else 1
-BATCHES_PER_EPOCH = 10
+BATCH_SIZE        = 50 if torch.cuda.is_available() else 1
+BATCHES_PER_EPOCH = 20
 MAX_TRAIN_EXAMPLES = BATCH_SIZE * BATCHES_PER_EPOCH
 MAX_EVAL_EXAMPLES  = BATCH_SIZE * BATCHES_PER_EPOCH
 
@@ -116,8 +116,8 @@ small_val   = tok["validation"].select(range(min(MAX_EVAL_EXAMPLES,  len(tok["va
 training_args = TrainingArguments(
     output_dir=str(OUT_DIR),
     per_device_train_batch_size=BATCH_SIZE,
-    gradient_accumulation_steps=32,
-    num_train_epochs=3,
+    gradient_accumulation_steps=64,
+    num_train_epochs=10,
     learning_rate=2e-4,
     logging_steps=20,
     save_steps=500,
