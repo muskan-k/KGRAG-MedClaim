@@ -7,6 +7,12 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends build-essential \
     && rm -rf /var/lib/apt/lists/*
 
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    curl \
+    iputils-ping \
+    && rm -rf /var/lib/apt/lists/*
+
 # --- 1) pin binary‑compatible NumPy first ------------------------------------
 RUN pip install --upgrade pip && \
     pip install --no-cache-dir "numpy==1.24.4"

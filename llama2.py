@@ -8,7 +8,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from rdflib import Graph as RDFGraph, Namespace, URIRef
 from neo4j import GraphDatabase
-
+from tqdm import tqdm
 # ─── 0) Configuration ─────────────────────────────────────────────────────────
 Entrez.email = "mkothari@umass.edu"
 MAX_WORDS = 5  # Limit to reduce verbosity
@@ -46,28 +46,37 @@ def truncate_clean(text, max_words=3):
         clean = " ".join(clean.split()[:-1])
     return clean
 
-def fetch_pubmed_abstracts(query, retmax=10):
-    handle = Entrez.esearch(db="pubmed", term=query, retmax=retmax)
-    record = Entrez.read(handle)
-    ids = record["IdList"]
+from tqdm import tqdm
+
+def fetch_pubmed_abstracts(query, retmax=500):
+    print("Searching PubMed...")
+    search_handle = Entrez.esearch(db="pubmed", term=query, retmax=retmax)
+    search_results = Entrez.read(search_handle)
+    ids = search_results["IdList"]
     if not ids:
         return []
-    handle = Entrez.efetch(db="pubmed", id=",".join(ids), retmode="xml")
-    docs = Entrez.read(handle)
+
+    print("Fetching abstracts from PubMed...")
     out = []
-    for art in docs["PubmedArticle"]:
-        pmid = art["MedlineCitation"]["PMID"]
-        artinfo = art["MedlineCitation"]["Article"]
-        abst = artinfo.get("Abstract", {}).get("AbstractText", [])
-        abstract = " ".join(str(x) for x in abst) if isinstance(abst, list) else str(abst)
-        out.append({"pmid": pmid, "abstract": abstract})
+    # Fetch in batches to allow progress bar to update
+    batch_size = 100
+    for i in tqdm(range(0, len(ids), batch_size), desc="Downloading batches"):
+        batch_ids = ids[i:i + batch_size]
+        fetch_handle = Entrez.efetch(db="pubmed", id=",".join(batch_ids), retmode="xml")
+        batch_docs = Entrez.read(fetch_handle)
+        for art in batch_docs["PubmedArticle"]:
+            pmid = art["MedlineCitation"]["PMID"]
+            artinfo = art["MedlineCitation"]["Article"]
+            abst = artinfo.get("Abstract", {}).get("AbstractText", [])
+            abstract = " ".join(str(x) for x in abst) if isinstance(abst, list) else str(abst)
+            out.append({"pmid": pmid, "abstract": abstract})
     return out
 
 def extract_triples_llm(abstract_text):
     full_prompt = PROMPT_INSTRUCTIONS + "\n\nAbstract:\n" + abstract_text
     try:
         response = requests.post(
-        "http://host.docker.internal:11434/api/generate",
+        "http://localhost:11434/api/generate",
         json={"model": "llama2", "prompt": full_prompt, "stream": False}
     )
         response.raise_for_status()

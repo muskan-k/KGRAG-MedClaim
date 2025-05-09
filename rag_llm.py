@@ -10,7 +10,7 @@ Environment variables you can override:
 import os
 import requests
 
-ENDPOINT = os.getenv("LLM_ENDPOINT", "http://host.docker.internal:11434")
+ENDPOINT = os.getenv("LLM_ENDPOINT", "http://localhost:11434")
 MODEL_ID = os.getenv("LLM_MODEL", "mistral")
 URL = f"{ENDPOINT.rstrip('/')}/api/generate"
 

@@ -1,18 +1,842 @@
 @prefix ns1: <http://example.org/> .
 
+<http://example.org/%3Ci%3EVaccine%3C%2Fi%3E> ns1:co-citation ns1:Vaccine_Journal .
+
+<http://example.org/%3E60_years_old> ns1:reduces_risk ns1:patients .
+
+<http://example.org/%3E8_mg%2FL> ns1:independent_predictor ns1:CRP_level .
+
+<http://example.org/%CE%B27-integrin> ns1:expression ns1:dendritic_cells .
+
+ns1:3-chymotrypsin-like_protease_%283CLpro%29 ns1:inhibits ns1:SARS-CoV-2 .
+
+ns1:7-59_days_after ns1:PWH%3A_61.20%25%3B_PWoH%3A ns1:peak_level .
+
+ns1:71_years ns1:median ns1:age .
+
+ns1:90-119_days_after ns1:declined_faster ns1:waning_protective_effect .
+
+ns1:A-910823 ns1:enhances ns1:quadrivalent_influenza_vaccine .
+
+ns1:ADCP ns1:activities ns1:spike_protein .
+
+ns1:ADNP ns1:responses ns1:BA.5 ;
+    ns1:specificity ns1:XBB.1.5 .
+
+ns1:APCs ns1:target ns1:CPSM .
+
+ns1:AdV ns1:utilizes ns1:Jcovden .
+
+ns1:BALB%2Fc_mice ns1:induces_immune_responses ns1:quadrivalent_influenza_vaccine .
+
+ns1:BNPs ns1:produces ns1:PBD-b-PEO .
+
+ns1:B_cells ns1:proliferation ns1:mRNA_vaccine .
+
+ns1:CD4%2B_T-cells ns1:activation_markers ns1:monocytes .
+
+ns1:COVID-19_hospitalization ns1:reduces ns1:XBB.1.5_COVID-19_vaccine .
+
+ns1:COVID-19_patients ns1:found ns1:chimeric_RNAs .
+
+ns1:Canada ns1:first_validated ns1:French-speaking_Belgian_regions .
+
+ns1:Delta_and_Omicron ns1:significantly_enhanced_neutralizing ns1:neutralizing_antibodies .
+
+ns1:DsiRNA_swarms ns1:pre-transfection_inhibition ns1:Vero_E6-TMPRSS2_cells .
+
+ns1:Dutch_cohort_study ns1:included ns1:participants .
+
+ns1:EVs ns1:found ns1:neurofilaments .
+
+ns1:Fab ns1:complex ns1:RBD .
+
+ns1:Fc_structure ns1:influences ns1:antibody .
+
+ns1:KTRs ns1:boosts ns1:infection .
+
+ns1:Kidney_transplant_recipients ns1:immunity ns1:SARS-CoV-2 .
+
+ns1:LNP-saRNA-RBD_vaccination ns1:induction_of_protection ns1:prime-boost_immunizations .
+
+ns1:Moderna-NIAID ns1:initial_immunization ns1:mRNA-1273 .
+
+ns1:Molnupiravir ns1:treats ns1:SARS-CoV-2 .
+
+ns1:Newcastle_disease_virus ns1:causes ns1:poultry_diseases .
+
+ns1:Omicron_variants_BA.2%2C ns1:pathogenicity_is_comparable ns1:SARS-CoV-2 .
+
+ns1:PIV5-vectored_COVID-19_vaccine ns1:induces_neutralizing_antibodies ns1:CVXGA1 .
+
+ns1:PTBP1_and_SFPQ ns1:enriched ns1:RNA_binding_proteins .
+
+ns1:Pfizer-BioNTech ns1:primary_vaccination ns1:BNT162b2 .
+
 ns1:Pfizer-BioNTech_COVID-19_vaccine ns1:causes ns1:burning_mouth_syndrome .
 
-ns1:aspirin ns1:treats ns1:headache .
+ns1:Pickering_emulsion_platform ns1:loaded_AAVs ns1:aluminum_hydroxide .
 
-ns1:challenge ns1:current_research_faces ns1:tumor_antigen_selection .
+ns1:RBD_and_S1 ns1:elicits ns1:peptide_pools .
 
-ns1:clinical_efficacy ns1:demonstrated ns1:mRNA_vaccines .
+ns1:RBD_mutations ns1:compromise ns1:XBB.1.5 .
 
-ns1:individuals ns1:determined ns1:participation .
+ns1:RBDco ns1:induces ns1:mice_and_non-human .
 
-ns1:treats ns1:efficacy ns1:zinc_supplementation .
+ns1:RNA_delivery ns1:platform ns1:LNPs .
 
-ns1:COVID-19 ns1:prevents ns1:vaccine .
+ns1:RV-1730 ns1:enhances_stability ns1:spike_protein .
 
-ns1:vaccine ns1:prevents ns1:COVID-19 .
+ns1:Respiratory_Syncytial_Virus ns1:protects ns1:mRNA_vaccine .
+
+ns1:SARS-CoV-2_3CLpro ns1:inhibits ns1:Gnetol .
+
+ns1:SARS-CoV-2_mRNA_vaccine ns1:approved ns1:Comirnaty,
+        ns1:Spikevax .
+
+ns1:SARS-CoV-2_spike-encoding_DNA-LNP ns1:elicits_protective_efficacy ns1:rabbits .
+
+ns1:SARS-CoV-2_subunit_vaccine ns1:elicited ns1:RBD-HR%2Ftrimer .
+
+ns1:SARS-CoV-2_vaccine ns1:induces ns1:binding_antibodies .
+
+ns1:SARS-CoV-2_variants ns1:neutralizes ns1:Omicron_%28B.1.1.529%29 .
+
+ns1:SARS-CoV-2_virus ns1:effectively_addresses ns1:vaccine .
+
+ns1:Sino_Pharma ns1:effective ns1:Sinovac-CoronaVac_vaccine .
+
+ns1:Slovenia ns1:showing ns1:young_people .
+
+ns1:TLR-ligands ns1:enhances ns1:IL-15 .
+
+ns1:XBB_sub-lineages ns1:surfaced ns1:BA.2-derived_sub-lineages .
+
+ns1:acceptability ns1:shapes ns1:young_people .
+
+ns1:activated ns1:enhanced_immune_responses ns1:cGAS-STING_pathway .
+
+ns1:adaptation ns1:inducing ns1:mRNA_vaccine .
+
+ns1:adjuvant ns1:enhance ns1:IL-7 .
+
+ns1:adjuvanted_protein ns1:induces ns1:mRNA-LNP .
+
+ns1:after_challenge ns1:reduction_in_viral ns1:lungs_of_mice .
+
+ns1:aged_mice ns1:reduces ns1:K18-hACE2_transgenic_mice .
+
+ns1:aiding ns1:treatment ns1:cancer_treatment .
+
+ns1:ancestral ns1: ns1:Wuhan_strain .
+
+ns1:antibiotic_resistance ns1:prediction ns1:microorganisms .
+
+ns1:antibiotics ns1:enhances ns1:bacteriophages ;
+    ns1:influences ns1:gut_microbiota .
+
+ns1:antibody_response ns1:association ns1:mental_illness .
+
+ns1:antibody_responses ns1:cross-reactive ns1:NL63 .
+
+ns1:antigen ns1:elicits ns1:BA.4%2F5_RBD-PC7A_conjugate ;
+    ns1:encode ns1:rabies_virus_glycoprotein .
+
+ns1:antigen-specific_T_cells ns1:differentiation_into_a ns1:T_cells .
+
+ns1:antigen_recognition ns1:critical ns1:HLA .
+
+ns1:antigen_specific ns1:activates ns1:CD8%2B_T_cells .
+
+ns1:antigens ns1:encapsulates ns1:microparticles ;
+    ns1:identified ns1:Vibrio_cholerae .
+
+ns1:antiretroviral_therapy ns1:treats ns1:HIV .
+
+ns1:antiviral_immunity ns1:generates ns1:probiotics ;
+    ns1:promotes ns1:prebiotics .
+
+ns1:artificial_intelligence ns1:applications ns1:pathogenic_microbiology .
+
+ns1:aspirin ns1:treats ns1:headache,
+        ns1:muscle-invasive_bladder_cancer .
+
+ns1:author ns1:prolific ns1:David_B_Weiner .
+
+ns1:backgrounds ns1:participated ns1:individuals .
+
+ns1:benefits ns1:higher ns1:perceived_susceptibility .
+
+ns1:biomineralized ns1:stabilized ns1:manganese_nanoparticles .
+
+ns1:biotechnology ns1:successes ns1:COVID-19_mRNA_vaccines .
+
+ns1:blood_cells ns1:affects ns1:PFAS .
+
+ns1:bnAbs ns1:inducing ns1:neutralizing_antibodies .
+
+ns1:body ns1:deteriorates ns1:aging .
+
+ns1:boost_anti-PEG_antibodies <http://example.org/-> ns1:mRNA-LNPs .
+
+ns1:boosted ns1:cross-protective_potential ns1:bacterial_infection_models .
+
+ns1:calcinosis ns1:increases ns1:SSc_patients .
+
+ns1:cancer_immunotherapy ns1:revolutionized ns1:CAR-T_therapy ;
+    ns1:treats ns1:mRNA-LNP_vaccines .
+
+ns1:challenge ns1:causes ns1:COVID-19 .
+
+ns1:chemotherapy ns1:treats ns1:breast_cancer,
+        ns1:cancer .
+
+ns1:children_aged_5-17 ns1:vaccinate ns1:parents .
+
+ns1:clinical_development ns1:faces ns1:therapeutics .
+
+ns1:clinical_efficacy ns1:high ns1:mRNA_vaccines .
+
+ns1:colonic_persistence ns1:associated ns1:plasmacytoid_DCs .
+
+ns1:combined ns1:created ns1:international_funding .
+
+ns1:combined_with_a ns1:resulted_in_high ns1:fourth_vaccine_dose .
+
+ns1:commercially_available ns1:delivered ns1:severe_acute_respiratory .
+
+ns1:compound_9064 ns1:interacts ns1:Mpro_protein .
+
+ns1:concentration ns1:effects_on_LNP ns1:PEG-lipid .
+
+ns1:concentrations ns1:compared ns1:delta_values .
+
+ns1:confidence ns1:predictors_of_positive ns1:HCPs ;
+    ns1:undermines ns1:young_adults .
+
+ns1:coronavirus_disease ns1:controlled ns1:mRNA_vaccines .
+
+ns1:criteria_for_ionizable ns1:accelerate_development ns1:ester_linkage .
+
+ns1:current_challenges ns1:emerging_SARS-CoV-2_variants ns1:administration_strategies .
+
+ns1:deaths ns1:reduced ns1:vaccine .
+
+ns1:delivery ns1:co-load ns1:lipid_nanoparticles ;
+    ns1:proven ns1:COVID-19_vaccines ;
+    ns1:vital ns1:mRNA .
+
+ns1:demographics ns1:reported ns1:patients .
+
+ns1:dental_caries ns1:treating ns1:oral_diseases .
+
+ns1:dental_practitioners ns1:regarding_COVID-19_vaccination ns1:knowledge .
+
+ns1:dental_professionals ns1:regarding_COVID-19_vaccine ns1:perceptions .
+
+ns1:dentists_in_India ns1:towards_COVID-19_vaccination ns1:attitude .
+
+ns1:developed ns1:mild_COVID-19 ns1:low_immune_responses .
+
+ns1:development ns1:transformative_opportunities ns1:mRNA_vaccine_candidates .
+
+ns1:different_doses_performed ns1:detected ns1:immunization_strategies .
+
+ns1:digest ns1:partial ns1:RNase_T1,
+        ns1:RNase_U2 .
+
+ns1:disease ns1:post-vaccination ns1:CRPS ;
+    ns1:prevention ns1:COVID-19 .
+
+ns1:distribution ns1:similar ns1:exogenous_protein_expression .
+
+ns1:diverse ns1:including ns1:health_benefits .
+
+ns1:draining_lymph_nodes ns1:production_of_anti-RBD ns1:germinal_center_response .
+
+ns1:drug_delivery ns1:efficient ns1:nucleic_acids .
+
+ns1:drugs ns1:optimization ns1:therapeutic_optimization .
+
+ns1:elicit_IgG ns1:persists_for_at ns1:OVA_mRNA-BNPs .
+
+ns1:elicited ns1:better ns1:protective_efficacy ;
+    ns1:neutralizing ns1:antibodies ;
+    ns1:superior ns1:cellular_responses,
+        ns1:humoral_responses .
+
+ns1:encapsulation ns1:effects_on_LNP ns1:mRNA .
+
+ns1:encoding_the_receptor-binding ns1:amplifying_transcripts ns1:mutated_saRNA .
+
+ns1:enhanced ns1:activity ns1:antioxidant_potential .
+
+ns1:enhancing ns1:efficacy ns1:COVID-19_vaccine_efficacy .
+
+ns1:estimates ns1:calculate ns1:influenza_VE .
+
+ns1:extended-persistence_variant ns1:induced ns1:RBD-sFc-HR%2Ftrimer .
+
+ns1:factor ns1:was_associated ns1:stringency_of_COVID-19 .
+
+ns1:fear ns1:associated_with_hesitancy ns1:side_effects .
+
+ns1:females ns1:induce_higher_immunological ns1:sex .
+
+ns1:fusion ns1:achieved ns1:P._florida .
+
+ns1:future ns1:improve ns1:sample_size .
+
+ns1:genetic_strains ns1:prevents ns1:SARS-CoV-2 .
+
+ns1:geriatric_populations ns1:enhanced ns1:vaccine-induced_immunity .
+
+ns1:hACE2 ns1:binds ns1:RBD .
+
+ns1:health_authorities ns1:register ns1:biologic_products .
+
+ns1:health_emergency ns1:assess ns1:European_Union .
+
+ns1:healthcare_professionals ns1:refused ns1:vaccine .
+
+ns1:heat-labile_enterotoxin ns1:detoxified ns1:Escherichia_coli .
+
+ns1:high ns1:associated_with_hesitancy ns1:social_media_influence ;
+    ns1:levels ns1:lower_cholesterol .
+
+ns1:high-dose_vaccine ns1:efficacy ns1:influenza .
+
+ns1:high-valency_vaccine ns1:coverage ns1:Streptococcus_pneumoniae .
+
+ns1:hospitalisation ns1:prevents ns1:COVID-19 .
+
+ns1:hospitalization ns1:increases ns1:BA.2.86_lineage ;
+    ns1:reduces ns1:AZD1222 ;
+    ns1:reduction ns1:COVID-19 .
+
+ns1:host_proteases ns1:selective ns1:compound_39 .
+
+ns1:human_papilloma_virus ns1:positive_safety_profile ns1:efficacy .
+
+ns1:hybrid ns1:generated ns1:C._militaris .
+
+ns1:immune_system ns1:modulates ns1:immunotherapeutic_agents .
+
+ns1:immunity ns1:studies ns1:infectious_disease .
+
+ns1:immunization ns1:induces ns1:Alum .
+
+ns1:immunization_policies ns1:similar ns1:Hong_Kong .
+
+ns1:immunized ns1:verified ns1:mice .
+
+ns1:immunocompromised_individuals ns1:affected ns1:HIV%2FAIDS .
+
+ns1:immunogenicity ns1:enhance ns1:mRNA_vaccines ;
+    ns1:low ns1:DNA_vaccines .
+
+ns1:implantology ns1:promoting ns1:tissue_regeneration .
+
+ns1:improved ns1:effectiveness ns1:antibacterial_potential .
+
+ns1:improves_the_durability ns1:and_the_magnitude%2C ns1:germinal_center_reactions .
+
+ns1:in_vivo_engineered ns1:address_current_limitations ns1:mRNA-LNP_technology .
+
+ns1:including_possible_epidemic ns1:effectively ns1:pseudoviruses .
+
+ns1:increased ns1:content ns1:polysaccharides .
+
+ns1:increased_AAV_target ns1:potently_augmenting_cross-protective ns1:STING_pathway_activation .
+
+ns1:individuals_aged_44 ns1:less_likely ns1:age .
+
+ns1:individuals_over_65 ns1:more_likely ns1:age .
+
+ns1:induced ns1:high_levels ns1:neutralizing_antibody .
+
+ns1:infant ns1:prevents ns1:nirsevimab ;
+    ns1:protects ns1:COVID-19_vaccine .
+
+ns1:infected ns1:enhanced_AAV_infection ns1:antigen_present_cells .
+
+ns1:influenza_hemagglutinin_%28HA%29 ns1:induces ns1:DNA-LNP .
+
+ns1:inhalation ns1:represents ns1:recombinant_COVID-19_vaccine .
+
+ns1:innovations ns1:swift_development_timelines ns1:mRNA-LNP_technology .
+
+ns1:insulin ns1:regulates ns1:diabetes .
+
+ns1:key_ingredient ns1:effective ns1:LNPs .
+
+ns1:levels_induced ns1:against_live_XBB ns1:neutralizing_antibody_%28NAb%29 .
+
+ns1:lipid ns1:prepare ns1:co-assembly .
+
+ns1:long-form ns1:evaluated_and_found ns1:short-form_version .
+
+ns1:low ns1:associated_with_hesitancy ns1:confidence_in_vaccine,
+        ns1:education_levels .
+
+ns1:lower_respiratory_tract ns1:prevents ns1:respyrical_syncytial_virus .
+
+ns1:lung ns1:delivered ns1:mRNA .
+
+ns1:lymph_nodes ns1:accumulation ns1:dendritic_cells .
+
+ns1:mRNA-BNPs ns1:can_be_stored ns1:luciferase_mRNA-BNPs .
+
+ns1:mRNA_COVID-19_vaccine ns1:causes ns1:myocarditis,
+        ns1:pericarditis .
+
+ns1:main_protease ns1:targets ns1:SARS-CoV-2 .
+
+ns1:mass ns1:measurement ns1:LNP .
+
+ns1:mediated_route ns1:reduced_dependency ns1:sialic_acid_receptor .
+
+ns1:medication ns1:treats ns1:heart_disease .
+
+ns1:melanoma ns1:elicits ns1:neuroantigens .
+
+ns1:method ns1:used ns1:intramuscular_immunization,
+        ns1:intranasal_immunization .
+
+ns1:microbiology ns1:research ns1:AI .
+
+ns1:monitor ns1:evaluate ns1:population_studies .
+
+ns1:monoclonal_antibody_treatments ns1:escape ns1:KP.2 .
+
+ns1:mosquito_salivary_gland ns1:suppresses ns1:vaccine .
+
+ns1:neutrophil_phagocytosis ns1:mediates ns1:antibodies .
+
+ns1:new-onset_DM ns1:causes ns1:diabetes_mellitus .
+
+ns1:nirmatrelvir ns1:inhibits ns1:COVID-19 .
+
+ns1:nonresponders ns1:showed ns1:depressive_symptoms .
+
+ns1:nucleic_acid ns1:encapsulates ns1:LNP .
+
+ns1:nucleoside_analog ns1:inhibits ns1:SARS-CoV-2 .
+
+ns1:offered_significant_protection ns1:although_this_wanes ns1:complete_primary_series .
+
+ns1:older_age ns1:associated_with_acceptance ns1:existing_comorbidities .
+
+ns1:online_survey ns1:cross-sectional ns1:survey .
+
+ns1:optimization_approaches ns1:enhance_efficacy%2C_stability%2C ns1:manufacturing_process .
+
+ns1:ovalbumin_%28OVA%29_mRNA ns1:enhances ns1:PD18_LNPs .
+
+ns1:oxidative_stress ns1:associated ns1:tumor_antigens .
+
+ns1:p30 ns1:carries ns1:zein_nanoparticles .
+
+ns1:pain_reliever ns1:reduces ns1:inflammation .
+
+ns1:pancreatic_cancer ns1:stimulates ns1:immune_checkpoint_inhibitors .
+
+ns1:pandemic ns1:created ns1:COVID-19 ;
+    ns1:spread_misinformation ns1:COVID-19 .
+
+ns1:pathogens ns1:analysis ns1:genomic_analysis ;
+    ns1:fight ns1:Neutrophils ;
+    ns1:management ns1:data_management_systems ;
+    ns1:modeling ns1:transmission_modeling ;
+    ns1:profiling ns1:ecological_profiling .
+
+ns1:patient ns1:increases_risk ns1:tuberculosis ;
+    ns1:induces ns1:vaccine .
+
+ns1:people ns1:switched ns1:initially_hesitant .
+
+ns1:people_with_HIV ns1:treats ns1:SARS-CoV-2_infection .
+
+ns1:peptide_antigens ns1:boost_immune_responses ns1:10_nm_nanodiamonds .
+
+ns1:periodontal_disease ns1:modulating ns1:oral_cavity .
+
+ns1:phase ns1:was_associated ns1:active_campaign_phase .
+
+ns1:phase_III_trials ns1:original_trial_data ns1:data .
+
+ns1:physicians%2Fmedical_residents ns1:recommend ns1:COVID-19_vaccination .
+
+ns1:plasma ns1:increased ns1:pro-inflammatory_cytokines .
+
+ns1:plasmablasts ns1:antibody_production ns1:AdV_vaccine .
+
+ns1:policies ns1:influence ns1:government .
+
+ns1:poly%28A%29_tail ns1:undergoes_rapid_degradation ns1:mRNA .
+
+ns1:polymorphism ns1:limitation ns1:human_leukocyte_antigen .
+
+ns1:positivity ns1:increases ns1:anti-centromere_antibodies .
+
+ns1:post-market_phase_IV ns1:conclusions_drawn ns1:inferences .
+
+ns1:potent_anticancer_efficacy ns1:conferred ns1:immune_memory .
+
+ns1:precise_antigen_design ns1:efficient_delivery_mechanisms ns1:mRNA-LNP_technology .
+
+ns1:precursor_RNA_%28preRNA%29 ns1:self-splicing ns1:circular_RNA_%28circRNA%29 .
+
+ns1:predictors_of_vaccine ns1:are ns1:stage_of_metastatic .
+
+ns1:primary_vaccination ns1:increases ns1:boosters .
+
+ns1:proactive_efficacy ns1:80%25_and_180%25 ns1:trust_in_authorities .
+
+ns1:protect_against_weight ns1:comparable_to_Comirnaty ns1:SARS-CoV-2_spike_mRNA-BNPs .
+
+ns1:protein ns1:expresses ns1:Spike .
+
+ns1:protein_conjugation ns1:enhance_immunogenicity ns1:production .
+
+ns1:providing ns1:effects ns1:anti-inflammatory_effects .
+
+ns1:pseudovirus ns1:assessed ns1:neutralizing_activity .
+
+ns1:public_health ns1:positively_influences ns1:vaccination .
+
+ns1:recombinant_antigenic_proteins ns1:characterization ns1:analysis .
+
+ns1:regulatory_framework ns1:compare ns1:Brazil .
+
+ns1:regulatory_requirements ns1:evaluate ns1:COVID-19_pandemic .
+
+ns1:requirements ns1:strict ns1:quality .
+
+ns1:research ns1:trends ns1:DNA_vaccine .
+
+ns1:restricted ns1:by ns1:cellular_immune_responses .
+
+ns1:ribosomal_entry_site ns1:initiates_translation ns1:mRNA .
+
+ns1:robust_efficacy ns1: ns1:mRNA_technology .
+
+ns1:saRNA_vaccine_platform ns1:efficient_delivery ns1:lipid_nanoparticle_%28LNP%29 .
+
+ns1:seasonal_influenza ns1:combined ns1:mRNA_vaccines .
+
+ns1:secretes_under ns1:cellular_immune_response ns1:interferon-%CE%B3_%28IFN-%CE%B3%29 .
+
+ns1:sequencing ns1:results ns1:virus .
+
+ns1:siRNA ns1:inhibits ns1:SARS-CoV-2 .
+
+ns1:since ns1:vaccination ns1:time .
+
+ns1:size ns1:measurement ns1:LNP .
+
+ns1:socio-demographic_profiles ns1:significantly_associated ns1:vaccine_recipients .
+
+ns1:solid_tumors ns1:enhance_efficacy ns1:CAR-T_therapy .
+
+ns1:spike-specific ns1:quantified ns1:T_cells .
+
+ns1:stability ns1:remains_effective ns1:AX4_lipid .
+
+ns1:standards ns1:international ns1:safety .
+
+ns1:statin ns1:reduces ns1:heart_disease .
+
+ns1:statistical_assumptions ns1:spurious_findings ns1:choices .
+
+ns1:stimulator_of_interferon ns1:activates ns1:HA_DNA-LNP .
+
+ns1:structure-activity_relationships ns1:discovered ns1:headgroup .
+
+ns1:studied ns1:computational_studies ns1:vaccine_efficacy .
+
+ns1:study ns1:identifies ns1:Moderna_COVE_trial .
+
+ns1:subunit_vaccine ns1:duration ns1:varicella_zoster_virus .
+
+ns1:subvariants ns1:emerge ns1:BA.2.86 ;
+    ns1:harbor ns1:JN.1 .
+
+ns1:supporting ns1:management ns1:diabetes_management .
+
+ns1:systemic_lupus_erythematosus ns1:diagnosed ns1:children .
+
+ns1:taken_up_by ns1:efficiently ns1:dendritic_cells,
+        ns1:macrophages .
+
+ns1:target ns1:cancer ns1:infectious_diseases .
+
+ns1:testicular_atrophy ns1:causes ns1:Zika_virus .
+
+ns1:testing_status ns1:low ns1:COVID-19 .
+
+ns1:therapeutic ns1:rapid_health_improvement ns1:EP67 .
+
+ns1:therapy ns1:targets ns1:Zodasiran .
+
+ns1:tissue_damage ns1:exacerbate ns1:Scattered_NETs .
+
+ns1:torturing_of_data ns1:non-existent_relationships ns1:data-dredging .
+
+ns1:transfer ns1:voluntary ns1:patents .
+
+ns1:transmission ns1:enhanced ns1:upper_airway .
+
+ns1:treatment ns1:improves ns1:cancer_patients ;
+    ns1:reduced ns1:cardiovascular_disease .
+
+ns1:treatment_regimen ns1:components ns1:zinc_supplementation .
+
+ns1:tumor_microenvironment ns1:challenges ns1:CAR-T_therapy .
+
+ns1:underlying_comorbid_condition ns1:increases_risk ns1:children .
+
+ns1:unvaccinated ns1:increases ns1:mortality .
+
+ns1:update ns1:needed ns1:vaccine_strain .
+
+ns1:uptake ns1:control ns1:handwashing_practices .
+
+ns1:vaccinated_adults ns1:efficacy ns1:COVID-19_vaccine .
+
+ns1:vaccination_recommendations ns1:changing_pandemic_context ns1:Canadian_HCPs .
+
+ns1:vaccination_schedule ns1:completed ns1:COVID-19 .
+
+ns1:vaccination_status ns1:completed ns1:questionnaire .
+
+ns1:vaccine_attitudes ns1:designed_to_measure ns1:Pro-VC-Be_tool ;
+    ns1:measure ns1:psychosocial_determinants .
+
+ns1:vaccine_delivery ns1:through_the_skin ns1:microneedles .
+
+ns1:vaccine_hesitancy ns1:has ns1:elderly .
+
+ns1:vaccine_selection ns1:supporting ns1:UK_National_Health .
+
+ns1:vaccine_vectors ns1:emerged ns1:AAVs .
+
+ns1:variant ns1:effectiveness ns1:vaccine ;
+    ns1:emerges ns1:SARS-CoV-2 ;
+    ns1:neutralization_activity ns1:BA.5,
+        ns1:XBB.1.5 .
+
+ns1:vector ns1:constructed ns1:human_adenovirus_type .
+
+ns1:viral_evolution ns1:compromise_vaccine_performance ns1:human_and_non-human .
+
+ns1:was_well_retained ns1:already_after_two ns1:T_cell-mediated_immunity .
+
+ns1:willingness_to_take ns1:associated ns1:unvaccinated_individuals .
+
+ns1:women ns1:had_reduced_levels ns1:anxiety ;
+    ns1:was_related ns1:educational_level .
+
+ns1:younger_people ns1:typically_elicit_robust ns1:age .
+
+ns1:youth ns1:associated ns1:mental_health ;
+    ns1:increased ns1:substance_use .
+
+ns1:BA.4%2F5 ns1:adjusted ns1:vaccine .
+
+ns1:COVID-19_pandemic ns1:accelerated ns1:mRNA_vaccine_technology ;
+    ns1:global_implementation ns1:mRNA_vaccines .
+
+ns1:HCPs ns1:80%25_more_likely ns1:COVID-19_vaccine ;
+    ns1:poses_significant_challenge ns1:vaccine .
+
+ns1:Omicron ns1:challenges ns1:variants .
+
+ns1:Omicron_variant ns1:protects ns1:vaccine .
+
+ns1:SARS-CoV-2_infection ns1:affects ns1:transcriptome_analysis .
+
+ns1:antibody ns1:conjugation ns1:LNP ;
+    ns1:positive ns1:glutamic_acid_decarboxylase .
+
+ns1:cancer ns1:diminishes ns1:nucleoside_modified_mRNA ;
+    ns1:have ns1:patients ;
+    ns1:treats ns1:liposomes .
+
+ns1:cases ns1:increased ns1:COVID-19 .
+
+ns1:gut_microbiota ns1:modifies ns1:probiotics .
+
+ns1:healthcare_workers ns1:immunization ns1:CoronaVac_vaccination ;
+    ns1:increase_risk ns1:Respiratory_interventions .
+
+ns1:individuals ns1:acceptability ns1:home-based_testing .
+
+ns1:infection ns1:enhances ns1:SARS-CoV-2 ;
+    ns1:induces ns1:SARS-CoV-2 ;
+    ns1:neutralizes ns1:HK.3,
+        ns1:JN.1,
+        ns1:KP.2,
+        ns1:XBB.1.18 ;
+    ns1:symptomatic ns1:live_MHV-A59_coronavirus .
+
+ns1:inflammation ns1:cleave ns1:Aggregated_NETs .
+
+ns1:mice ns1:immunizes ns1:S1_protein ;
+    ns1:tested_for_antibody ns1:serum .
+
+ns1:older_adults ns1:compromised ns1:immune_response .
+
+ns1:participants ns1:associated ns1:income ;
+    ns1:delivered ns1:swab_collection_material ;
+    ns1:predictive_threshold ns1:anti-RBD_IgG_levels .
+
+ns1:peak_level ns1:occurred ns1:ve_Effectiveness_%28VE%29 .
+
+ns1:production ns1:greatest ns1:spike-specific_antibodies .
+
+ns1:sex ns1:adjusted ns1:age .
+
+ns1:side_effects ns1:concerns ns1:vaccine .
+
+ns1:vaccine_development ns1:advancements ns1:mRNA_vaccines .
+
+ns1:vaccine_efficacy ns1:adjusting ns1:VE ;
+    ns1:diminish ns1:EG.5 ;
+    ns1:enhances ns1:regulatory_T_cells .
+
+ns1:vaccines ns1:enhance ns1:Diamond_nanoparticles ;
+    ns1:higher ns1:self-efficacy .
+
+ns1:virus ns1:challenged ns1:SARS-CoV-2 ;
+    ns1:heterologous ns1:B.1.351 .
+
+ns1:antibodies ns1:have_efficacy ns1:COVID-19 ;
+    ns1:produce ns1:poly%28ethylene_glycol%29 .
+
+ns1:manufacturing_process ns1:safe ns1:mRNA_vaccines .
+
+ns1:vaccination ns1:causes ns1:BNT162b2 ;
+    ns1:prevents ns1:SARS-CoV-2 ;
+    ns1:reduces ns1:cases .
+
+ns1:COVID-19_vaccine ns1:acceptance ns1:pregnant_women ;
+    ns1:benefits ns1:safety ;
+    ns1:controls ns1:mRNA_vector ;
+    ns1:effective_against_death ns1:CoronaVac ;
+    ns1:effective_against_hospitalization ns1:ChAdOx1 ;
+    ns1:effective_against_infection ns1:BNT162b2 .
+
+ns1:RBD ns1:binds ns1:BA.2,
+        ns1:BA.4%2F5,
+        ns1:KP.2,
+        ns1:SARS-CoV-2,
+        ns1:SARS-CoV-2_spike_protein,
+        ns1:XBB.1.5 .
+
+ns1:patients ns1:affected ns1:ALL ;
+    ns1:can_be_used ns1:immune_score,
+        ns1:risk_score ;
+    ns1:communicate ns1:healthcare_workers ;
+    ns1:has ns1:MetS ;
+    ns1:indicates ns1:sore_throat ;
+    ns1:infected ns1:Omicron_BA.2_variant .
+
+ns1:spike_protein ns1:expression ns1:SARS-CoV-2 .
+
+ns1:BNT162b2 ns1:induces_higher_NAb ns1:heterologous_vaccination .
+
+ns1:LNP ns1:encapsulates ns1:mRNA .
+
+ns1:LNPs ns1:endows ns1:manose ;
+    ns1:optimization ns1:manufacturing_process ;
+    ns1:stability ns1:cholesterol .
+
+ns1:influenza ns1:causes ns1:influenza_virus ;
+    ns1:generate ns1:surveillance_programmes .
+
+ns1:mRNA_vaccine ns1:bolsters ns1:STING_activating_polymer ;
+    ns1:treats ns1:COVID-19 .
+
+ns1:mRNA ns1:encapsulates ns1:LNPs ;
+    ns1:promotes ns1:lipid_materials ;
+    ns1:transfect ns1:LNPs,
+        ns1:lipid_nanoparticles .
+
+ns1:mRNA_vaccines ns1:compared ns1:Nuvaxovid .
+
+ns1:vaccine ns1:boosts ns1:Pfizer,
+        ns1:Sinopharm ;
+    ns1:causes ns1:BBIBP-CorV,
+        ns1:hepatitis_B ;
+    ns1:delivers ns1:yeast ;
+    ns1:developed ns1:COVID-19,
+        ns1:HIV-1,
+        ns1:adenovirus ;
+    ns1:develops ns1:tetanus ;
+    ns1:direct_impact ns1:averted_outcomes ;
+    ns1:distribute ns1:COVID-19 ;
+    ns1:effectiveness ns1:SARS-CoV-2,
+        ns1:influenza ;
+    ns1:encodes ns1:adenovirus ;
+    ns1:enhances ns1:PEDV ;
+    ns1:expression ns1:Pichia_pastoris ;
+    ns1:granted_conditional_marketing ns1:JCOVDEN ;
+    ns1:increase_NAb_levels ns1:boosters ;
+    ns1:induces ns1:coronavirus_disease_2019 ;
+    ns1:influences ns1:failure_mode ;
+    ns1:modifies ns1:time_since_vaccination ;
+    ns1:prevents ns1:COVID-19,
+        ns1:Covid-19,
+        ns1:SARS-CoV-2,
+        ns1:Severe_Acute_Respiratory,
+        ns1:cholera,
+        ns1:coronavirus_disease_2019,
+        ns1:flu,
+        ns1:influenza,
+        ns1:tuberculosis ;
+    ns1:protects ns1:COVID-19,
+        ns1:Severe_acute_respiratory,
+        ns1:influenza ;
+    ns1:receive ns1:Herpes_zoster ;
+    ns1:simplifies_delivery ns1:influenza_viruses ;
+    ns1:treats ns1:COVID-19,
+        ns1:typhoid_fever .
+
+ns1:COVID-19 ns1:causes ns1:SARS-CoV-2 ;
+    ns1:development ns1:vaccine_development ;
+    ns1:prevents ns1:Abdala,
+        ns1:Sinopharm_vaccine,
+        ns1:mRNA,
+        ns1:mRNA_vaccine,
+        ns1:vaccination,
+        ns1:vaccine ;
+    ns1:protective-immunity ns1:vaccine-induced_neutralizing_antibodies ;
+    ns1:protective_effect ns1:BCG_vaccine ;
+    ns1:protects ns1:mRNA-based_vaccines ;
+    ns1:survivors ns1:older_adults ;
+    ns1:treats ns1:AD17002,
+        ns1:BBIBP-CorV,
+        ns1:BNT162b2,
+        ns1:ChAdOx-1s,
+        ns1:CoronaVac,
+        ns1:fluoxetine,
+        ns1:mRNA-1273,
+        ns1:mRNA_Factory_%28mRF%29,
+        ns1:mRNA_vaccines,
+        ns1:nucleic_acid_vaccines .
+
+ns1:SARS-CoV-2 ns1:binds ns1:RBD ;
+    ns1:comprises ns1:spike_protein ;
+    ns1:efficacy ns1:vaccines ;
+    ns1:emerged ns1:Omicron ;
+    ns1:induces ns1:mRNA_vaccine ;
+    ns1:inhibits ns1:angiostatin,
+        ns1:neutralizing_antibodies ;
+    ns1:major_variant ns1:Alpha_variant,
+        ns1:Beta_variant,
+        ns1:Delta_variant,
+        ns1:Gamma_variant,
+        ns1:Omicron_variant ;
+    ns1:protective_immunity ns1:RNA-based_vaccines .
 

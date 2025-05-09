@@ -2,13 +2,258 @@
   "triplets": [
     {
       "subject": "COVID-19",
-      "predicate": "prevents",
-      "object": "vaccine"
+      "predicate": "treats",
+      "object": "fluoxetine"
     },
     {
-      "subject": "clinical efficacy",
-      "predicate": "demonstrated",
-      "object": "mRNA vaccines"
+      "subject": "melanoma",
+      "predicate": "elicits",
+      "object": "neuroantigens"
+    },
+    {
+      "subject": "pandemic",
+      "predicate": "spread misinformation",
+      "object": "COVID-19"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "encodes",
+      "object": "adenovirus"
+    },
+    {
+      "subject": "lung",
+      "predicate": "delivered",
+      "object": "mRNA"
+    },
+    {
+      "subject": "ADNP",
+      "predicate": "responses",
+      "object": "BA.5"
+    },
+    {
+      "subject": "EVs",
+      "predicate": "found",
+      "object": "neurofilaments"
+    },
+    {
+      "subject": "TLR-ligands",
+      "predicate": "enhances",
+      "object": "IL-15"
+    },
+    {
+      "subject": "mRNA",
+      "predicate": "transfect",
+      "object": "lipid nanoparticles"
+    },
+    {
+      "subject": "boosted",
+      "predicate": "cross-protective potential",
+      "object": "bacterial infection models"
+    },
+    {
+      "subject": "children aged 5-17",
+      "predicate": "vaccinate",
+      "object": "parents"
+    },
+    {
+      "subject": "statin",
+      "predicate": "reduces",
+      "object": "heart disease"
+    },
+    {
+      "subject": "key ingredient",
+      "predicate": "effective",
+      "object": "LNPs"
+    },
+    {
+      "subject": "transmission",
+      "predicate": "enhanced",
+      "object": "upper airway"
+    },
+    {
+      "subject": "mRNA COVID-19 vaccine",
+      "predicate": "causes",
+      "object": "pericarditis"
+    },
+    {
+      "subject": "90-119 days after",
+      "predicate": "declined faster",
+      "object": "waning protective effect"
+    },
+    {
+      "subject": "elicited",
+      "predicate": "superior",
+      "object": "cellular responses"
+    },
+    {
+      "subject": "adaptation",
+      "predicate": "inducing",
+      "object": "mRNA vaccine"
+    },
+    {
+      "subject": "combined",
+      "predicate": "created",
+      "object": "international funding"
+    },
+    {
+      "subject": "nonresponders",
+      "predicate": "showed",
+      "object": "depressive symptoms"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "enhances",
+      "object": "PEDV"
+    },
+    {
+      "subject": "polymorphism",
+      "predicate": "limitation",
+      "object": "human leukocyte antigen"
+    },
+    {
+      "subject": "high-valency vaccine",
+      "predicate": "coverage",
+      "object": "Streptococcus pneumoniae"
+    },
+    {
+      "subject": "study",
+      "predicate": "identifies",
+      "object": "Moderna COVE trial"
+    },
+    {
+      "subject": "secretes under",
+      "predicate": "cellular immune response",
+      "object": "interferon-\u03b3 (IFN-\u03b3)"
+    },
+    {
+      "subject": "precursor RNA (preRNA)",
+      "predicate": "self-splicing",
+      "object": "circular RNA (circRNA)"
+    },
+    {
+      "subject": "SARS-CoV-2",
+      "predicate": "emerged",
+      "object": "Omicron"
+    },
+    {
+      "subject": "individuals",
+      "predicate": "acceptability",
+      "object": "home-based testing"
+    },
+    {
+      "subject": "CD4+ T-cells",
+      "predicate": "activation markers",
+      "object": "monocytes"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "prevents",
+      "object": "coronavirus disease 2019"
+    },
+    {
+      "subject": "immunocompromised individuals",
+      "predicate": "affected",
+      "object": "HIV/AIDS"
+    },
+    {
+      "subject": "SARS-CoV-2 spike-encoding DNA-LNP",
+      "predicate": "elicits protective efficacy",
+      "object": "rabbits"
+    },
+    {
+      "subject": "variant",
+      "predicate": "neutralization activity",
+      "object": "BA.5"
+    },
+    {
+      "subject": "RBD and S1",
+      "predicate": "elicits",
+      "object": "peptide pools"
+    },
+    {
+      "subject": "development",
+      "predicate": "transformative opportunities",
+      "object": "mRNA vaccine candidates"
+    },
+    {
+      "subject": "infant",
+      "predicate": "protects",
+      "object": "COVID-19 vaccine"
+    },
+    {
+      "subject": "SARS-CoV-2",
+      "predicate": "inhibits",
+      "object": "angiostatin"
+    },
+    {
+      "subject": "biomineralized",
+      "predicate": "stabilized",
+      "object": "manganese nanoparticles"
+    },
+    {
+      "subject": "pandemic",
+      "predicate": "created",
+      "object": "COVID-19"
+    },
+    {
+      "subject": "increased",
+      "predicate": "content",
+      "object": "polysaccharides"
+    },
+    {
+      "subject": "antigens",
+      "predicate": "encapsulates",
+      "object": "microparticles"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "prevents",
+      "object": "flu"
+    },
+    {
+      "subject": "underlying comorbid condition",
+      "predicate": "increases risk",
+      "object": "children"
+    },
+    {
+      "subject": "infection",
+      "predicate": "neutralizes",
+      "object": "KP.2"
+    },
+    {
+      "subject": "BNPs",
+      "predicate": "produces",
+      "object": "PBD-b-PEO"
+    },
+    {
+      "subject": "nucleoside analog",
+      "predicate": "inhibits",
+      "object": "SARS-CoV-2"
+    },
+    {
+      "subject": "HCPs",
+      "predicate": "80% more likely",
+      "object": "COVID-19 vaccine"
+    },
+    {
+      "subject": "patients",
+      "predicate": "has",
+      "object": "MetS"
+    },
+    {
+      "subject": "mRNA vaccines",
+      "predicate": "compared",
+      "object": "Nuvaxovid"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "prevents",
+      "object": "Abdala"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "treats",
+      "object": "CoronaVac"
     },
     {
       "subject": "Pfizer-BioNTech COVID-19 vaccine",
@@ -16,9 +261,1599 @@
       "object": "burning mouth syndrome"
     },
     {
+      "subject": "pain reliever",
+      "predicate": "reduces",
+      "object": "inflammation"
+    },
+    {
+      "subject": "patients",
+      "predicate": "can be used",
+      "object": "immune score"
+    },
+    {
+      "subject": "LNPs",
+      "predicate": "endows",
+      "object": "manose"
+    },
+    {
+      "subject": "delivery",
+      "predicate": "co-load",
+      "object": "lipid nanoparticles"
+    },
+    {
+      "subject": "SARS-CoV-2",
+      "predicate": "comprises",
+      "object": "spike protein"
+    },
+    {
+      "subject": "SARS-CoV-2",
+      "predicate": "inhibits",
+      "object": "neutralizing antibodies"
+    },
+    {
+      "subject": "Dutch cohort study",
+      "predicate": "included",
+      "object": "participants"
+    },
+    {
+      "subject": "pancreatic cancer",
+      "predicate": "stimulates",
+      "object": "immune checkpoint inhibitors"
+    },
+    {
+      "subject": "drug delivery",
+      "predicate": "efficient",
+      "object": "nucleic acids"
+    },
+    {
+      "subject": "SARS-CoV-2",
+      "predicate": "major variant",
+      "object": "Gamma variant"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "treats",
+      "object": "AD17002"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "treats",
+      "object": "BBIBP-CorV"
+    },
+    {
+      "subject": "females",
+      "predicate": "induce higher immunological",
+      "object": "sex"
+    },
+    {
+      "subject": "SARS-CoV-2",
+      "predicate": "efficacy",
+      "object": "vaccines"
+    },
+    {
+      "subject": "hybrid",
+      "predicate": "generated",
+      "object": "C. militaris"
+    },
+    {
+      "subject": "SARS-CoV-2 variants",
+      "predicate": "neutralizes",
+      "object": "Omicron (B.1.1.529)"
+    },
+    {
+      "subject": "immunization policies",
+      "predicate": "similar",
+      "object": "Hong Kong"
+    },
+    {
+      "subject": "SARS-CoV-2 mRNA vaccine",
+      "predicate": "approved",
+      "object": "Spikevax"
+    },
+    {
+      "subject": "extended-persistence variant",
+      "predicate": "induced",
+      "object": "RBD-sFc-HR/trimer"
+    },
+    {
+      "subject": "infection",
+      "predicate": "symptomatic",
+      "object": "live MHV-A59 coronavirus"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "prevents",
+      "object": "mRNA"
+    },
+    {
+      "subject": "vaccine development",
+      "predicate": "advancements",
+      "object": "mRNA vaccines"
+    },
+    {
+      "subject": "delivery",
+      "predicate": "vital",
+      "object": "mRNA"
+    },
+    {
+      "subject": "high",
+      "predicate": "levels",
+      "object": "lower cholesterol"
+    },
+    {
+      "subject": "cancer",
+      "predicate": "diminishes",
+      "object": "nucleoside modified mRNA"
+    },
+    {
+      "subject": "mRNA vaccine",
+      "predicate": "bolsters",
+      "object": "STING activating polymer"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "survivors",
+      "object": "older adults"
+    },
+    {
+      "subject": "immunogenicity",
+      "predicate": "enhance",
+      "object": "mRNA vaccines"
+    },
+    {
+      "subject": "7-59 days after",
+      "predicate": "PWH: 61.20%; PWoH:",
+      "object": "peak level"
+    },
+    {
+      "subject": "lower respiratory tract",
+      "predicate": "prevents",
+      "object": "respyrical syncytial virus"
+    },
+    {
+      "subject": "distribution",
+      "predicate": "similar",
+      "object": "exogenous protein expression"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "protective-immunity",
+      "object": "vaccine-induced neutralizing antibodies"
+    },
+    {
+      "subject": "inflammation",
+      "predicate": "cleave",
+      "object": "Aggregated NETs"
+    },
+    {
+      "subject": "virus",
+      "predicate": "challenged",
+      "object": "SARS-CoV-2"
+    },
+    {
+      "subject": "uptake",
+      "predicate": "control",
+      "object": "handwashing practices"
+    },
+    {
+      "subject": "mRNA",
+      "predicate": "promotes",
+      "object": "lipid materials"
+    },
+    {
+      "subject": "variant",
+      "predicate": "effectiveness",
+      "object": "vaccine"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "delivers",
+      "object": "yeast"
+    },
+    {
+      "subject": "LNPs",
+      "predicate": "stability",
+      "object": "cholesterol"
+    },
+    {
+      "subject": "elicited",
+      "predicate": "superior",
+      "object": "humoral responses"
+    },
+    {
+      "subject": "current challenges",
+      "predicate": "emerging SARS-CoV-2 variants",
+      "object": "administration strategies"
+    },
+    {
+      "subject": "dental professionals",
+      "predicate": "regarding COVID-19 vaccine",
+      "object": "perceptions"
+    },
+    {
+      "subject": "pathogens",
+      "predicate": "analysis",
+      "object": "genomic analysis"
+    },
+    {
+      "subject": "enhanced",
+      "predicate": "activity",
+      "object": "antioxidant potential"
+    },
+    {
+      "subject": "torturing of data",
+      "predicate": "non-existent relationships",
+      "object": "data-dredging"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "modifies",
+      "object": "time since vaccination"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "expression",
+      "object": "Pichia pastoris"
+    },
+    {
+      "subject": "in vivo engineered",
+      "predicate": "address current limitations",
+      "object": "mRNA-LNP technology"
+    },
+    {
+      "subject": "structure-activity relationships",
+      "predicate": "discovered",
+      "object": "headgroup"
+    },
+    {
+      "subject": "online survey",
+      "predicate": "cross-sectional",
+      "object": "survey"
+    },
+    {
+      "subject": "antigens",
+      "predicate": "identified",
+      "object": "Vibrio cholerae"
+    },
+    {
+      "subject": "patients",
+      "predicate": "can be used",
+      "object": "risk score"
+    },
+    {
+      "subject": ">8 mg/L",
+      "predicate": "independent predictor",
+      "object": "CRP level"
+    },
+    {
+      "subject": "Pickering emulsion platform",
+      "predicate": "loaded AAVs",
+      "object": "aluminum hydroxide"
+    },
+    {
+      "subject": "gut microbiota",
+      "predicate": "modifies",
+      "object": "probiotics"
+    },
+    {
+      "subject": "influenza",
+      "predicate": "causes",
+      "object": "influenza virus"
+    },
+    {
+      "subject": "plasma",
+      "predicate": "increased",
+      "object": "pro-inflammatory cytokines"
+    },
+    {
+      "subject": "adjuvant",
+      "predicate": "enhance",
+      "object": "IL-7"
+    },
+    {
+      "subject": "transfer",
+      "predicate": "voluntary",
+      "object": "patents"
+    },
+    {
+      "subject": "vaccinated adults",
+      "predicate": "efficacy",
+      "object": "COVID-19 vaccine"
+    },
+    {
+      "subject": "potent anticancer efficacy",
+      "predicate": "conferred",
+      "object": "immune memory"
+    },
+    {
+      "subject": "RBD",
+      "predicate": "binds",
+      "object": "SARS-CoV-2 spike protein"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "prevents",
+      "object": "vaccination"
+    },
+    {
+      "subject": "RBD",
+      "predicate": "binds",
+      "object": "BA.4/5"
+    },
+    {
+      "subject": "vaccine efficacy",
+      "predicate": "adjusting",
+      "object": "VE"
+    },
+    {
+      "subject": "antibiotic resistance",
+      "predicate": "prediction",
+      "object": "microorganisms"
+    },
+    {
+      "subject": "backgrounds",
+      "predicate": "participated",
+      "object": "individuals"
+    },
+    {
+      "subject": "acceptability",
+      "predicate": "shapes",
+      "object": "young people"
+    },
+    {
+      "subject": "providing",
+      "predicate": "effects",
+      "object": "anti-inflammatory effects"
+    },
+    {
+      "subject": "antibody responses",
+      "predicate": "cross-reactive",
+      "object": "NL63"
+    },
+    {
+      "subject": "mRNA",
+      "predicate": "encapsulates",
+      "object": "LNPs"
+    },
+    {
+      "subject": "vaccine vectors",
+      "predicate": "emerged",
+      "object": "AAVs"
+    },
+    {
+      "subject": "BNT162b2",
+      "predicate": "induces higher NAb",
+      "object": "heterologous vaccination"
+    },
+    {
+      "subject": "ribosomal entry site",
+      "predicate": "initiates translation",
+      "object": "mRNA"
+    },
+    {
+      "subject": "public health",
+      "predicate": "positively influences",
+      "object": "vaccination"
+    },
+    {
+      "subject": "patients",
+      "predicate": "infected",
+      "object": "Omicron BA.2 variant"
+    },
+    {
+      "subject": "elicited",
+      "predicate": "neutralizing",
+      "object": "antibodies"
+    },
+    {
+      "subject": "Omicron variant",
+      "predicate": "protects",
+      "object": "vaccine"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "induces",
+      "object": "coronavirus disease 2019"
+    },
+    {
+      "subject": "fear",
+      "predicate": "associated with hesitancy",
+      "object": "side effects"
+    },
+    {
+      "subject": "vaccination status",
+      "predicate": "completed",
+      "object": "questionnaire"
+    },
+    {
+      "subject": "LNPs",
+      "predicate": "optimization",
+      "object": "manufacturing process"
+    },
+    {
+      "subject": "plasmablasts",
+      "predicate": "antibody production",
+      "object": "AdV vaccine"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "treats",
+      "object": "mRNA-1273"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "developed",
+      "object": "COVID-19"
+    },
+    {
+      "subject": "BALB/c mice",
+      "predicate": "induces immune responses",
+      "object": "quadrivalent influenza vaccine"
+    },
+    {
+      "subject": "DsiRNA swarms",
+      "predicate": "pre-transfection inhibition",
+      "object": "Vero E6-TMPRSS2 cells"
+    },
+    {
+      "subject": "vaccine selection",
+      "predicate": "supporting",
+      "object": "UK National Health"
+    },
+    {
+      "subject": "benefits",
+      "predicate": "higher",
+      "object": "perceived susceptibility"
+    },
+    {
+      "subject": "different doses performed",
+      "predicate": "detected",
+      "object": "immunization strategies"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "protects",
+      "object": "COVID-19"
+    },
+    {
+      "subject": "hospitalization",
+      "predicate": "reduction",
+      "object": "COVID-19"
+    },
+    {
+      "subject": "microbiology",
+      "predicate": "research",
+      "object": "AI"
+    },
+    {
+      "subject": "Moderna-NIAID",
+      "predicate": "initial immunization",
+      "object": "mRNA-1273"
+    },
+    {
+      "subject": "main protease",
+      "predicate": "targets",
+      "object": "SARS-CoV-2"
+    },
+    {
+      "subject": "systemic lupus erythematosus",
+      "predicate": "diagnosed",
+      "object": "children"
+    },
+    {
+      "subject": "BA.4/5",
+      "predicate": "adjusted",
+      "object": "vaccine"
+    },
+    {
+      "subject": "SARS-CoV-2 infection",
+      "predicate": "affects",
+      "object": "transcriptome analysis"
+    },
+    {
+      "subject": "mRNA",
+      "predicate": "transfect",
+      "object": "LNPs"
+    },
+    {
+      "subject": "SARS-CoV-2",
+      "predicate": "major variant",
+      "object": "Delta variant"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "causes",
+      "object": "hepatitis B"
+    },
+    {
+      "subject": "COVID-19 vaccine",
+      "predicate": "controls",
+      "object": "mRNA vector"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "prevents",
+      "object": "mRNA vaccine"
+    },
+    {
+      "subject": "adjuvanted protein",
+      "predicate": "induces",
+      "object": "mRNA-LNP"
+    },
+    {
+      "subject": "estimates",
+      "predicate": "calculate",
+      "object": "influenza VE"
+    },
+    {
+      "subject": "Fc structure",
+      "predicate": "influences",
+      "object": "antibody"
+    },
+    {
       "subject": "challenge",
-      "predicate": "current research faces",
-      "object": "tumor antigen selection"
+      "predicate": "causes",
+      "object": "COVID-19"
+    },
+    {
+      "subject": "nucleic acid",
+      "predicate": "encapsulates",
+      "object": "LNP"
+    },
+    {
+      "subject": "protein conjugation",
+      "predicate": "enhance immunogenicity",
+      "object": "production"
+    },
+    {
+      "subject": "cancer",
+      "predicate": "have",
+      "object": "patients"
+    },
+    {
+      "subject": "lipid",
+      "predicate": "prepare",
+      "object": "co-assembly"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "protects",
+      "object": "influenza"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "increase NAb levels",
+      "object": "boosters"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "development",
+      "object": "vaccine development"
+    },
+    {
+      "subject": "method",
+      "predicate": "used",
+      "object": "intramuscular immunization"
+    },
+    {
+      "subject": "SARS-CoV-2",
+      "predicate": "major variant",
+      "object": "Omicron variant"
+    },
+    {
+      "subject": "SARS-CoV-2 subunit vaccine",
+      "predicate": "elicited",
+      "object": "RBD-HR/trimer"
+    },
+    {
+      "subject": "antibiotics",
+      "predicate": "influences",
+      "object": "gut microbiota"
+    },
+    {
+      "subject": "variant",
+      "predicate": "emerges",
+      "object": "SARS-CoV-2"
+    },
+    {
+      "subject": "innovations",
+      "predicate": "swift development timelines",
+      "object": "mRNA-LNP technology"
+    },
+    {
+      "subject": "health authorities",
+      "predicate": "register",
+      "object": "biologic products"
+    },
+    {
+      "subject": "pathogens",
+      "predicate": "modeling",
+      "object": "transmission modeling"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "treats",
+      "object": "COVID-19"
+    },
+    {
+      "subject": "increased AAV target",
+      "predicate": "potently augmenting cross-protective",
+      "object": "STING pathway activation"
+    },
+    {
+      "subject": "immunity",
+      "predicate": "studies",
+      "object": "infectious disease"
+    },
+    {
+      "subject": ">60 years old",
+      "predicate": "reduces risk",
+      "object": "patients"
+    },
+    {
+      "subject": "high",
+      "predicate": "associated with hesitancy",
+      "object": "social media influence"
+    },
+    {
+      "subject": "solid tumors",
+      "predicate": "enhance efficacy",
+      "object": "CAR-T therapy"
+    },
+    {
+      "subject": "AdV",
+      "predicate": "utilizes",
+      "object": "Jcovden"
+    },
+    {
+      "subject": "infection",
+      "predicate": "neutralizes",
+      "object": "XBB.1.18"
+    },
+    {
+      "subject": "genetic strains",
+      "predicate": "prevents",
+      "object": "SARS-CoV-2"
+    },
+    {
+      "subject": "SARS-CoV-2",
+      "predicate": "major variant",
+      "object": "Beta variant"
+    },
+    {
+      "subject": "including possible epidemic",
+      "predicate": "effectively",
+      "object": "pseudoviruses"
+    },
+    {
+      "subject": "drugs",
+      "predicate": "optimization",
+      "object": "therapeutic optimization"
+    },
+    {
+      "subject": "patients",
+      "predicate": "communicate",
+      "object": "healthcare workers"
+    },
+    {
+      "subject": "artificial intelligence",
+      "predicate": "applications",
+      "object": "pathogenic microbiology"
+    },
+    {
+      "subject": "vaccine attitudes",
+      "predicate": "measure",
+      "object": "psychosocial determinants"
+    },
+    {
+      "subject": "after challenge",
+      "predicate": "reduction in viral",
+      "object": "lungs of mice"
+    },
+    {
+      "subject": "older age",
+      "predicate": "associated with acceptance",
+      "object": "existing comorbidities"
+    },
+    {
+      "subject": "patient",
+      "predicate": "increases risk",
+      "object": "tuberculosis"
+    },
+    {
+      "subject": "oxidative stress",
+      "predicate": "associated",
+      "object": "tumor antigens"
+    },
+    {
+      "subject": "COVID-19 pandemic",
+      "predicate": "accelerated",
+      "object": "mRNA vaccine technology"
+    },
+    {
+      "subject": "COVID-19 vaccine",
+      "predicate": "acceptance",
+      "object": "pregnant women"
+    },
+    {
+      "subject": "positivity",
+      "predicate": "increases",
+      "object": "anti-centromere antibodies"
+    },
+    {
+      "subject": "cancer",
+      "predicate": "treats",
+      "object": "liposomes"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "prevents",
+      "object": "tuberculosis"
+    },
+    {
+      "subject": "medication",
+      "predicate": "treats",
+      "object": "heart disease"
+    },
+    {
+      "subject": "activated",
+      "predicate": "enhanced immune responses",
+      "object": "cGAS-STING pathway"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "boosts",
+      "object": "Pfizer"
+    },
+    {
+      "subject": "individuals over 65",
+      "predicate": "more likely",
+      "object": "age"
+    },
+    {
+      "subject": "fusion",
+      "predicate": "achieved",
+      "object": "P. florida"
+    },
+    {
+      "subject": "nirmatrelvir",
+      "predicate": "inhibits",
+      "object": "COVID-19"
+    },
+    {
+      "subject": "developed",
+      "predicate": "mild COVID-19",
+      "object": "low immune responses"
+    },
+    {
+      "subject": "encapsulation",
+      "predicate": "effects on LNP",
+      "object": "mRNA"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "effectiveness",
+      "object": "SARS-CoV-2"
+    },
+    {
+      "subject": "willingness to take",
+      "predicate": "associated",
+      "object": "unvaccinated individuals"
+    },
+    {
+      "subject": "COVID-19 vaccine",
+      "predicate": "effective against death",
+      "object": "CoronaVac"
+    },
+    {
+      "subject": "demographics",
+      "predicate": "reported",
+      "object": "patients"
+    },
+    {
+      "subject": "patients",
+      "predicate": "affected",
+      "object": "ALL"
+    },
+    {
+      "subject": "healthcare workers",
+      "predicate": "increase risk",
+      "object": "Respiratory interventions"
+    },
+    {
+      "subject": "research",
+      "predicate": "trends",
+      "object": "DNA vaccine"
+    },
+    {
+      "subject": "RBD",
+      "predicate": "binds",
+      "object": "SARS-CoV-2"
+    },
+    {
+      "subject": "participants",
+      "predicate": "predictive threshold",
+      "object": "anti-RBD IgG levels"
+    },
+    {
+      "subject": "therapeutic",
+      "predicate": "rapid health improvement",
+      "object": "EP67"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "prevents",
+      "object": "SARS-CoV-2"
+    },
+    {
+      "subject": "future",
+      "predicate": "improve",
+      "object": "sample size"
+    },
+    {
+      "subject": "bnAbs",
+      "predicate": "inducing",
+      "object": "neutralizing antibodies"
+    },
+    {
+      "subject": "people with HIV",
+      "predicate": "treats",
+      "object": "SARS-CoV-2 infection"
+    },
+    {
+      "subject": "vaccination",
+      "predicate": "reduces",
+      "object": "cases"
+    },
+    {
+      "subject": "pseudovirus",
+      "predicate": "assessed",
+      "object": "neutralizing activity"
+    },
+    {
+      "subject": "update",
+      "predicate": "needed",
+      "object": "vaccine strain"
+    },
+    {
+      "subject": "infected",
+      "predicate": "enhanced AAV infection",
+      "object": "antigen present cells"
+    },
+    {
+      "subject": "Fab",
+      "predicate": "complex",
+      "object": "RBD"
+    },
+    {
+      "subject": "mRNA vaccine",
+      "predicate": "treats",
+      "object": "COVID-19"
+    },
+    {
+      "subject": "vaccine efficacy",
+      "predicate": "enhances",
+      "object": "regulatory T cells"
+    },
+    {
+      "subject": "manufacturing process",
+      "predicate": "safe",
+      "object": "mRNA vaccines"
+    },
+    {
+      "subject": "vaccination schedule",
+      "predicate": "completed",
+      "object": "COVID-19"
+    },
+    {
+      "subject": "since",
+      "predicate": "vaccination",
+      "object": "time"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "protects",
+      "object": "mRNA-based vaccines"
+    },
+    {
+      "subject": "physicians/medical residents",
+      "predicate": "recommend",
+      "object": "COVID-19 vaccination"
+    },
+    {
+      "subject": "antiviral immunity",
+      "predicate": "generates",
+      "object": "probiotics"
+    },
+    {
+      "subject": "taken up by",
+      "predicate": "efficiently",
+      "object": "dendritic cells"
+    },
+    {
+      "subject": "geriatric populations",
+      "predicate": "enhanced",
+      "object": "vaccine-induced immunity"
+    },
+    {
+      "subject": "antibodies",
+      "predicate": "produce",
+      "object": "poly(ethylene glycol)"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "prevents",
+      "object": "Sinopharm vaccine"
+    },
+    {
+      "subject": "boost anti-PEG antibodies",
+      "predicate": "-",
+      "object": "mRNA-LNPs"
+    },
+    {
+      "subject": "ancestral",
+      "predicate": "",
+      "object": "Wuhan strain"
+    },
+    {
+      "subject": "variant",
+      "predicate": "neutralization activity",
+      "object": "XBB.1.5"
+    },
+    {
+      "subject": "compound 9064",
+      "predicate": "interacts",
+      "object": "Mpro protein"
+    },
+    {
+      "subject": "stimulator of interferon",
+      "predicate": "activates",
+      "object": "HA DNA-LNP"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "treats",
+      "object": "typhoid fever"
+    },
+    {
+      "subject": "neutrophil phagocytosis",
+      "predicate": "mediates",
+      "object": "antibodies"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "simplifies delivery",
+      "object": "influenza viruses"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "protects",
+      "object": "Severe acute respiratory"
+    },
+    {
+      "subject": "healthcare professionals",
+      "predicate": "refused",
+      "object": "vaccine"
+    },
+    {
+      "subject": "health emergency",
+      "predicate": "assess",
+      "object": "European Union"
+    },
+    {
+      "subject": "mice",
+      "predicate": "immunizes",
+      "object": "S1 protein"
+    },
+    {
+      "subject": "SARS-CoV-2 virus",
+      "predicate": "effectively addresses",
+      "object": "vaccine"
+    },
+    {
+      "subject": "RV-1730",
+      "predicate": "enhances stability",
+      "object": "spike protein"
+    },
+    {
+      "subject": "COVID-19 vaccine",
+      "predicate": "effective against hospitalization",
+      "object": "ChAdOx1"
+    },
+    {
+      "subject": "subvariants",
+      "predicate": "emerge",
+      "object": "BA.2.86"
+    },
+    {
+      "subject": "vaccine hesitancy",
+      "predicate": "has",
+      "object": "elderly"
+    },
+    {
+      "subject": "enhancing",
+      "predicate": "efficacy",
+      "object": "COVID-19 vaccine efficacy"
+    },
+    {
+      "subject": "siRNA",
+      "predicate": "inhibits",
+      "object": "SARS-CoV-2"
+    },
+    {
+      "subject": "target",
+      "predicate": "cancer",
+      "object": "infectious diseases"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "prevents",
+      "object": "cholera"
+    },
+    {
+      "subject": "treatment",
+      "predicate": "reduced",
+      "object": "cardiovascular disease"
+    },
+    {
+      "subject": "RNA delivery",
+      "predicate": "platform",
+      "object": "LNPs"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "developed",
+      "object": "adenovirus"
+    },
+    {
+      "subject": "regulatory framework",
+      "predicate": "compare",
+      "object": "Brazil"
+    },
+    {
+      "subject": "periodontal disease",
+      "predicate": "modulating",
+      "object": "oral cavity"
+    },
+    {
+      "subject": "mice",
+      "predicate": "tested for antibody",
+      "object": "serum"
+    },
+    {
+      "subject": "predictors of vaccine",
+      "predicate": "are",
+      "object": "stage of metastatic"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "receive",
+      "object": "Herpes zoster"
+    },
+    {
+      "subject": "antigen",
+      "predicate": "elicits",
+      "object": "BA.4/5 RBD-PC7A conjugate"
+    },
+    {
+      "subject": "policies",
+      "predicate": "influence",
+      "object": "government"
+    },
+    {
+      "subject": "aspirin",
+      "predicate": "treats",
+      "object": "muscle-invasive bladder cancer"
+    },
+    {
+      "subject": "method",
+      "predicate": "used",
+      "object": "intranasal immunization"
+    },
+    {
+      "subject": "RBDco",
+      "predicate": "induces",
+      "object": "mice and non-human"
+    },
+    {
+      "subject": "improves the durability",
+      "predicate": "and the magnitude,",
+      "object": "germinal center reactions"
+    },
+    {
+      "subject": "tumor microenvironment",
+      "predicate": "challenges",
+      "object": "CAR-T therapy"
+    },
+    {
+      "subject": "levels induced",
+      "predicate": "against live XBB",
+      "object": "neutralizing antibody (NAb)"
+    },
+    {
+      "subject": "commercially available",
+      "predicate": "delivered",
+      "object": "severe acute respiratory"
+    },
+    {
+      "subject": "factor",
+      "predicate": "was associated",
+      "object": "stringency of COVID-19"
+    },
+    {
+      "subject": "SARS-CoV-2",
+      "predicate": "major variant",
+      "object": "Alpha variant"
+    },
+    {
+      "subject": "mosquito salivary gland",
+      "predicate": "suppresses",
+      "object": "vaccine"
+    },
+    {
+      "subject": "antibodies",
+      "predicate": "have efficacy",
+      "object": "COVID-19"
+    },
+    {
+      "subject": "antibody",
+      "predicate": "conjugation",
+      "object": "LNP"
+    },
+    {
+      "subject": "antibiotics",
+      "predicate": "enhances",
+      "object": "bacteriophages"
+    },
+    {
+      "subject": "ovalbumin (OVA) mRNA",
+      "predicate": "enhances",
+      "object": "PD18 LNPs"
+    },
+    {
+      "subject": "PIV5-vectored COVID-19 vaccine",
+      "predicate": "induces neutralizing antibodies",
+      "object": "CVXGA1"
+    },
+    {
+      "subject": "requirements",
+      "predicate": "strict",
+      "object": "quality"
+    },
+    {
+      "subject": "HCPs",
+      "predicate": "poses significant challenge",
+      "object": "vaccine"
+    },
+    {
+      "subject": "host proteases",
+      "predicate": "selective",
+      "object": "compound 39"
+    },
+    {
+      "subject": "encoding the receptor-binding",
+      "predicate": "amplifying transcripts",
+      "object": "mutated saRNA"
+    },
+    {
+      "subject": "confidence",
+      "predicate": "undermines",
+      "object": "young adults"
+    },
+    {
+      "subject": "antigen",
+      "predicate": "encode",
+      "object": "rabies virus glycoprotein"
+    },
+    {
+      "subject": "Slovenia",
+      "predicate": "showing",
+      "object": "young people"
+    },
+    {
+      "subject": "infection",
+      "predicate": "induces",
+      "object": "SARS-CoV-2"
+    },
+    {
+      "subject": "B cells",
+      "predicate": "proliferation",
+      "object": "mRNA vaccine"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "treats",
+      "object": "nucleic acid vaccines"
+    },
+    {
+      "subject": "Omicron variants BA.2,",
+      "predicate": "pathogenicity is comparable",
+      "object": "SARS-CoV-2"
+    },
+    {
+      "subject": "cancer immunotherapy",
+      "predicate": "revolutionized",
+      "object": "CAR-T therapy"
+    },
+    {
+      "subject": "Omicron",
+      "predicate": "challenges",
+      "object": "variants"
+    },
+    {
+      "subject": "new-onset DM",
+      "predicate": "causes",
+      "object": "diabetes mellitus"
+    },
+    {
+      "subject": "aspirin",
+      "predicate": "treats",
+      "object": "headache"
+    },
+    {
+      "subject": "vaccine efficacy",
+      "predicate": "diminish",
+      "object": "EG.5"
+    },
+    {
+      "subject": "infection",
+      "predicate": "enhances",
+      "object": "SARS-CoV-2"
+    },
+    {
+      "subject": "SARS-CoV-2 mRNA vaccine",
+      "predicate": "approved",
+      "object": "Comirnaty"
+    },
+    {
+      "subject": "XBB sub-lineages",
+      "predicate": "surfaced",
+      "object": "BA.2-derived sub-lineages"
+    },
+    {
+      "subject": "pathogens",
+      "predicate": "profiling",
+      "object": "ecological profiling"
+    },
+    {
+      "subject": "Sino Pharma",
+      "predicate": "effective",
+      "object": "Sinovac-CoronaVac vaccine"
+    },
+    {
+      "subject": "LNP",
+      "predicate": "encapsulates",
+      "object": "mRNA"
+    },
+    {
+      "subject": "antibody",
+      "predicate": "positive",
+      "object": "glutamic acid decarboxylase"
+    },
+    {
+      "subject": "immunization",
+      "predicate": "induces",
+      "object": "Alum"
+    },
+    {
+      "subject": "protect against weight",
+      "predicate": "comparable to Comirnaty",
+      "object": "SARS-CoV-2 spike mRNA-BNPs"
+    },
+    {
+      "subject": "antibody response",
+      "predicate": "association",
+      "object": "mental illness"
+    },
+    {
+      "subject": "confidence",
+      "predicate": "predictors of positive",
+      "object": "HCPs"
+    },
+    {
+      "subject": "long-form",
+      "predicate": "evaluated and found",
+      "object": "short-form version"
+    },
+    {
+      "subject": "Pfizer-BioNTech",
+      "predicate": "primary vaccination",
+      "object": "BNT162b2"
+    },
+    {
+      "subject": "saRNA vaccine platform",
+      "predicate": "efficient delivery",
+      "object": "lipid nanoparticle (LNP)"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "boosts",
+      "object": "Sinopharm"
+    },
+    {
+      "subject": "Canada",
+      "predicate": "first validated",
+      "object": "French-speaking Belgian regions"
+    },
+    {
+      "subject": "elicited",
+      "predicate": "better",
+      "object": "protective efficacy"
+    },
+    {
+      "subject": "mRNA-BNPs",
+      "predicate": "can be stored",
+      "object": "luciferase mRNA-BNPs"
+    },
+    {
+      "subject": "peak level",
+      "predicate": "occurred",
+      "object": "ve Effectiveness (VE)"
+    },
+    {
+      "subject": "vaccines",
+      "predicate": "enhance",
+      "object": "Diamond nanoparticles"
+    },
+    {
+      "subject": "diverse",
+      "predicate": "including",
+      "object": "health benefits"
+    },
+    {
+      "subject": "lymph nodes",
+      "predicate": "accumulation",
+      "object": "dendritic cells"
+    },
+    {
+      "subject": "aiding",
+      "predicate": "treatment",
+      "object": "cancer treatment"
+    },
+    {
+      "subject": "coronavirus disease",
+      "predicate": "controlled",
+      "object": "mRNA vaccines"
+    },
+    {
+      "subject": "body",
+      "predicate": "deteriorates",
+      "object": "aging"
+    },
+    {
+      "subject": "healthcare workers",
+      "predicate": "immunization",
+      "object": "CoronaVac vaccination"
+    },
+    {
+      "subject": "APCs",
+      "predicate": "target",
+      "object": "CPSM"
+    },
+    {
+      "subject": "phase III trials",
+      "predicate": "original trial data",
+      "object": "data"
+    },
+    {
+      "subject": "3-chymotrypsin-like protease (3CLpro)",
+      "predicate": "inhibits",
+      "object": "SARS-CoV-2"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "developed",
+      "object": "HIV-1"
+    },
+    {
+      "subject": "stability",
+      "predicate": "remains effective",
+      "object": "AX4 lipid"
+    },
+    {
+      "subject": "SARS-CoV-2 vaccine",
+      "predicate": "induces",
+      "object": "binding antibodies"
+    },
+    {
+      "subject": "hospitalization",
+      "predicate": "reduces",
+      "object": "AZD1222"
+    },
+    {
+      "subject": "Newcastle disease virus",
+      "predicate": "causes",
+      "object": "poultry diseases"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "prevents",
+      "object": "Covid-19"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "treats",
+      "object": "mRNA Factory (mRF)"
+    },
+    {
+      "subject": "inhalation",
+      "predicate": "represents",
+      "object": "recombinant COVID-19 vaccine"
+    },
+    {
+      "subject": "taken up by",
+      "predicate": "efficiently",
+      "object": "macrophages"
+    },
+    {
+      "subject": "unvaccinated",
+      "predicate": "increases",
+      "object": "mortality"
+    },
+    {
+      "subject": "restricted",
+      "predicate": "by",
+      "object": "cellular immune responses"
+    },
+    {
+      "subject": "hACE2",
+      "predicate": "binds",
+      "object": "RBD"
+    },
+    {
+      "subject": "standards",
+      "predicate": "international",
+      "object": "safety"
+    },
+    {
+      "subject": "blood cells",
+      "predicate": "affects",
+      "object": "PFAS"
+    },
+    {
+      "subject": "disease",
+      "predicate": "prevention",
+      "object": "COVID-19"
+    },
+    {
+      "subject": "elicit IgG",
+      "predicate": "persists for at",
+      "object": "OVA mRNA-BNPs"
+    },
+    {
+      "subject": "COVID-19 hospitalization",
+      "predicate": "reduces",
+      "object": "XBB.1.5 COVID-19 vaccine"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "prevents",
+      "object": "vaccine"
+    },
+    {
+      "subject": "implantology",
+      "predicate": "promoting",
+      "object": "tissue regeneration"
+    },
+    {
+      "subject": "delivery",
+      "predicate": "proven",
+      "object": "COVID-19 vaccines"
+    },
+    {
+      "subject": "pathogens",
+      "predicate": "management",
+      "object": "data management systems"
+    },
+    {
+      "subject": "induced",
+      "predicate": "high levels",
+      "object": "neutralizing antibody"
+    },
+    {
+      "subject": "immune system",
+      "predicate": "modulates",
+      "object": "immunotherapeutic agents"
+    },
+    {
+      "subject": "influenza",
+      "predicate": "generate",
+      "object": "surveillance programmes"
+    },
+    {
+      "subject": "cases",
+      "predicate": "increased",
+      "object": "COVID-19"
+    },
+    {
+      "subject": "combined with a",
+      "predicate": "resulted in high",
+      "object": "fourth vaccine dose"
+    },
+    {
+      "subject": "COVID-19 pandemic",
+      "predicate": "global implementation",
+      "object": "mRNA vaccines"
+    },
+    {
+      "subject": "phase",
+      "predicate": "was associated",
+      "object": "active campaign phase"
+    },
+    {
+      "subject": "protein",
+      "predicate": "expresses",
+      "object": "Spike"
+    },
+    {
+      "subject": "tissue damage",
+      "predicate": "exacerbate",
+      "object": "Scattered NETs"
+    },
+    {
+      "subject": "size",
+      "predicate": "measurement",
+      "object": "LNP"
+    },
+    {
+      "subject": "proactive efficacy",
+      "predicate": "80% and 180%",
+      "object": "trust in authorities"
+    },
+    {
+      "subject": "infant",
+      "predicate": "prevents",
+      "object": "nirsevimab"
+    },
+    {
+      "subject": "dental caries",
+      "predicate": "treating",
+      "object": "oral diseases"
+    },
+    {
+      "subject": "antigen specific",
+      "predicate": "activates",
+      "object": "CD8+ T cells"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "causes",
+      "object": "SARS-CoV-2"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "distribute",
+      "object": "COVID-19"
+    },
+    {
+      "subject": "PTBP1 and SFPQ",
+      "predicate": "enriched",
+      "object": "RNA binding proteins"
+    },
+    {
+      "subject": "subunit vaccine",
+      "predicate": "duration",
+      "object": "varicella zoster virus"
+    },
+    {
+      "subject": "chemotherapy",
+      "predicate": "treats",
+      "object": "breast cancer"
+    },
+    {
+      "subject": "post-market phase IV",
+      "predicate": "conclusions drawn",
+      "object": "inferences"
+    },
+    {
+      "subject": "studied",
+      "predicate": "computational studies",
+      "object": "vaccine efficacy"
+    },
+    {
+      "subject": "seasonal influenza",
+      "predicate": "combined",
+      "object": "mRNA vaccines"
     },
     {
       "subject": "vaccine",
@@ -26,19 +1861,629 @@
       "object": "COVID-19"
     },
     {
-      "subject": "individuals",
-      "predicate": "determined",
-      "object": "participation"
+      "subject": "primary vaccination",
+      "predicate": "increases",
+      "object": "boosters"
     },
     {
-      "subject": "treats",
-      "predicate": "efficacy",
+      "subject": "antiviral immunity",
+      "predicate": "promotes",
+      "object": "prebiotics"
+    },
+    {
+      "subject": "offered significant protection",
+      "predicate": "although this wanes",
+      "object": "complete primary series"
+    },
+    {
+      "subject": "LNP-saRNA-RBD vaccination",
+      "predicate": "induction of protection",
+      "object": "prime-boost immunizations"
+    },
+    {
+      "subject": "treatment regimen",
+      "predicate": "components",
       "object": "zinc supplementation"
     },
     {
-      "subject": "aspirin",
+      "subject": "RBD mutations",
+      "predicate": "compromise",
+      "object": "XBB.1.5"
+    },
+    {
+      "subject": "older adults",
+      "predicate": "compromised",
+      "object": "immune response"
+    },
+    {
+      "subject": "SARS-CoV-2 3CLpro",
+      "predicate": "inhibits",
+      "object": "Gnetol"
+    },
+    {
+      "subject": "SARS-CoV-2",
+      "predicate": "binds",
+      "object": "RBD"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "protective effect",
+      "object": "BCG vaccine"
+    },
+    {
+      "subject": "monitor",
+      "predicate": "evaluate",
+      "object": "population studies"
+    },
+    {
+      "subject": "improved",
+      "predicate": "effectiveness",
+      "object": "antibacterial potential"
+    },
+    {
+      "subject": "vaccines",
+      "predicate": "higher",
+      "object": "self-efficacy"
+    },
+    {
+      "subject": "youth",
+      "predicate": "increased",
+      "object": "substance use"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "causes",
+      "object": "BBIBP-CorV"
+    },
+    {
+      "subject": "monoclonal antibody treatments",
+      "predicate": "escape",
+      "object": "KP.2"
+    },
+    {
+      "subject": "Delta and Omicron",
+      "predicate": "significantly enhanced neutralizing",
+      "object": "neutralizing antibodies"
+    },
+    {
+      "subject": "spike protein",
+      "predicate": "expression",
+      "object": "SARS-CoV-2"
+    },
+    {
+      "subject": "concentration",
+      "predicate": "effects on LNP",
+      "object": "PEG-lipid"
+    },
+    {
+      "subject": "robust efficacy",
+      "predicate": "",
+      "object": "mRNA technology"
+    },
+    {
+      "subject": "recombinant antigenic proteins",
+      "predicate": "characterization",
+      "object": "analysis"
+    },
+    {
+      "subject": "spike-specific",
+      "predicate": "quantified",
+      "object": "T cells"
+    },
+    {
+      "subject": "COVID-19 vaccine",
+      "predicate": "effective against infection",
+      "object": "BNT162b2"
+    },
+    {
+      "subject": "mediated route",
+      "predicate": "reduced dependency",
+      "object": "sialic acid receptor"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "effectiveness",
+      "object": "influenza"
+    },
+    {
+      "subject": "antigen-specific T cells",
+      "predicate": "differentiation into a",
+      "object": "T cells"
+    },
+    {
+      "subject": "poly(A) tail",
+      "predicate": "undergoes rapid degradation",
+      "object": "mRNA"
+    },
+    {
+      "subject": "71 years",
+      "predicate": "median",
+      "object": "age"
+    },
+    {
+      "subject": "optimization approaches",
+      "predicate": "enhance efficacy, stability,",
+      "object": "manufacturing process"
+    },
+    {
+      "subject": "socio-demographic profiles",
+      "predicate": "significantly associated",
+      "object": "vaccine recipients"
+    },
+    {
+      "subject": "concentrations",
+      "predicate": "compared",
+      "object": "delta values"
+    },
+    {
+      "subject": "sex",
+      "predicate": "adjusted",
+      "object": "age"
+    },
+    {
+      "subject": "women",
+      "predicate": "had reduced levels",
+      "object": "anxiety"
+    },
+    {
+      "subject": "people",
+      "predicate": "switched",
+      "object": "initially hesitant"
+    },
+    {
+      "subject": "individuals aged 44",
+      "predicate": "less likely",
+      "object": "age"
+    },
+    {
+      "subject": "vector",
+      "predicate": "constructed",
+      "object": "human adenovirus type"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "prevents",
+      "object": "influenza"
+    },
+    {
+      "subject": "KTRs",
+      "predicate": "boosts",
+      "object": "infection"
+    },
+    {
+      "subject": "deaths",
+      "predicate": "reduced",
+      "object": "vaccine"
+    },
+    {
+      "subject": "women",
+      "predicate": "was related",
+      "object": "educational level"
+    },
+    {
+      "subject": "infection",
+      "predicate": "neutralizes",
+      "object": "HK.3"
+    },
+    {
+      "subject": "\u03b27-integrin",
+      "predicate": "expression",
+      "object": "dendritic cells"
+    },
+    {
+      "subject": "immunogenicity",
+      "predicate": "low",
+      "object": "DNA vaccines"
+    },
+    {
+      "subject": "participants",
+      "predicate": "delivered",
+      "object": "swab collection material"
+    },
+    {
+      "subject": "SARS-CoV-2",
+      "predicate": "protective immunity",
+      "object": "RNA-based vaccines"
+    },
+    {
+      "subject": "COVID-19",
       "predicate": "treats",
-      "object": "headache"
+      "object": "BNT162b2"
+    },
+    {
+      "subject": "clinical development",
+      "predicate": "faces",
+      "object": "therapeutics"
+    },
+    {
+      "subject": "SARS-CoV-2",
+      "predicate": "induces",
+      "object": "mRNA vaccine"
+    },
+    {
+      "subject": "mass",
+      "predicate": "measurement",
+      "object": "LNP"
+    },
+    {
+      "subject": "ADNP",
+      "predicate": "specificity",
+      "object": "XBB.1.5"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "influences",
+      "object": "failure mode"
+    },
+    {
+      "subject": "criteria for ionizable",
+      "predicate": "accelerate development",
+      "object": "ester linkage"
+    },
+    {
+      "subject": "biotechnology",
+      "predicate": "successes",
+      "object": "COVID-19 mRNA vaccines"
+    },
+    {
+      "subject": "youth",
+      "predicate": "associated",
+      "object": "mental health"
+    },
+    {
+      "subject": "low",
+      "predicate": "associated with hesitancy",
+      "object": "education levels"
+    },
+    {
+      "subject": "side effects",
+      "predicate": "concerns",
+      "object": "vaccine"
+    },
+    {
+      "subject": "clinical efficacy",
+      "predicate": "high",
+      "object": "mRNA vaccines"
+    },
+    {
+      "subject": "high-dose vaccine",
+      "predicate": "efficacy",
+      "object": "influenza"
+    },
+    {
+      "subject": "immunized",
+      "predicate": "verified",
+      "object": "mice"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "direct impact",
+      "object": "averted outcomes"
+    },
+    {
+      "subject": "digest",
+      "predicate": "partial",
+      "object": "RNase T1"
+    },
+    {
+      "subject": "heat-labile enterotoxin",
+      "predicate": "detoxified",
+      "object": "Escherichia coli"
+    },
+    {
+      "subject": "testing status",
+      "predicate": "low",
+      "object": "COVID-19"
+    },
+    {
+      "subject": "author",
+      "predicate": "prolific",
+      "object": "David B Weiner"
+    },
+    {
+      "subject": "peptide antigens",
+      "predicate": "boost immune responses",
+      "object": "10 nm nanodiamonds"
+    },
+    {
+      "subject": "virus",
+      "predicate": "heterologous",
+      "object": "B.1.351"
+    },
+    {
+      "subject": "vaccination recommendations",
+      "predicate": "changing pandemic context",
+      "object": "Canadian HCPs"
+    },
+    {
+      "subject": "viral evolution",
+      "predicate": "compromise vaccine performance",
+      "object": "human and non-human"
+    },
+    {
+      "subject": "patients",
+      "predicate": "indicates",
+      "object": "sore throat"
+    },
+    {
+      "subject": "human papilloma virus",
+      "predicate": "positive safety profile",
+      "object": "efficacy"
+    },
+    {
+      "subject": "was well retained",
+      "predicate": "already after two",
+      "object": "T cell-mediated immunity"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "develops",
+      "object": "tetanus"
+    },
+    {
+      "subject": "supporting",
+      "predicate": "management",
+      "object": "diabetes management"
+    },
+    {
+      "subject": "mRNA COVID-19 vaccine",
+      "predicate": "causes",
+      "object": "myocarditis"
+    },
+    {
+      "subject": "therapy",
+      "predicate": "targets",
+      "object": "Zodasiran"
+    },
+    {
+      "subject": "statistical assumptions",
+      "predicate": "spurious findings",
+      "object": "choices"
+    },
+    {
+      "subject": "hospitalisation",
+      "predicate": "prevents",
+      "object": "COVID-19"
+    },
+    {
+      "subject": "younger people",
+      "predicate": "typically elicit robust",
+      "object": "age"
+    },
+    {
+      "subject": "colonic persistence",
+      "predicate": "associated",
+      "object": "plasmacytoid DCs"
+    },
+    {
+      "subject": "draining lymph nodes",
+      "predicate": "production of anti-RBD",
+      "object": "germinal center response"
+    },
+    {
+      "subject": "antiretroviral therapy",
+      "predicate": "treats",
+      "object": "HIV"
+    },
+    {
+      "subject": "chemotherapy",
+      "predicate": "treats",
+      "object": "cancer"
+    },
+    {
+      "subject": "vaccination",
+      "predicate": "prevents",
+      "object": "SARS-CoV-2"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "granted conditional marketing",
+      "object": "JCOVDEN"
+    },
+    {
+      "subject": "vaccine",
+      "predicate": "prevents",
+      "object": "Severe Acute Respiratory"
+    },
+    {
+      "subject": "low",
+      "predicate": "associated with hesitancy",
+      "object": "confidence in vaccine"
+    },
+    {
+      "subject": "RBD",
+      "predicate": "binds",
+      "object": "XBB.1.5"
+    },
+    {
+      "subject": "Respiratory Syncytial Virus",
+      "predicate": "protects",
+      "object": "mRNA vaccine"
+    },
+    {
+      "subject": "sequencing",
+      "predicate": "results",
+      "object": "virus"
+    },
+    {
+      "subject": "precise antigen design",
+      "predicate": "efficient delivery mechanisms",
+      "object": "mRNA-LNP technology"
+    },
+    {
+      "subject": "infection",
+      "predicate": "neutralizes",
+      "object": "JN.1"
+    },
+    {
+      "subject": "influenza hemagglutinin (HA)",
+      "predicate": "induces",
+      "object": "DNA-LNP"
+    },
+    {
+      "subject": "hospitalization",
+      "predicate": "increases",
+      "object": "BA.2.86 lineage"
+    },
+    {
+      "subject": "Molnupiravir",
+      "predicate": "treats",
+      "object": "SARS-CoV-2"
+    },
+    {
+      "subject": "pathogens",
+      "predicate": "fight",
+      "object": "Neutrophils"
+    },
+    {
+      "subject": "ADCP",
+      "predicate": "activities",
+      "object": "spike protein"
+    },
+    {
+      "subject": "vaccine delivery",
+      "predicate": "through the skin",
+      "object": "microneedles"
+    },
+    {
+      "subject": "aged mice",
+      "predicate": "reduces",
+      "object": "K18-hACE2 transgenic mice"
+    },
+    {
+      "subject": "dentists in India",
+      "predicate": "towards COVID-19 vaccination",
+      "object": "attitude"
+    },
+    {
+      "subject": "A-910823",
+      "predicate": "enhances",
+      "object": "quadrivalent influenza vaccine"
+    },
+    {
+      "subject": "calcinosis",
+      "predicate": "increases",
+      "object": "SSc patients"
+    },
+    {
+      "subject": "cancer immunotherapy",
+      "predicate": "treats",
+      "object": "mRNA-LNP vaccines"
+    },
+    {
+      "subject": "treatment",
+      "predicate": "improves",
+      "object": "cancer patients"
+    },
+    {
+      "subject": "dental practitioners",
+      "predicate": "regarding COVID-19 vaccination",
+      "object": "knowledge"
+    },
+    {
+      "subject": "RBD",
+      "predicate": "binds",
+      "object": "BA.2"
+    },
+    {
+      "subject": "COVID-19 patients",
+      "predicate": "found",
+      "object": "chimeric RNAs"
+    },
+    {
+      "subject": "antigen recognition",
+      "predicate": "critical",
+      "object": "HLA"
+    },
+    {
+      "subject": "p30",
+      "predicate": "carries",
+      "object": "zein nanoparticles"
+    },
+    {
+      "subject": "Kidney transplant recipients",
+      "predicate": "immunity",
+      "object": "SARS-CoV-2"
+    },
+    {
+      "subject": "production",
+      "predicate": "greatest",
+      "object": "spike-specific antibodies"
+    },
+    {
+      "subject": "disease",
+      "predicate": "post-vaccination",
+      "object": "CRPS"
+    },
+    {
+      "subject": "<i>Vaccine</i>",
+      "predicate": "co-citation",
+      "object": "Vaccine Journal"
+    },
+    {
+      "subject": "RBD",
+      "predicate": "binds",
+      "object": "KP.2"
+    },
+    {
+      "subject": "testicular atrophy",
+      "predicate": "causes",
+      "object": "Zika virus"
+    },
+    {
+      "subject": "participants",
+      "predicate": "associated",
+      "object": "income"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "treats",
+      "object": "mRNA vaccines"
+    },
+    {
+      "subject": "insulin",
+      "predicate": "regulates",
+      "object": "diabetes"
+    },
+    {
+      "subject": "vaccination",
+      "predicate": "causes",
+      "object": "BNT162b2"
+    },
+    {
+      "subject": "patient",
+      "predicate": "induces",
+      "object": "vaccine"
+    },
+    {
+      "subject": "digest",
+      "predicate": "partial",
+      "object": "RNase U2"
+    },
+    {
+      "subject": "COVID-19",
+      "predicate": "treats",
+      "object": "ChAdOx-1s"
+    },
+    {
+      "subject": "COVID-19 vaccine",
+      "predicate": "benefits",
+      "object": "safety"
+    },
+    {
+      "subject": "subvariants",
+      "predicate": "harbor",
+      "object": "JN.1"
+    },
+    {
+      "subject": "regulatory requirements",
+      "predicate": "evaluate",
+      "object": "COVID-19 pandemic"
+    },
+    {
+      "subject": "vaccine attitudes",
+      "predicate": "designed to measure",
+      "object": "Pro-VC-Be tool"
     }
   ]
 }

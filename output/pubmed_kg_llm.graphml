@@ -3,42 +3,2140 @@
   <key id="d0" for="edge" attr.name="relation" attr.type="string" />
   <graph edgedefault="directed">
     <node id="COVID-19" />
+    <node id="fluoxetine" />
+    <node id="melanoma" />
+    <node id="neuroantigens" />
+    <node id="pandemic" />
     <node id="vaccine" />
-    <node id="clinical efficacy" />
+    <node id="adenovirus" />
+    <node id="lung" />
+    <node id="mRNA" />
+    <node id="ADNP" />
+    <node id="BA.5" />
+    <node id="EVs" />
+    <node id="neurofilaments" />
+    <node id="TLR-ligands" />
+    <node id="IL-15" />
+    <node id="lipid nanoparticles" />
+    <node id="boosted" />
+    <node id="bacterial infection models" />
+    <node id="children aged 5-17" />
+    <node id="parents" />
+    <node id="statin" />
+    <node id="heart disease" />
+    <node id="key ingredient" />
+    <node id="LNPs" />
+    <node id="transmission" />
+    <node id="upper airway" />
+    <node id="mRNA COVID-19 vaccine" />
+    <node id="pericarditis" />
+    <node id="90-119 days after" />
+    <node id="waning protective effect" />
+    <node id="elicited" />
+    <node id="cellular responses" />
+    <node id="adaptation" />
+    <node id="mRNA vaccine" />
+    <node id="combined" />
+    <node id="international funding" />
+    <node id="nonresponders" />
+    <node id="depressive symptoms" />
+    <node id="PEDV" />
+    <node id="polymorphism" />
+    <node id="human leukocyte antigen" />
+    <node id="high-valency vaccine" />
+    <node id="Streptococcus pneumoniae" />
+    <node id="study" />
+    <node id="Moderna COVE trial" />
+    <node id="secretes under" />
+    <node id="interferon-γ (IFN-γ)" />
+    <node id="precursor RNA (preRNA)" />
+    <node id="circular RNA (circRNA)" />
+    <node id="SARS-CoV-2" />
+    <node id="Omicron" />
+    <node id="individuals" />
+    <node id="home-based testing" />
+    <node id="CD4+ T-cells" />
+    <node id="monocytes" />
+    <node id="coronavirus disease 2019" />
+    <node id="immunocompromised individuals" />
+    <node id="HIV/AIDS" />
+    <node id="SARS-CoV-2 spike-encoding DNA-LNP" />
+    <node id="rabbits" />
+    <node id="variant" />
+    <node id="RBD and S1" />
+    <node id="peptide pools" />
+    <node id="development" />
+    <node id="mRNA vaccine candidates" />
+    <node id="infant" />
+    <node id="COVID-19 vaccine" />
+    <node id="angiostatin" />
+    <node id="biomineralized" />
+    <node id="manganese nanoparticles" />
+    <node id="increased" />
+    <node id="polysaccharides" />
+    <node id="antigens" />
+    <node id="microparticles" />
+    <node id="flu" />
+    <node id="underlying comorbid condition" />
+    <node id="children" />
+    <node id="infection" />
+    <node id="KP.2" />
+    <node id="BNPs" />
+    <node id="PBD-b-PEO" />
+    <node id="nucleoside analog" />
+    <node id="HCPs" />
+    <node id="patients" />
+    <node id="MetS" />
     <node id="mRNA vaccines" />
+    <node id="Nuvaxovid" />
+    <node id="Abdala" />
+    <node id="CoronaVac" />
     <node id="Pfizer-BioNTech COVID-19 vaccine" />
     <node id="burning mouth syndrome" />
+    <node id="pain reliever" />
+    <node id="inflammation" />
+    <node id="immune score" />
+    <node id="manose" />
+    <node id="delivery" />
+    <node id="spike protein" />
+    <node id="neutralizing antibodies" />
+    <node id="Dutch cohort study" />
+    <node id="participants" />
+    <node id="pancreatic cancer" />
+    <node id="immune checkpoint inhibitors" />
+    <node id="drug delivery" />
+    <node id="nucleic acids" />
+    <node id="Gamma variant" />
+    <node id="AD17002" />
+    <node id="BBIBP-CorV" />
+    <node id="females" />
+    <node id="sex" />
+    <node id="vaccines" />
+    <node id="hybrid" />
+    <node id="C. militaris" />
+    <node id="SARS-CoV-2 variants" />
+    <node id="Omicron (B.1.1.529)" />
+    <node id="immunization policies" />
+    <node id="Hong Kong" />
+    <node id="SARS-CoV-2 mRNA vaccine" />
+    <node id="Spikevax" />
+    <node id="extended-persistence variant" />
+    <node id="RBD-sFc-HR/trimer" />
+    <node id="live MHV-A59 coronavirus" />
+    <node id="vaccine development" />
+    <node id="high" />
+    <node id="lower cholesterol" />
+    <node id="cancer" />
+    <node id="nucleoside modified mRNA" />
+    <node id="STING activating polymer" />
+    <node id="older adults" />
+    <node id="immunogenicity" />
+    <node id="7-59 days after" />
+    <node id="peak level" />
+    <node id="lower respiratory tract" />
+    <node id="respyrical syncytial virus" />
+    <node id="distribution" />
+    <node id="exogenous protein expression" />
+    <node id="vaccine-induced neutralizing antibodies" />
+    <node id="Aggregated NETs" />
+    <node id="virus" />
+    <node id="uptake" />
+    <node id="handwashing practices" />
+    <node id="lipid materials" />
+    <node id="yeast" />
+    <node id="cholesterol" />
+    <node id="humoral responses" />
+    <node id="current challenges" />
+    <node id="administration strategies" />
+    <node id="dental professionals" />
+    <node id="perceptions" />
+    <node id="pathogens" />
+    <node id="genomic analysis" />
+    <node id="enhanced" />
+    <node id="antioxidant potential" />
+    <node id="torturing of data" />
+    <node id="data-dredging" />
+    <node id="time since vaccination" />
+    <node id="Pichia pastoris" />
+    <node id="in vivo engineered" />
+    <node id="mRNA-LNP technology" />
+    <node id="structure-activity relationships" />
+    <node id="headgroup" />
+    <node id="online survey" />
+    <node id="survey" />
+    <node id="Vibrio cholerae" />
+    <node id="risk score" />
+    <node id="&gt;8 mg/L" />
+    <node id="CRP level" />
+    <node id="Pickering emulsion platform" />
+    <node id="aluminum hydroxide" />
+    <node id="gut microbiota" />
+    <node id="probiotics" />
+    <node id="influenza" />
+    <node id="influenza virus" />
+    <node id="plasma" />
+    <node id="pro-inflammatory cytokines" />
+    <node id="adjuvant" />
+    <node id="IL-7" />
+    <node id="transfer" />
+    <node id="patents" />
+    <node id="vaccinated adults" />
+    <node id="potent anticancer efficacy" />
+    <node id="immune memory" />
+    <node id="RBD" />
+    <node id="SARS-CoV-2 spike protein" />
+    <node id="vaccination" />
+    <node id="BA.4/5" />
+    <node id="vaccine efficacy" />
+    <node id="VE" />
+    <node id="antibiotic resistance" />
+    <node id="microorganisms" />
+    <node id="backgrounds" />
+    <node id="acceptability" />
+    <node id="young people" />
+    <node id="providing" />
+    <node id="anti-inflammatory effects" />
+    <node id="antibody responses" />
+    <node id="NL63" />
+    <node id="vaccine vectors" />
+    <node id="AAVs" />
+    <node id="BNT162b2" />
+    <node id="heterologous vaccination" />
+    <node id="ribosomal entry site" />
+    <node id="public health" />
+    <node id="Omicron BA.2 variant" />
+    <node id="antibodies" />
+    <node id="Omicron variant" />
+    <node id="fear" />
+    <node id="side effects" />
+    <node id="vaccination status" />
+    <node id="questionnaire" />
+    <node id="manufacturing process" />
+    <node id="plasmablasts" />
+    <node id="AdV vaccine" />
+    <node id="mRNA-1273" />
+    <node id="BALB/c mice" />
+    <node id="quadrivalent influenza vaccine" />
+    <node id="DsiRNA swarms" />
+    <node id="Vero E6-TMPRSS2 cells" />
+    <node id="vaccine selection" />
+    <node id="UK National Health" />
+    <node id="benefits" />
+    <node id="perceived susceptibility" />
+    <node id="different doses performed" />
+    <node id="immunization strategies" />
+    <node id="hospitalization" />
+    <node id="microbiology" />
+    <node id="AI" />
+    <node id="Moderna-NIAID" />
+    <node id="main protease" />
+    <node id="systemic lupus erythematosus" />
+    <node id="SARS-CoV-2 infection" />
+    <node id="transcriptome analysis" />
+    <node id="Delta variant" />
+    <node id="hepatitis B" />
+    <node id="mRNA vector" />
+    <node id="adjuvanted protein" />
+    <node id="mRNA-LNP" />
+    <node id="estimates" />
+    <node id="influenza VE" />
+    <node id="Fc structure" />
+    <node id="antibody" />
     <node id="challenge" />
-    <node id="tumor antigen selection" />
-    <node id="individuals" />
-    <node id="participation" />
-    <node id="treats" />
-    <node id="zinc supplementation" />
+    <node id="nucleic acid" />
+    <node id="LNP" />
+    <node id="protein conjugation" />
+    <node id="production" />
+    <node id="lipid" />
+    <node id="co-assembly" />
+    <node id="boosters" />
+    <node id="method" />
+    <node id="intramuscular immunization" />
+    <node id="SARS-CoV-2 subunit vaccine" />
+    <node id="RBD-HR/trimer" />
+    <node id="antibiotics" />
+    <node id="innovations" />
+    <node id="health authorities" />
+    <node id="biologic products" />
+    <node id="transmission modeling" />
+    <node id="increased AAV target" />
+    <node id="STING pathway activation" />
+    <node id="immunity" />
+    <node id="infectious disease" />
+    <node id="&gt;60 years old" />
+    <node id="social media influence" />
+    <node id="solid tumors" />
+    <node id="CAR-T therapy" />
+    <node id="AdV" />
+    <node id="Jcovden" />
+    <node id="XBB.1.18" />
+    <node id="genetic strains" />
+    <node id="Beta variant" />
+    <node id="including possible epidemic" />
+    <node id="pseudoviruses" />
+    <node id="drugs" />
+    <node id="therapeutic optimization" />
+    <node id="healthcare workers" />
+    <node id="artificial intelligence" />
+    <node id="pathogenic microbiology" />
+    <node id="vaccine attitudes" />
+    <node id="psychosocial determinants" />
+    <node id="after challenge" />
+    <node id="lungs of mice" />
+    <node id="older age" />
+    <node id="existing comorbidities" />
+    <node id="patient" />
+    <node id="tuberculosis" />
+    <node id="oxidative stress" />
+    <node id="tumor antigens" />
+    <node id="COVID-19 pandemic" />
+    <node id="mRNA vaccine technology" />
+    <node id="pregnant women" />
+    <node id="positivity" />
+    <node id="anti-centromere antibodies" />
+    <node id="liposomes" />
+    <node id="medication" />
+    <node id="activated" />
+    <node id="cGAS-STING pathway" />
+    <node id="Pfizer" />
+    <node id="individuals over 65" />
+    <node id="age" />
+    <node id="fusion" />
+    <node id="P. florida" />
+    <node id="nirmatrelvir" />
+    <node id="developed" />
+    <node id="low immune responses" />
+    <node id="encapsulation" />
+    <node id="willingness to take" />
+    <node id="unvaccinated individuals" />
+    <node id="demographics" />
+    <node id="ALL" />
+    <node id="Respiratory interventions" />
+    <node id="research" />
+    <node id="DNA vaccine" />
+    <node id="anti-RBD IgG levels" />
+    <node id="therapeutic" />
+    <node id="EP67" />
+    <node id="future" />
+    <node id="sample size" />
+    <node id="bnAbs" />
+    <node id="people with HIV" />
+    <node id="cases" />
+    <node id="pseudovirus" />
+    <node id="neutralizing activity" />
+    <node id="update" />
+    <node id="vaccine strain" />
+    <node id="infected" />
+    <node id="antigen present cells" />
+    <node id="Fab" />
+    <node id="regulatory T cells" />
+    <node id="vaccination schedule" />
+    <node id="since" />
+    <node id="time" />
+    <node id="mRNA-based vaccines" />
+    <node id="physicians/medical residents" />
+    <node id="COVID-19 vaccination" />
+    <node id="antiviral immunity" />
+    <node id="taken up by" />
+    <node id="dendritic cells" />
+    <node id="geriatric populations" />
+    <node id="vaccine-induced immunity" />
+    <node id="poly(ethylene glycol)" />
+    <node id="Sinopharm vaccine" />
+    <node id="boost anti-PEG antibodies" />
+    <node id="mRNA-LNPs" />
+    <node id="ancestral" />
+    <node id="Wuhan strain" />
+    <node id="XBB.1.5" />
+    <node id="compound 9064" />
+    <node id="Mpro protein" />
+    <node id="stimulator of interferon" />
+    <node id="HA DNA-LNP" />
+    <node id="typhoid fever" />
+    <node id="neutrophil phagocytosis" />
+    <node id="influenza viruses" />
+    <node id="Severe acute respiratory" />
+    <node id="healthcare professionals" />
+    <node id="health emergency" />
+    <node id="European Union" />
+    <node id="mice" />
+    <node id="S1 protein" />
+    <node id="SARS-CoV-2 virus" />
+    <node id="RV-1730" />
+    <node id="ChAdOx1" />
+    <node id="subvariants" />
+    <node id="BA.2.86" />
+    <node id="vaccine hesitancy" />
+    <node id="elderly" />
+    <node id="enhancing" />
+    <node id="COVID-19 vaccine efficacy" />
+    <node id="siRNA" />
+    <node id="target" />
+    <node id="infectious diseases" />
+    <node id="cholera" />
+    <node id="treatment" />
+    <node id="cardiovascular disease" />
+    <node id="RNA delivery" />
+    <node id="regulatory framework" />
+    <node id="Brazil" />
+    <node id="periodontal disease" />
+    <node id="oral cavity" />
+    <node id="serum" />
+    <node id="predictors of vaccine" />
+    <node id="stage of metastatic" />
+    <node id="Herpes zoster" />
+    <node id="antigen" />
+    <node id="BA.4/5 RBD-PC7A conjugate" />
+    <node id="policies" />
+    <node id="government" />
     <node id="aspirin" />
+    <node id="muscle-invasive bladder cancer" />
+    <node id="intranasal immunization" />
+    <node id="RBDco" />
+    <node id="mice and non-human" />
+    <node id="improves the durability" />
+    <node id="germinal center reactions" />
+    <node id="tumor microenvironment" />
+    <node id="levels induced" />
+    <node id="neutralizing antibody (NAb)" />
+    <node id="commercially available" />
+    <node id="severe acute respiratory" />
+    <node id="factor" />
+    <node id="stringency of COVID-19" />
+    <node id="Alpha variant" />
+    <node id="mosquito salivary gland" />
+    <node id="bacteriophages" />
+    <node id="ovalbumin (OVA) mRNA" />
+    <node id="PD18 LNPs" />
+    <node id="PIV5-vectored COVID-19 vaccine" />
+    <node id="CVXGA1" />
+    <node id="requirements" />
+    <node id="quality" />
+    <node id="host proteases" />
+    <node id="compound 39" />
+    <node id="encoding the receptor-binding" />
+    <node id="mutated saRNA" />
+    <node id="confidence" />
+    <node id="young adults" />
+    <node id="rabies virus glycoprotein" />
+    <node id="Slovenia" />
+    <node id="B cells" />
+    <node id="nucleic acid vaccines" />
+    <node id="Omicron variants BA.2," />
+    <node id="cancer immunotherapy" />
+    <node id="variants" />
+    <node id="new-onset DM" />
+    <node id="diabetes mellitus" />
     <node id="headache" />
+    <node id="EG.5" />
+    <node id="Comirnaty" />
+    <node id="XBB sub-lineages" />
+    <node id="BA.2-derived sub-lineages" />
+    <node id="ecological profiling" />
+    <node id="Sino Pharma" />
+    <node id="Sinovac-CoronaVac vaccine" />
+    <node id="glutamic acid decarboxylase" />
+    <node id="immunization" />
+    <node id="Alum" />
+    <node id="protect against weight" />
+    <node id="SARS-CoV-2 spike mRNA-BNPs" />
+    <node id="antibody response" />
+    <node id="mental illness" />
+    <node id="long-form" />
+    <node id="short-form version" />
+    <node id="Pfizer-BioNTech" />
+    <node id="saRNA vaccine platform" />
+    <node id="lipid nanoparticle (LNP)" />
+    <node id="Sinopharm" />
+    <node id="Canada" />
+    <node id="French-speaking Belgian regions" />
+    <node id="protective efficacy" />
+    <node id="mRNA-BNPs" />
+    <node id="luciferase mRNA-BNPs" />
+    <node id="ve Effectiveness (VE)" />
+    <node id="Diamond nanoparticles" />
+    <node id="diverse" />
+    <node id="health benefits" />
+    <node id="lymph nodes" />
+    <node id="aiding" />
+    <node id="cancer treatment" />
+    <node id="coronavirus disease" />
+    <node id="body" />
+    <node id="aging" />
+    <node id="CoronaVac vaccination" />
+    <node id="APCs" />
+    <node id="CPSM" />
+    <node id="phase III trials" />
+    <node id="data" />
+    <node id="3-chymotrypsin-like protease (3CLpro)" />
+    <node id="HIV-1" />
+    <node id="stability" />
+    <node id="AX4 lipid" />
+    <node id="SARS-CoV-2 vaccine" />
+    <node id="binding antibodies" />
+    <node id="AZD1222" />
+    <node id="Newcastle disease virus" />
+    <node id="poultry diseases" />
+    <node id="Covid-19" />
+    <node id="mRNA Factory (mRF)" />
+    <node id="inhalation" />
+    <node id="recombinant COVID-19 vaccine" />
+    <node id="macrophages" />
+    <node id="unvaccinated" />
+    <node id="mortality" />
+    <node id="restricted" />
+    <node id="cellular immune responses" />
+    <node id="hACE2" />
+    <node id="standards" />
+    <node id="safety" />
+    <node id="blood cells" />
+    <node id="PFAS" />
+    <node id="disease" />
+    <node id="elicit IgG" />
+    <node id="OVA mRNA-BNPs" />
+    <node id="COVID-19 hospitalization" />
+    <node id="XBB.1.5 COVID-19 vaccine" />
+    <node id="implantology" />
+    <node id="tissue regeneration" />
+    <node id="COVID-19 vaccines" />
+    <node id="data management systems" />
+    <node id="induced" />
+    <node id="neutralizing antibody" />
+    <node id="immune system" />
+    <node id="immunotherapeutic agents" />
+    <node id="surveillance programmes" />
+    <node id="combined with a" />
+    <node id="fourth vaccine dose" />
+    <node id="phase" />
+    <node id="active campaign phase" />
+    <node id="protein" />
+    <node id="Spike" />
+    <node id="tissue damage" />
+    <node id="Scattered NETs" />
+    <node id="size" />
+    <node id="proactive efficacy" />
+    <node id="trust in authorities" />
+    <node id="nirsevimab" />
+    <node id="dental caries" />
+    <node id="oral diseases" />
+    <node id="antigen specific" />
+    <node id="CD8+ T cells" />
+    <node id="PTBP1 and SFPQ" />
+    <node id="RNA binding proteins" />
+    <node id="subunit vaccine" />
+    <node id="varicella zoster virus" />
+    <node id="chemotherapy" />
+    <node id="breast cancer" />
+    <node id="post-market phase IV" />
+    <node id="inferences" />
+    <node id="studied" />
+    <node id="seasonal influenza" />
+    <node id="primary vaccination" />
+    <node id="prebiotics" />
+    <node id="offered significant protection" />
+    <node id="complete primary series" />
+    <node id="LNP-saRNA-RBD vaccination" />
+    <node id="prime-boost immunizations" />
+    <node id="treatment regimen" />
+    <node id="zinc supplementation" />
+    <node id="RBD mutations" />
+    <node id="immune response" />
+    <node id="SARS-CoV-2 3CLpro" />
+    <node id="Gnetol" />
+    <node id="BCG vaccine" />
+    <node id="monitor" />
+    <node id="population studies" />
+    <node id="improved" />
+    <node id="antibacterial potential" />
+    <node id="self-efficacy" />
+    <node id="youth" />
+    <node id="substance use" />
+    <node id="monoclonal antibody treatments" />
+    <node id="Delta and Omicron" />
+    <node id="concentration" />
+    <node id="PEG-lipid" />
+    <node id="robust efficacy" />
+    <node id="mRNA technology" />
+    <node id="recombinant antigenic proteins" />
+    <node id="analysis" />
+    <node id="spike-specific" />
+    <node id="T cells" />
+    <node id="mediated route" />
+    <node id="sialic acid receptor" />
+    <node id="antigen-specific T cells" />
+    <node id="poly(A) tail" />
+    <node id="71 years" />
+    <node id="optimization approaches" />
+    <node id="socio-demographic profiles" />
+    <node id="vaccine recipients" />
+    <node id="concentrations" />
+    <node id="delta values" />
+    <node id="women" />
+    <node id="anxiety" />
+    <node id="people" />
+    <node id="initially hesitant" />
+    <node id="individuals aged 44" />
+    <node id="vector" />
+    <node id="human adenovirus type" />
+    <node id="KTRs" />
+    <node id="deaths" />
+    <node id="educational level" />
+    <node id="HK.3" />
+    <node id="β7-integrin" />
+    <node id="DNA vaccines" />
+    <node id="swab collection material" />
+    <node id="RNA-based vaccines" />
+    <node id="clinical development" />
+    <node id="therapeutics" />
+    <node id="mass" />
+    <node id="failure mode" />
+    <node id="criteria for ionizable" />
+    <node id="ester linkage" />
+    <node id="biotechnology" />
+    <node id="COVID-19 mRNA vaccines" />
+    <node id="mental health" />
+    <node id="low" />
+    <node id="education levels" />
+    <node id="clinical efficacy" />
+    <node id="high-dose vaccine" />
+    <node id="immunized" />
+    <node id="averted outcomes" />
+    <node id="digest" />
+    <node id="RNase T1" />
+    <node id="heat-labile enterotoxin" />
+    <node id="Escherichia coli" />
+    <node id="testing status" />
+    <node id="author" />
+    <node id="David B Weiner" />
+    <node id="peptide antigens" />
+    <node id="10 nm nanodiamonds" />
+    <node id="B.1.351" />
+    <node id="vaccination recommendations" />
+    <node id="Canadian HCPs" />
+    <node id="viral evolution" />
+    <node id="human and non-human" />
+    <node id="sore throat" />
+    <node id="human papilloma virus" />
+    <node id="efficacy" />
+    <node id="was well retained" />
+    <node id="T cell-mediated immunity" />
+    <node id="tetanus" />
+    <node id="supporting" />
+    <node id="diabetes management" />
+    <node id="myocarditis" />
+    <node id="therapy" />
+    <node id="Zodasiran" />
+    <node id="statistical assumptions" />
+    <node id="choices" />
+    <node id="hospitalisation" />
+    <node id="younger people" />
+    <node id="colonic persistence" />
+    <node id="plasmacytoid DCs" />
+    <node id="draining lymph nodes" />
+    <node id="germinal center response" />
+    <node id="antiretroviral therapy" />
+    <node id="HIV" />
+    <node id="JCOVDEN" />
+    <node id="Severe Acute Respiratory" />
+    <node id="confidence in vaccine" />
+    <node id="Respiratory Syncytial Virus" />
+    <node id="sequencing" />
+    <node id="precise antigen design" />
+    <node id="JN.1" />
+    <node id="influenza hemagglutinin (HA)" />
+    <node id="DNA-LNP" />
+    <node id="BA.2.86 lineage" />
+    <node id="Molnupiravir" />
+    <node id="Neutrophils" />
+    <node id="ADCP" />
+    <node id="vaccine delivery" />
+    <node id="microneedles" />
+    <node id="aged mice" />
+    <node id="K18-hACE2 transgenic mice" />
+    <node id="dentists in India" />
+    <node id="attitude" />
+    <node id="A-910823" />
+    <node id="calcinosis" />
+    <node id="SSc patients" />
+    <node id="mRNA-LNP vaccines" />
+    <node id="cancer patients" />
+    <node id="dental practitioners" />
+    <node id="knowledge" />
+    <node id="BA.2" />
+    <node id="COVID-19 patients" />
+    <node id="chimeric RNAs" />
+    <node id="antigen recognition" />
+    <node id="HLA" />
+    <node id="p30" />
+    <node id="zein nanoparticles" />
+    <node id="Kidney transplant recipients" />
+    <node id="spike-specific antibodies" />
+    <node id="CRPS" />
+    <node id="&lt;i&gt;Vaccine&lt;/i&gt;" />
+    <node id="Vaccine Journal" />
+    <node id="testicular atrophy" />
+    <node id="Zika virus" />
+    <node id="income" />
+    <node id="insulin" />
+    <node id="diabetes" />
+    <node id="RNase U2" />
+    <node id="ChAdOx-1s" />
+    <node id="regulatory requirements" />
+    <node id="Pro-VC-Be tool" />
+    <edge source="COVID-19" target="fluoxetine">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="COVID-19" target="Abdala">
+      <data key="d0">prevents</data>
+    </edge>
+    <edge source="COVID-19" target="CoronaVac">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="COVID-19" target="AD17002">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="COVID-19" target="BBIBP-CorV">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="COVID-19" target="mRNA">
+      <data key="d0">prevents</data>
+    </edge>
+    <edge source="COVID-19" target="older adults">
+      <data key="d0">survivors</data>
+    </edge>
+    <edge source="COVID-19" target="vaccine-induced neutralizing antibodies">
+      <data key="d0">protective-immunity</data>
+    </edge>
+    <edge source="COVID-19" target="vaccination">
+      <data key="d0">prevents</data>
+    </edge>
+    <edge source="COVID-19" target="mRNA-1273">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="COVID-19" target="mRNA vaccine">
+      <data key="d0">prevents</data>
+    </edge>
+    <edge source="COVID-19" target="vaccine development">
+      <data key="d0">development</data>
+    </edge>
+    <edge source="COVID-19" target="mRNA-based vaccines">
+      <data key="d0">protects</data>
+    </edge>
+    <edge source="COVID-19" target="Sinopharm vaccine">
+      <data key="d0">prevents</data>
+    </edge>
+    <edge source="COVID-19" target="nucleic acid vaccines">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="COVID-19" target="mRNA Factory (mRF)">
+      <data key="d0">treats</data>
+    </edge>
     <edge source="COVID-19" target="vaccine">
       <data key="d0">prevents</data>
+    </edge>
+    <edge source="COVID-19" target="SARS-CoV-2">
+      <data key="d0">causes</data>
+    </edge>
+    <edge source="COVID-19" target="BCG vaccine">
+      <data key="d0">protective effect</data>
+    </edge>
+    <edge source="COVID-19" target="BNT162b2">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="COVID-19" target="mRNA vaccines">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="COVID-19" target="ChAdOx-1s">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="melanoma" target="neuroantigens">
+      <data key="d0">elicits</data>
+    </edge>
+    <edge source="pandemic" target="COVID-19">
+      <data key="d0">created</data>
+    </edge>
+    <edge source="vaccine" target="adenovirus">
+      <data key="d0">developed</data>
+    </edge>
+    <edge source="vaccine" target="PEDV">
+      <data key="d0">enhances</data>
+    </edge>
+    <edge source="vaccine" target="coronavirus disease 2019">
+      <data key="d0">induces</data>
+    </edge>
+    <edge source="vaccine" target="flu">
+      <data key="d0">prevents</data>
+    </edge>
+    <edge source="vaccine" target="yeast">
+      <data key="d0">delivers</data>
+    </edge>
+    <edge source="vaccine" target="time since vaccination">
+      <data key="d0">modifies</data>
+    </edge>
+    <edge source="vaccine" target="Pichia pastoris">
+      <data key="d0">expression</data>
     </edge>
     <edge source="vaccine" target="COVID-19">
       <data key="d0">prevents</data>
     </edge>
-    <edge source="clinical efficacy" target="mRNA vaccines">
-      <data key="d0">demonstrated</data>
+    <edge source="vaccine" target="hepatitis B">
+      <data key="d0">causes</data>
+    </edge>
+    <edge source="vaccine" target="influenza">
+      <data key="d0">prevents</data>
+    </edge>
+    <edge source="vaccine" target="boosters">
+      <data key="d0">increase NAb levels</data>
+    </edge>
+    <edge source="vaccine" target="tuberculosis">
+      <data key="d0">prevents</data>
+    </edge>
+    <edge source="vaccine" target="Pfizer">
+      <data key="d0">boosts</data>
+    </edge>
+    <edge source="vaccine" target="SARS-CoV-2">
+      <data key="d0">prevents</data>
+    </edge>
+    <edge source="vaccine" target="typhoid fever">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="vaccine" target="influenza viruses">
+      <data key="d0">simplifies delivery</data>
+    </edge>
+    <edge source="vaccine" target="Severe acute respiratory">
+      <data key="d0">protects</data>
+    </edge>
+    <edge source="vaccine" target="cholera">
+      <data key="d0">prevents</data>
+    </edge>
+    <edge source="vaccine" target="Herpes zoster">
+      <data key="d0">receive</data>
+    </edge>
+    <edge source="vaccine" target="Sinopharm">
+      <data key="d0">boosts</data>
+    </edge>
+    <edge source="vaccine" target="HIV-1">
+      <data key="d0">developed</data>
+    </edge>
+    <edge source="vaccine" target="Covid-19">
+      <data key="d0">prevents</data>
+    </edge>
+    <edge source="vaccine" target="BBIBP-CorV">
+      <data key="d0">causes</data>
+    </edge>
+    <edge source="vaccine" target="failure mode">
+      <data key="d0">influences</data>
+    </edge>
+    <edge source="vaccine" target="averted outcomes">
+      <data key="d0">direct impact</data>
+    </edge>
+    <edge source="vaccine" target="tetanus">
+      <data key="d0">develops</data>
+    </edge>
+    <edge source="vaccine" target="JCOVDEN">
+      <data key="d0">granted conditional marketing</data>
+    </edge>
+    <edge source="vaccine" target="Severe Acute Respiratory">
+      <data key="d0">prevents</data>
+    </edge>
+    <edge source="lung" target="mRNA">
+      <data key="d0">delivered</data>
+    </edge>
+    <edge source="mRNA" target="lipid nanoparticles">
+      <data key="d0">transfect</data>
+    </edge>
+    <edge source="mRNA" target="lipid materials">
+      <data key="d0">promotes</data>
+    </edge>
+    <edge source="mRNA" target="LNPs">
+      <data key="d0">transfect</data>
+    </edge>
+    <edge source="ADNP" target="BA.5">
+      <data key="d0">responses</data>
+    </edge>
+    <edge source="ADNP" target="XBB.1.5">
+      <data key="d0">specificity</data>
+    </edge>
+    <edge source="EVs" target="neurofilaments">
+      <data key="d0">found</data>
+    </edge>
+    <edge source="TLR-ligands" target="IL-15">
+      <data key="d0">enhances</data>
+    </edge>
+    <edge source="boosted" target="bacterial infection models">
+      <data key="d0">cross-protective potential</data>
+    </edge>
+    <edge source="children aged 5-17" target="parents">
+      <data key="d0">vaccinate</data>
+    </edge>
+    <edge source="statin" target="heart disease">
+      <data key="d0">reduces</data>
+    </edge>
+    <edge source="key ingredient" target="LNPs">
+      <data key="d0">effective</data>
+    </edge>
+    <edge source="LNPs" target="manose">
+      <data key="d0">endows</data>
+    </edge>
+    <edge source="LNPs" target="cholesterol">
+      <data key="d0">stability</data>
+    </edge>
+    <edge source="LNPs" target="manufacturing process">
+      <data key="d0">optimization</data>
+    </edge>
+    <edge source="transmission" target="upper airway">
+      <data key="d0">enhanced</data>
+    </edge>
+    <edge source="mRNA COVID-19 vaccine" target="pericarditis">
+      <data key="d0">causes</data>
+    </edge>
+    <edge source="mRNA COVID-19 vaccine" target="myocarditis">
+      <data key="d0">causes</data>
+    </edge>
+    <edge source="90-119 days after" target="waning protective effect">
+      <data key="d0">declined faster</data>
+    </edge>
+    <edge source="elicited" target="cellular responses">
+      <data key="d0">superior</data>
+    </edge>
+    <edge source="elicited" target="humoral responses">
+      <data key="d0">superior</data>
+    </edge>
+    <edge source="elicited" target="antibodies">
+      <data key="d0">neutralizing</data>
+    </edge>
+    <edge source="elicited" target="protective efficacy">
+      <data key="d0">better</data>
+    </edge>
+    <edge source="adaptation" target="mRNA vaccine">
+      <data key="d0">inducing</data>
+    </edge>
+    <edge source="mRNA vaccine" target="STING activating polymer">
+      <data key="d0">bolsters</data>
+    </edge>
+    <edge source="mRNA vaccine" target="COVID-19">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="combined" target="international funding">
+      <data key="d0">created</data>
+    </edge>
+    <edge source="nonresponders" target="depressive symptoms">
+      <data key="d0">showed</data>
+    </edge>
+    <edge source="polymorphism" target="human leukocyte antigen">
+      <data key="d0">limitation</data>
+    </edge>
+    <edge source="high-valency vaccine" target="Streptococcus pneumoniae">
+      <data key="d0">coverage</data>
+    </edge>
+    <edge source="study" target="Moderna COVE trial">
+      <data key="d0">identifies</data>
+    </edge>
+    <edge source="secretes under" target="interferon-γ (IFN-γ)">
+      <data key="d0">cellular immune response</data>
+    </edge>
+    <edge source="precursor RNA (preRNA)" target="circular RNA (circRNA)">
+      <data key="d0">self-splicing</data>
+    </edge>
+    <edge source="SARS-CoV-2" target="Omicron">
+      <data key="d0">emerged</data>
+    </edge>
+    <edge source="SARS-CoV-2" target="angiostatin">
+      <data key="d0">inhibits</data>
+    </edge>
+    <edge source="SARS-CoV-2" target="spike protein">
+      <data key="d0">comprises</data>
+    </edge>
+    <edge source="SARS-CoV-2" target="neutralizing antibodies">
+      <data key="d0">inhibits</data>
+    </edge>
+    <edge source="SARS-CoV-2" target="Gamma variant">
+      <data key="d0">major variant</data>
+    </edge>
+    <edge source="SARS-CoV-2" target="vaccines">
+      <data key="d0">efficacy</data>
+    </edge>
+    <edge source="SARS-CoV-2" target="Delta variant">
+      <data key="d0">major variant</data>
+    </edge>
+    <edge source="SARS-CoV-2" target="Omicron variant">
+      <data key="d0">major variant</data>
+    </edge>
+    <edge source="SARS-CoV-2" target="Beta variant">
+      <data key="d0">major variant</data>
+    </edge>
+    <edge source="SARS-CoV-2" target="Alpha variant">
+      <data key="d0">major variant</data>
+    </edge>
+    <edge source="SARS-CoV-2" target="RBD">
+      <data key="d0">binds</data>
+    </edge>
+    <edge source="SARS-CoV-2" target="RNA-based vaccines">
+      <data key="d0">protective immunity</data>
+    </edge>
+    <edge source="SARS-CoV-2" target="mRNA vaccine">
+      <data key="d0">induces</data>
+    </edge>
+    <edge source="Omicron" target="variants">
+      <data key="d0">challenges</data>
+    </edge>
+    <edge source="individuals" target="home-based testing">
+      <data key="d0">acceptability</data>
+    </edge>
+    <edge source="CD4+ T-cells" target="monocytes">
+      <data key="d0">activation markers</data>
+    </edge>
+    <edge source="immunocompromised individuals" target="HIV/AIDS">
+      <data key="d0">affected</data>
+    </edge>
+    <edge source="SARS-CoV-2 spike-encoding DNA-LNP" target="rabbits">
+      <data key="d0">elicits protective efficacy</data>
+    </edge>
+    <edge source="variant" target="BA.5">
+      <data key="d0">neutralization activity</data>
+    </edge>
+    <edge source="variant" target="vaccine">
+      <data key="d0">effectiveness</data>
+    </edge>
+    <edge source="variant" target="SARS-CoV-2">
+      <data key="d0">emerges</data>
+    </edge>
+    <edge source="variant" target="XBB.1.5">
+      <data key="d0">neutralization activity</data>
+    </edge>
+    <edge source="RBD and S1" target="peptide pools">
+      <data key="d0">elicits</data>
+    </edge>
+    <edge source="development" target="mRNA vaccine candidates">
+      <data key="d0">transformative opportunities</data>
+    </edge>
+    <edge source="infant" target="COVID-19 vaccine">
+      <data key="d0">protects</data>
+    </edge>
+    <edge source="infant" target="nirsevimab">
+      <data key="d0">prevents</data>
+    </edge>
+    <edge source="COVID-19 vaccine" target="mRNA vector">
+      <data key="d0">controls</data>
+    </edge>
+    <edge source="COVID-19 vaccine" target="pregnant women">
+      <data key="d0">acceptance</data>
+    </edge>
+    <edge source="COVID-19 vaccine" target="CoronaVac">
+      <data key="d0">effective against death</data>
+    </edge>
+    <edge source="COVID-19 vaccine" target="ChAdOx1">
+      <data key="d0">effective against hospitalization</data>
+    </edge>
+    <edge source="COVID-19 vaccine" target="BNT162b2">
+      <data key="d0">effective against infection</data>
+    </edge>
+    <edge source="COVID-19 vaccine" target="safety">
+      <data key="d0">benefits</data>
+    </edge>
+    <edge source="biomineralized" target="manganese nanoparticles">
+      <data key="d0">stabilized</data>
+    </edge>
+    <edge source="increased" target="polysaccharides">
+      <data key="d0">content</data>
+    </edge>
+    <edge source="antigens" target="microparticles">
+      <data key="d0">encapsulates</data>
+    </edge>
+    <edge source="antigens" target="Vibrio cholerae">
+      <data key="d0">identified</data>
+    </edge>
+    <edge source="underlying comorbid condition" target="children">
+      <data key="d0">increases risk</data>
+    </edge>
+    <edge source="infection" target="KP.2">
+      <data key="d0">neutralizes</data>
+    </edge>
+    <edge source="infection" target="live MHV-A59 coronavirus">
+      <data key="d0">symptomatic</data>
+    </edge>
+    <edge source="infection" target="XBB.1.18">
+      <data key="d0">neutralizes</data>
+    </edge>
+    <edge source="infection" target="SARS-CoV-2">
+      <data key="d0">enhances</data>
+    </edge>
+    <edge source="infection" target="HK.3">
+      <data key="d0">neutralizes</data>
+    </edge>
+    <edge source="infection" target="JN.1">
+      <data key="d0">neutralizes</data>
+    </edge>
+    <edge source="BNPs" target="PBD-b-PEO">
+      <data key="d0">produces</data>
+    </edge>
+    <edge source="nucleoside analog" target="SARS-CoV-2">
+      <data key="d0">inhibits</data>
+    </edge>
+    <edge source="HCPs" target="COVID-19 vaccine">
+      <data key="d0">80% more likely</data>
+    </edge>
+    <edge source="HCPs" target="vaccine">
+      <data key="d0">poses significant challenge</data>
+    </edge>
+    <edge source="patients" target="MetS">
+      <data key="d0">has</data>
+    </edge>
+    <edge source="patients" target="immune score">
+      <data key="d0">can be used</data>
+    </edge>
+    <edge source="patients" target="risk score">
+      <data key="d0">can be used</data>
+    </edge>
+    <edge source="patients" target="Omicron BA.2 variant">
+      <data key="d0">infected</data>
+    </edge>
+    <edge source="patients" target="healthcare workers">
+      <data key="d0">communicate</data>
+    </edge>
+    <edge source="patients" target="ALL">
+      <data key="d0">affected</data>
+    </edge>
+    <edge source="patients" target="sore throat">
+      <data key="d0">indicates</data>
+    </edge>
+    <edge source="mRNA vaccines" target="Nuvaxovid">
+      <data key="d0">compared</data>
     </edge>
     <edge source="Pfizer-BioNTech COVID-19 vaccine" target="burning mouth syndrome">
       <data key="d0">causes</data>
     </edge>
-    <edge source="challenge" target="tumor antigen selection">
-      <data key="d0">current research faces</data>
+    <edge source="pain reliever" target="inflammation">
+      <data key="d0">reduces</data>
     </edge>
-    <edge source="individuals" target="participation">
-      <data key="d0">determined</data>
+    <edge source="inflammation" target="Aggregated NETs">
+      <data key="d0">cleave</data>
     </edge>
-    <edge source="treats" target="zinc supplementation">
+    <edge source="delivery" target="lipid nanoparticles">
+      <data key="d0">co-load</data>
+    </edge>
+    <edge source="delivery" target="mRNA">
+      <data key="d0">vital</data>
+    </edge>
+    <edge source="delivery" target="COVID-19 vaccines">
+      <data key="d0">proven</data>
+    </edge>
+    <edge source="spike protein" target="SARS-CoV-2">
+      <data key="d0">expression</data>
+    </edge>
+    <edge source="Dutch cohort study" target="participants">
+      <data key="d0">included</data>
+    </edge>
+    <edge source="participants" target="anti-RBD IgG levels">
+      <data key="d0">predictive threshold</data>
+    </edge>
+    <edge source="participants" target="swab collection material">
+      <data key="d0">delivered</data>
+    </edge>
+    <edge source="participants" target="income">
+      <data key="d0">associated</data>
+    </edge>
+    <edge source="pancreatic cancer" target="immune checkpoint inhibitors">
+      <data key="d0">stimulates</data>
+    </edge>
+    <edge source="drug delivery" target="nucleic acids">
+      <data key="d0">efficient</data>
+    </edge>
+    <edge source="females" target="sex">
+      <data key="d0">induce higher immunological</data>
+    </edge>
+    <edge source="sex" target="age">
+      <data key="d0">adjusted</data>
+    </edge>
+    <edge source="vaccines" target="Diamond nanoparticles">
+      <data key="d0">enhance</data>
+    </edge>
+    <edge source="vaccines" target="self-efficacy">
+      <data key="d0">higher</data>
+    </edge>
+    <edge source="hybrid" target="C. militaris">
+      <data key="d0">generated</data>
+    </edge>
+    <edge source="SARS-CoV-2 variants" target="Omicron (B.1.1.529)">
+      <data key="d0">neutralizes</data>
+    </edge>
+    <edge source="immunization policies" target="Hong Kong">
+      <data key="d0">similar</data>
+    </edge>
+    <edge source="SARS-CoV-2 mRNA vaccine" target="Spikevax">
+      <data key="d0">approved</data>
+    </edge>
+    <edge source="SARS-CoV-2 mRNA vaccine" target="Comirnaty">
+      <data key="d0">approved</data>
+    </edge>
+    <edge source="extended-persistence variant" target="RBD-sFc-HR/trimer">
+      <data key="d0">induced</data>
+    </edge>
+    <edge source="vaccine development" target="mRNA vaccines">
+      <data key="d0">advancements</data>
+    </edge>
+    <edge source="high" target="lower cholesterol">
+      <data key="d0">levels</data>
+    </edge>
+    <edge source="high" target="social media influence">
+      <data key="d0">associated with hesitancy</data>
+    </edge>
+    <edge source="cancer" target="nucleoside modified mRNA">
+      <data key="d0">diminishes</data>
+    </edge>
+    <edge source="cancer" target="patients">
+      <data key="d0">have</data>
+    </edge>
+    <edge source="cancer" target="liposomes">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="older adults" target="immune response">
+      <data key="d0">compromised</data>
+    </edge>
+    <edge source="immunogenicity" target="mRNA vaccines">
+      <data key="d0">enhance</data>
+    </edge>
+    <edge source="immunogenicity" target="DNA vaccines">
+      <data key="d0">low</data>
+    </edge>
+    <edge source="7-59 days after" target="peak level">
+      <data key="d0">PWH: 61.20%; PWoH:</data>
+    </edge>
+    <edge source="peak level" target="ve Effectiveness (VE)">
+      <data key="d0">occurred</data>
+    </edge>
+    <edge source="lower respiratory tract" target="respyrical syncytial virus">
+      <data key="d0">prevents</data>
+    </edge>
+    <edge source="distribution" target="exogenous protein expression">
+      <data key="d0">similar</data>
+    </edge>
+    <edge source="virus" target="SARS-CoV-2">
+      <data key="d0">challenged</data>
+    </edge>
+    <edge source="virus" target="B.1.351">
+      <data key="d0">heterologous</data>
+    </edge>
+    <edge source="uptake" target="handwashing practices">
+      <data key="d0">control</data>
+    </edge>
+    <edge source="current challenges" target="administration strategies">
+      <data key="d0">emerging SARS-CoV-2 variants</data>
+    </edge>
+    <edge source="dental professionals" target="perceptions">
+      <data key="d0">regarding COVID-19 vaccine</data>
+    </edge>
+    <edge source="pathogens" target="genomic analysis">
+      <data key="d0">analysis</data>
+    </edge>
+    <edge source="pathogens" target="transmission modeling">
+      <data key="d0">modeling</data>
+    </edge>
+    <edge source="pathogens" target="ecological profiling">
+      <data key="d0">profiling</data>
+    </edge>
+    <edge source="pathogens" target="data management systems">
+      <data key="d0">management</data>
+    </edge>
+    <edge source="pathogens" target="Neutrophils">
+      <data key="d0">fight</data>
+    </edge>
+    <edge source="enhanced" target="antioxidant potential">
+      <data key="d0">activity</data>
+    </edge>
+    <edge source="torturing of data" target="data-dredging">
+      <data key="d0">non-existent relationships</data>
+    </edge>
+    <edge source="in vivo engineered" target="mRNA-LNP technology">
+      <data key="d0">address current limitations</data>
+    </edge>
+    <edge source="structure-activity relationships" target="headgroup">
+      <data key="d0">discovered</data>
+    </edge>
+    <edge source="online survey" target="survey">
+      <data key="d0">cross-sectional</data>
+    </edge>
+    <edge source="&gt;8 mg/L" target="CRP level">
+      <data key="d0">independent predictor</data>
+    </edge>
+    <edge source="Pickering emulsion platform" target="aluminum hydroxide">
+      <data key="d0">loaded AAVs</data>
+    </edge>
+    <edge source="gut microbiota" target="probiotics">
+      <data key="d0">modifies</data>
+    </edge>
+    <edge source="influenza" target="influenza virus">
+      <data key="d0">causes</data>
+    </edge>
+    <edge source="influenza" target="surveillance programmes">
+      <data key="d0">generate</data>
+    </edge>
+    <edge source="plasma" target="pro-inflammatory cytokines">
+      <data key="d0">increased</data>
+    </edge>
+    <edge source="adjuvant" target="IL-7">
+      <data key="d0">enhance</data>
+    </edge>
+    <edge source="transfer" target="patents">
+      <data key="d0">voluntary</data>
+    </edge>
+    <edge source="vaccinated adults" target="COVID-19 vaccine">
       <data key="d0">efficacy</data>
+    </edge>
+    <edge source="potent anticancer efficacy" target="immune memory">
+      <data key="d0">conferred</data>
+    </edge>
+    <edge source="RBD" target="SARS-CoV-2 spike protein">
+      <data key="d0">binds</data>
+    </edge>
+    <edge source="RBD" target="BA.4/5">
+      <data key="d0">binds</data>
+    </edge>
+    <edge source="RBD" target="SARS-CoV-2">
+      <data key="d0">binds</data>
+    </edge>
+    <edge source="RBD" target="XBB.1.5">
+      <data key="d0">binds</data>
+    </edge>
+    <edge source="RBD" target="BA.2">
+      <data key="d0">binds</data>
+    </edge>
+    <edge source="RBD" target="KP.2">
+      <data key="d0">binds</data>
+    </edge>
+    <edge source="vaccination" target="cases">
+      <data key="d0">reduces</data>
+    </edge>
+    <edge source="vaccination" target="SARS-CoV-2">
+      <data key="d0">prevents</data>
+    </edge>
+    <edge source="vaccination" target="BNT162b2">
+      <data key="d0">causes</data>
+    </edge>
+    <edge source="BA.4/5" target="vaccine">
+      <data key="d0">adjusted</data>
+    </edge>
+    <edge source="vaccine efficacy" target="VE">
+      <data key="d0">adjusting</data>
+    </edge>
+    <edge source="vaccine efficacy" target="regulatory T cells">
+      <data key="d0">enhances</data>
+    </edge>
+    <edge source="vaccine efficacy" target="EG.5">
+      <data key="d0">diminish</data>
+    </edge>
+    <edge source="antibiotic resistance" target="microorganisms">
+      <data key="d0">prediction</data>
+    </edge>
+    <edge source="backgrounds" target="individuals">
+      <data key="d0">participated</data>
+    </edge>
+    <edge source="acceptability" target="young people">
+      <data key="d0">shapes</data>
+    </edge>
+    <edge source="providing" target="anti-inflammatory effects">
+      <data key="d0">effects</data>
+    </edge>
+    <edge source="antibody responses" target="NL63">
+      <data key="d0">cross-reactive</data>
+    </edge>
+    <edge source="vaccine vectors" target="AAVs">
+      <data key="d0">emerged</data>
+    </edge>
+    <edge source="BNT162b2" target="heterologous vaccination">
+      <data key="d0">induces higher NAb</data>
+    </edge>
+    <edge source="ribosomal entry site" target="mRNA">
+      <data key="d0">initiates translation</data>
+    </edge>
+    <edge source="public health" target="vaccination">
+      <data key="d0">positively influences</data>
+    </edge>
+    <edge source="antibodies" target="poly(ethylene glycol)">
+      <data key="d0">produce</data>
+    </edge>
+    <edge source="antibodies" target="COVID-19">
+      <data key="d0">have efficacy</data>
+    </edge>
+    <edge source="Omicron variant" target="vaccine">
+      <data key="d0">protects</data>
+    </edge>
+    <edge source="fear" target="side effects">
+      <data key="d0">associated with hesitancy</data>
+    </edge>
+    <edge source="side effects" target="vaccine">
+      <data key="d0">concerns</data>
+    </edge>
+    <edge source="vaccination status" target="questionnaire">
+      <data key="d0">completed</data>
+    </edge>
+    <edge source="manufacturing process" target="mRNA vaccines">
+      <data key="d0">safe</data>
+    </edge>
+    <edge source="plasmablasts" target="AdV vaccine">
+      <data key="d0">antibody production</data>
+    </edge>
+    <edge source="BALB/c mice" target="quadrivalent influenza vaccine">
+      <data key="d0">induces immune responses</data>
+    </edge>
+    <edge source="DsiRNA swarms" target="Vero E6-TMPRSS2 cells">
+      <data key="d0">pre-transfection inhibition</data>
+    </edge>
+    <edge source="vaccine selection" target="UK National Health">
+      <data key="d0">supporting</data>
+    </edge>
+    <edge source="benefits" target="perceived susceptibility">
+      <data key="d0">higher</data>
+    </edge>
+    <edge source="different doses performed" target="immunization strategies">
+      <data key="d0">detected</data>
+    </edge>
+    <edge source="hospitalization" target="COVID-19">
+      <data key="d0">reduction</data>
+    </edge>
+    <edge source="hospitalization" target="AZD1222">
+      <data key="d0">reduces</data>
+    </edge>
+    <edge source="hospitalization" target="BA.2.86 lineage">
+      <data key="d0">increases</data>
+    </edge>
+    <edge source="microbiology" target="AI">
+      <data key="d0">research</data>
+    </edge>
+    <edge source="Moderna-NIAID" target="mRNA-1273">
+      <data key="d0">initial immunization</data>
+    </edge>
+    <edge source="main protease" target="SARS-CoV-2">
+      <data key="d0">targets</data>
+    </edge>
+    <edge source="systemic lupus erythematosus" target="children">
+      <data key="d0">diagnosed</data>
+    </edge>
+    <edge source="SARS-CoV-2 infection" target="transcriptome analysis">
+      <data key="d0">affects</data>
+    </edge>
+    <edge source="adjuvanted protein" target="mRNA-LNP">
+      <data key="d0">induces</data>
+    </edge>
+    <edge source="estimates" target="influenza VE">
+      <data key="d0">calculate</data>
+    </edge>
+    <edge source="Fc structure" target="antibody">
+      <data key="d0">influences</data>
+    </edge>
+    <edge source="antibody" target="LNP">
+      <data key="d0">conjugation</data>
+    </edge>
+    <edge source="antibody" target="glutamic acid decarboxylase">
+      <data key="d0">positive</data>
+    </edge>
+    <edge source="challenge" target="COVID-19">
+      <data key="d0">causes</data>
+    </edge>
+    <edge source="nucleic acid" target="LNP">
+      <data key="d0">encapsulates</data>
+    </edge>
+    <edge source="LNP" target="mRNA">
+      <data key="d0">encapsulates</data>
+    </edge>
+    <edge source="protein conjugation" target="production">
+      <data key="d0">enhance immunogenicity</data>
+    </edge>
+    <edge source="production" target="spike-specific antibodies">
+      <data key="d0">greatest</data>
+    </edge>
+    <edge source="lipid" target="co-assembly">
+      <data key="d0">prepare</data>
+    </edge>
+    <edge source="method" target="intramuscular immunization">
+      <data key="d0">used</data>
+    </edge>
+    <edge source="method" target="intranasal immunization">
+      <data key="d0">used</data>
+    </edge>
+    <edge source="SARS-CoV-2 subunit vaccine" target="RBD-HR/trimer">
+      <data key="d0">elicited</data>
+    </edge>
+    <edge source="antibiotics" target="gut microbiota">
+      <data key="d0">influences</data>
+    </edge>
+    <edge source="antibiotics" target="bacteriophages">
+      <data key="d0">enhances</data>
+    </edge>
+    <edge source="innovations" target="mRNA-LNP technology">
+      <data key="d0">swift development timelines</data>
+    </edge>
+    <edge source="health authorities" target="biologic products">
+      <data key="d0">register</data>
+    </edge>
+    <edge source="increased AAV target" target="STING pathway activation">
+      <data key="d0">potently augmenting cross-protective</data>
+    </edge>
+    <edge source="immunity" target="infectious disease">
+      <data key="d0">studies</data>
+    </edge>
+    <edge source="&gt;60 years old" target="patients">
+      <data key="d0">reduces risk</data>
+    </edge>
+    <edge source="solid tumors" target="CAR-T therapy">
+      <data key="d0">enhance efficacy</data>
+    </edge>
+    <edge source="AdV" target="Jcovden">
+      <data key="d0">utilizes</data>
+    </edge>
+    <edge source="genetic strains" target="SARS-CoV-2">
+      <data key="d0">prevents</data>
+    </edge>
+    <edge source="including possible epidemic" target="pseudoviruses">
+      <data key="d0">effectively</data>
+    </edge>
+    <edge source="drugs" target="therapeutic optimization">
+      <data key="d0">optimization</data>
+    </edge>
+    <edge source="healthcare workers" target="Respiratory interventions">
+      <data key="d0">increase risk</data>
+    </edge>
+    <edge source="healthcare workers" target="CoronaVac vaccination">
+      <data key="d0">immunization</data>
+    </edge>
+    <edge source="artificial intelligence" target="pathogenic microbiology">
+      <data key="d0">applications</data>
+    </edge>
+    <edge source="vaccine attitudes" target="psychosocial determinants">
+      <data key="d0">measure</data>
+    </edge>
+    <edge source="vaccine attitudes" target="Pro-VC-Be tool">
+      <data key="d0">designed to measure</data>
+    </edge>
+    <edge source="after challenge" target="lungs of mice">
+      <data key="d0">reduction in viral</data>
+    </edge>
+    <edge source="older age" target="existing comorbidities">
+      <data key="d0">associated with acceptance</data>
+    </edge>
+    <edge source="patient" target="tuberculosis">
+      <data key="d0">increases risk</data>
+    </edge>
+    <edge source="patient" target="vaccine">
+      <data key="d0">induces</data>
+    </edge>
+    <edge source="oxidative stress" target="tumor antigens">
+      <data key="d0">associated</data>
+    </edge>
+    <edge source="COVID-19 pandemic" target="mRNA vaccine technology">
+      <data key="d0">accelerated</data>
+    </edge>
+    <edge source="COVID-19 pandemic" target="mRNA vaccines">
+      <data key="d0">global implementation</data>
+    </edge>
+    <edge source="positivity" target="anti-centromere antibodies">
+      <data key="d0">increases</data>
+    </edge>
+    <edge source="medication" target="heart disease">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="activated" target="cGAS-STING pathway">
+      <data key="d0">enhanced immune responses</data>
+    </edge>
+    <edge source="individuals over 65" target="age">
+      <data key="d0">more likely</data>
+    </edge>
+    <edge source="fusion" target="P. florida">
+      <data key="d0">achieved</data>
+    </edge>
+    <edge source="nirmatrelvir" target="COVID-19">
+      <data key="d0">inhibits</data>
+    </edge>
+    <edge source="developed" target="low immune responses">
+      <data key="d0">mild COVID-19</data>
+    </edge>
+    <edge source="encapsulation" target="mRNA">
+      <data key="d0">effects on LNP</data>
+    </edge>
+    <edge source="willingness to take" target="unvaccinated individuals">
+      <data key="d0">associated</data>
+    </edge>
+    <edge source="demographics" target="patients">
+      <data key="d0">reported</data>
+    </edge>
+    <edge source="research" target="DNA vaccine">
+      <data key="d0">trends</data>
+    </edge>
+    <edge source="therapeutic" target="EP67">
+      <data key="d0">rapid health improvement</data>
+    </edge>
+    <edge source="future" target="sample size">
+      <data key="d0">improve</data>
+    </edge>
+    <edge source="bnAbs" target="neutralizing antibodies">
+      <data key="d0">inducing</data>
+    </edge>
+    <edge source="people with HIV" target="SARS-CoV-2 infection">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="cases" target="COVID-19">
+      <data key="d0">increased</data>
+    </edge>
+    <edge source="pseudovirus" target="neutralizing activity">
+      <data key="d0">assessed</data>
+    </edge>
+    <edge source="update" target="vaccine strain">
+      <data key="d0">needed</data>
+    </edge>
+    <edge source="infected" target="antigen present cells">
+      <data key="d0">enhanced AAV infection</data>
+    </edge>
+    <edge source="Fab" target="RBD">
+      <data key="d0">complex</data>
+    </edge>
+    <edge source="vaccination schedule" target="COVID-19">
+      <data key="d0">completed</data>
+    </edge>
+    <edge source="since" target="time">
+      <data key="d0">vaccination</data>
+    </edge>
+    <edge source="physicians/medical residents" target="COVID-19 vaccination">
+      <data key="d0">recommend</data>
+    </edge>
+    <edge source="antiviral immunity" target="probiotics">
+      <data key="d0">generates</data>
+    </edge>
+    <edge source="antiviral immunity" target="prebiotics">
+      <data key="d0">promotes</data>
+    </edge>
+    <edge source="taken up by" target="dendritic cells">
+      <data key="d0">efficiently</data>
+    </edge>
+    <edge source="taken up by" target="macrophages">
+      <data key="d0">efficiently</data>
+    </edge>
+    <edge source="geriatric populations" target="vaccine-induced immunity">
+      <data key="d0">enhanced</data>
+    </edge>
+    <edge source="boost anti-PEG antibodies" target="mRNA-LNPs">
+      <data key="d0">-</data>
+    </edge>
+    <edge source="ancestral" target="Wuhan strain">
+      <data key="d0" />
+    </edge>
+    <edge source="compound 9064" target="Mpro protein">
+      <data key="d0">interacts</data>
+    </edge>
+    <edge source="stimulator of interferon" target="HA DNA-LNP">
+      <data key="d0">activates</data>
+    </edge>
+    <edge source="neutrophil phagocytosis" target="antibodies">
+      <data key="d0">mediates</data>
+    </edge>
+    <edge source="healthcare professionals" target="vaccine">
+      <data key="d0">refused</data>
+    </edge>
+    <edge source="health emergency" target="European Union">
+      <data key="d0">assess</data>
+    </edge>
+    <edge source="mice" target="S1 protein">
+      <data key="d0">immunizes</data>
+    </edge>
+    <edge source="mice" target="serum">
+      <data key="d0">tested for antibody</data>
+    </edge>
+    <edge source="SARS-CoV-2 virus" target="vaccine">
+      <data key="d0">effectively addresses</data>
+    </edge>
+    <edge source="RV-1730" target="spike protein">
+      <data key="d0">enhances stability</data>
+    </edge>
+    <edge source="subvariants" target="BA.2.86">
+      <data key="d0">emerge</data>
+    </edge>
+    <edge source="subvariants" target="JN.1">
+      <data key="d0">harbor</data>
+    </edge>
+    <edge source="vaccine hesitancy" target="elderly">
+      <data key="d0">has</data>
+    </edge>
+    <edge source="enhancing" target="COVID-19 vaccine efficacy">
+      <data key="d0">efficacy</data>
+    </edge>
+    <edge source="siRNA" target="SARS-CoV-2">
+      <data key="d0">inhibits</data>
+    </edge>
+    <edge source="target" target="infectious diseases">
+      <data key="d0">cancer</data>
+    </edge>
+    <edge source="treatment" target="cardiovascular disease">
+      <data key="d0">reduced</data>
+    </edge>
+    <edge source="treatment" target="cancer patients">
+      <data key="d0">improves</data>
+    </edge>
+    <edge source="RNA delivery" target="LNPs">
+      <data key="d0">platform</data>
+    </edge>
+    <edge source="regulatory framework" target="Brazil">
+      <data key="d0">compare</data>
+    </edge>
+    <edge source="periodontal disease" target="oral cavity">
+      <data key="d0">modulating</data>
+    </edge>
+    <edge source="predictors of vaccine" target="stage of metastatic">
+      <data key="d0">are</data>
+    </edge>
+    <edge source="antigen" target="BA.4/5 RBD-PC7A conjugate">
+      <data key="d0">elicits</data>
+    </edge>
+    <edge source="antigen" target="rabies virus glycoprotein">
+      <data key="d0">encode</data>
+    </edge>
+    <edge source="policies" target="government">
+      <data key="d0">influence</data>
+    </edge>
+    <edge source="aspirin" target="muscle-invasive bladder cancer">
+      <data key="d0">treats</data>
     </edge>
     <edge source="aspirin" target="headache">
       <data key="d0">treats</data>
+    </edge>
+    <edge source="RBDco" target="mice and non-human">
+      <data key="d0">induces</data>
+    </edge>
+    <edge source="improves the durability" target="germinal center reactions">
+      <data key="d0">and the magnitude,</data>
+    </edge>
+    <edge source="tumor microenvironment" target="CAR-T therapy">
+      <data key="d0">challenges</data>
+    </edge>
+    <edge source="levels induced" target="neutralizing antibody (NAb)">
+      <data key="d0">against live XBB</data>
+    </edge>
+    <edge source="commercially available" target="severe acute respiratory">
+      <data key="d0">delivered</data>
+    </edge>
+    <edge source="factor" target="stringency of COVID-19">
+      <data key="d0">was associated</data>
+    </edge>
+    <edge source="mosquito salivary gland" target="vaccine">
+      <data key="d0">suppresses</data>
+    </edge>
+    <edge source="ovalbumin (OVA) mRNA" target="PD18 LNPs">
+      <data key="d0">enhances</data>
+    </edge>
+    <edge source="PIV5-vectored COVID-19 vaccine" target="CVXGA1">
+      <data key="d0">induces neutralizing antibodies</data>
+    </edge>
+    <edge source="requirements" target="quality">
+      <data key="d0">strict</data>
+    </edge>
+    <edge source="host proteases" target="compound 39">
+      <data key="d0">selective</data>
+    </edge>
+    <edge source="encoding the receptor-binding" target="mutated saRNA">
+      <data key="d0">amplifying transcripts</data>
+    </edge>
+    <edge source="confidence" target="young adults">
+      <data key="d0">undermines</data>
+    </edge>
+    <edge source="confidence" target="HCPs">
+      <data key="d0">predictors of positive</data>
+    </edge>
+    <edge source="Slovenia" target="young people">
+      <data key="d0">showing</data>
+    </edge>
+    <edge source="B cells" target="mRNA vaccine">
+      <data key="d0">proliferation</data>
+    </edge>
+    <edge source="Omicron variants BA.2," target="SARS-CoV-2">
+      <data key="d0">pathogenicity is comparable</data>
+    </edge>
+    <edge source="cancer immunotherapy" target="CAR-T therapy">
+      <data key="d0">revolutionized</data>
+    </edge>
+    <edge source="cancer immunotherapy" target="mRNA-LNP vaccines">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="new-onset DM" target="diabetes mellitus">
+      <data key="d0">causes</data>
+    </edge>
+    <edge source="XBB sub-lineages" target="BA.2-derived sub-lineages">
+      <data key="d0">surfaced</data>
+    </edge>
+    <edge source="Sino Pharma" target="Sinovac-CoronaVac vaccine">
+      <data key="d0">effective</data>
+    </edge>
+    <edge source="immunization" target="Alum">
+      <data key="d0">induces</data>
+    </edge>
+    <edge source="protect against weight" target="SARS-CoV-2 spike mRNA-BNPs">
+      <data key="d0">comparable to Comirnaty</data>
+    </edge>
+    <edge source="antibody response" target="mental illness">
+      <data key="d0">association</data>
+    </edge>
+    <edge source="long-form" target="short-form version">
+      <data key="d0">evaluated and found</data>
+    </edge>
+    <edge source="Pfizer-BioNTech" target="BNT162b2">
+      <data key="d0">primary vaccination</data>
+    </edge>
+    <edge source="saRNA vaccine platform" target="lipid nanoparticle (LNP)">
+      <data key="d0">efficient delivery</data>
+    </edge>
+    <edge source="Canada" target="French-speaking Belgian regions">
+      <data key="d0">first validated</data>
+    </edge>
+    <edge source="mRNA-BNPs" target="luciferase mRNA-BNPs">
+      <data key="d0">can be stored</data>
+    </edge>
+    <edge source="diverse" target="health benefits">
+      <data key="d0">including</data>
+    </edge>
+    <edge source="lymph nodes" target="dendritic cells">
+      <data key="d0">accumulation</data>
+    </edge>
+    <edge source="aiding" target="cancer treatment">
+      <data key="d0">treatment</data>
+    </edge>
+    <edge source="coronavirus disease" target="mRNA vaccines">
+      <data key="d0">controlled</data>
+    </edge>
+    <edge source="body" target="aging">
+      <data key="d0">deteriorates</data>
+    </edge>
+    <edge source="APCs" target="CPSM">
+      <data key="d0">target</data>
+    </edge>
+    <edge source="phase III trials" target="data">
+      <data key="d0">original trial data</data>
+    </edge>
+    <edge source="3-chymotrypsin-like protease (3CLpro)" target="SARS-CoV-2">
+      <data key="d0">inhibits</data>
+    </edge>
+    <edge source="stability" target="AX4 lipid">
+      <data key="d0">remains effective</data>
+    </edge>
+    <edge source="SARS-CoV-2 vaccine" target="binding antibodies">
+      <data key="d0">induces</data>
+    </edge>
+    <edge source="Newcastle disease virus" target="poultry diseases">
+      <data key="d0">causes</data>
+    </edge>
+    <edge source="inhalation" target="recombinant COVID-19 vaccine">
+      <data key="d0">represents</data>
+    </edge>
+    <edge source="unvaccinated" target="mortality">
+      <data key="d0">increases</data>
+    </edge>
+    <edge source="restricted" target="cellular immune responses">
+      <data key="d0">by</data>
+    </edge>
+    <edge source="hACE2" target="RBD">
+      <data key="d0">binds</data>
+    </edge>
+    <edge source="standards" target="safety">
+      <data key="d0">international</data>
+    </edge>
+    <edge source="blood cells" target="PFAS">
+      <data key="d0">affects</data>
+    </edge>
+    <edge source="disease" target="COVID-19">
+      <data key="d0">prevention</data>
+    </edge>
+    <edge source="disease" target="CRPS">
+      <data key="d0">post-vaccination</data>
+    </edge>
+    <edge source="elicit IgG" target="OVA mRNA-BNPs">
+      <data key="d0">persists for at</data>
+    </edge>
+    <edge source="COVID-19 hospitalization" target="XBB.1.5 COVID-19 vaccine">
+      <data key="d0">reduces</data>
+    </edge>
+    <edge source="implantology" target="tissue regeneration">
+      <data key="d0">promoting</data>
+    </edge>
+    <edge source="induced" target="neutralizing antibody">
+      <data key="d0">high levels</data>
+    </edge>
+    <edge source="immune system" target="immunotherapeutic agents">
+      <data key="d0">modulates</data>
+    </edge>
+    <edge source="combined with a" target="fourth vaccine dose">
+      <data key="d0">resulted in high</data>
+    </edge>
+    <edge source="phase" target="active campaign phase">
+      <data key="d0">was associated</data>
+    </edge>
+    <edge source="protein" target="Spike">
+      <data key="d0">expresses</data>
+    </edge>
+    <edge source="tissue damage" target="Scattered NETs">
+      <data key="d0">exacerbate</data>
+    </edge>
+    <edge source="size" target="LNP">
+      <data key="d0">measurement</data>
+    </edge>
+    <edge source="proactive efficacy" target="trust in authorities">
+      <data key="d0">80% and 180%</data>
+    </edge>
+    <edge source="dental caries" target="oral diseases">
+      <data key="d0">treating</data>
+    </edge>
+    <edge source="antigen specific" target="CD8+ T cells">
+      <data key="d0">activates</data>
+    </edge>
+    <edge source="PTBP1 and SFPQ" target="RNA binding proteins">
+      <data key="d0">enriched</data>
+    </edge>
+    <edge source="subunit vaccine" target="varicella zoster virus">
+      <data key="d0">duration</data>
+    </edge>
+    <edge source="chemotherapy" target="breast cancer">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="chemotherapy" target="cancer">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="post-market phase IV" target="inferences">
+      <data key="d0">conclusions drawn</data>
+    </edge>
+    <edge source="studied" target="vaccine efficacy">
+      <data key="d0">computational studies</data>
+    </edge>
+    <edge source="seasonal influenza" target="mRNA vaccines">
+      <data key="d0">combined</data>
+    </edge>
+    <edge source="primary vaccination" target="boosters">
+      <data key="d0">increases</data>
+    </edge>
+    <edge source="offered significant protection" target="complete primary series">
+      <data key="d0">although this wanes</data>
+    </edge>
+    <edge source="LNP-saRNA-RBD vaccination" target="prime-boost immunizations">
+      <data key="d0">induction of protection</data>
+    </edge>
+    <edge source="treatment regimen" target="zinc supplementation">
+      <data key="d0">components</data>
+    </edge>
+    <edge source="RBD mutations" target="XBB.1.5">
+      <data key="d0">compromise</data>
+    </edge>
+    <edge source="SARS-CoV-2 3CLpro" target="Gnetol">
+      <data key="d0">inhibits</data>
+    </edge>
+    <edge source="monitor" target="population studies">
+      <data key="d0">evaluate</data>
+    </edge>
+    <edge source="improved" target="antibacterial potential">
+      <data key="d0">effectiveness</data>
+    </edge>
+    <edge source="youth" target="substance use">
+      <data key="d0">increased</data>
+    </edge>
+    <edge source="youth" target="mental health">
+      <data key="d0">associated</data>
+    </edge>
+    <edge source="monoclonal antibody treatments" target="KP.2">
+      <data key="d0">escape</data>
+    </edge>
+    <edge source="Delta and Omicron" target="neutralizing antibodies">
+      <data key="d0">significantly enhanced neutralizing</data>
+    </edge>
+    <edge source="concentration" target="PEG-lipid">
+      <data key="d0">effects on LNP</data>
+    </edge>
+    <edge source="robust efficacy" target="mRNA technology">
+      <data key="d0" />
+    </edge>
+    <edge source="recombinant antigenic proteins" target="analysis">
+      <data key="d0">characterization</data>
+    </edge>
+    <edge source="spike-specific" target="T cells">
+      <data key="d0">quantified</data>
+    </edge>
+    <edge source="mediated route" target="sialic acid receptor">
+      <data key="d0">reduced dependency</data>
+    </edge>
+    <edge source="antigen-specific T cells" target="T cells">
+      <data key="d0">differentiation into a</data>
+    </edge>
+    <edge source="poly(A) tail" target="mRNA">
+      <data key="d0">undergoes rapid degradation</data>
+    </edge>
+    <edge source="71 years" target="age">
+      <data key="d0">median</data>
+    </edge>
+    <edge source="optimization approaches" target="manufacturing process">
+      <data key="d0">enhance efficacy, stability,</data>
+    </edge>
+    <edge source="socio-demographic profiles" target="vaccine recipients">
+      <data key="d0">significantly associated</data>
+    </edge>
+    <edge source="concentrations" target="delta values">
+      <data key="d0">compared</data>
+    </edge>
+    <edge source="women" target="anxiety">
+      <data key="d0">had reduced levels</data>
+    </edge>
+    <edge source="women" target="educational level">
+      <data key="d0">was related</data>
+    </edge>
+    <edge source="people" target="initially hesitant">
+      <data key="d0">switched</data>
+    </edge>
+    <edge source="individuals aged 44" target="age">
+      <data key="d0">less likely</data>
+    </edge>
+    <edge source="vector" target="human adenovirus type">
+      <data key="d0">constructed</data>
+    </edge>
+    <edge source="KTRs" target="infection">
+      <data key="d0">boosts</data>
+    </edge>
+    <edge source="deaths" target="vaccine">
+      <data key="d0">reduced</data>
+    </edge>
+    <edge source="β7-integrin" target="dendritic cells">
+      <data key="d0">expression</data>
+    </edge>
+    <edge source="clinical development" target="therapeutics">
+      <data key="d0">faces</data>
+    </edge>
+    <edge source="mass" target="LNP">
+      <data key="d0">measurement</data>
+    </edge>
+    <edge source="criteria for ionizable" target="ester linkage">
+      <data key="d0">accelerate development</data>
+    </edge>
+    <edge source="biotechnology" target="COVID-19 mRNA vaccines">
+      <data key="d0">successes</data>
+    </edge>
+    <edge source="low" target="education levels">
+      <data key="d0">associated with hesitancy</data>
+    </edge>
+    <edge source="low" target="confidence in vaccine">
+      <data key="d0">associated with hesitancy</data>
+    </edge>
+    <edge source="clinical efficacy" target="mRNA vaccines">
+      <data key="d0">high</data>
+    </edge>
+    <edge source="high-dose vaccine" target="influenza">
+      <data key="d0">efficacy</data>
+    </edge>
+    <edge source="immunized" target="mice">
+      <data key="d0">verified</data>
+    </edge>
+    <edge source="digest" target="RNase T1">
+      <data key="d0">partial</data>
+    </edge>
+    <edge source="digest" target="RNase U2">
+      <data key="d0">partial</data>
+    </edge>
+    <edge source="heat-labile enterotoxin" target="Escherichia coli">
+      <data key="d0">detoxified</data>
+    </edge>
+    <edge source="testing status" target="COVID-19">
+      <data key="d0">low</data>
+    </edge>
+    <edge source="author" target="David B Weiner">
+      <data key="d0">prolific</data>
+    </edge>
+    <edge source="peptide antigens" target="10 nm nanodiamonds">
+      <data key="d0">boost immune responses</data>
+    </edge>
+    <edge source="vaccination recommendations" target="Canadian HCPs">
+      <data key="d0">changing pandemic context</data>
+    </edge>
+    <edge source="viral evolution" target="human and non-human">
+      <data key="d0">compromise vaccine performance</data>
+    </edge>
+    <edge source="human papilloma virus" target="efficacy">
+      <data key="d0">positive safety profile</data>
+    </edge>
+    <edge source="was well retained" target="T cell-mediated immunity">
+      <data key="d0">already after two</data>
+    </edge>
+    <edge source="supporting" target="diabetes management">
+      <data key="d0">management</data>
+    </edge>
+    <edge source="therapy" target="Zodasiran">
+      <data key="d0">targets</data>
+    </edge>
+    <edge source="statistical assumptions" target="choices">
+      <data key="d0">spurious findings</data>
+    </edge>
+    <edge source="hospitalisation" target="COVID-19">
+      <data key="d0">prevents</data>
+    </edge>
+    <edge source="younger people" target="age">
+      <data key="d0">typically elicit robust</data>
+    </edge>
+    <edge source="colonic persistence" target="plasmacytoid DCs">
+      <data key="d0">associated</data>
+    </edge>
+    <edge source="draining lymph nodes" target="germinal center response">
+      <data key="d0">production of anti-RBD</data>
+    </edge>
+    <edge source="antiretroviral therapy" target="HIV">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="Respiratory Syncytial Virus" target="mRNA vaccine">
+      <data key="d0">protects</data>
+    </edge>
+    <edge source="sequencing" target="virus">
+      <data key="d0">results</data>
+    </edge>
+    <edge source="precise antigen design" target="mRNA-LNP technology">
+      <data key="d0">efficient delivery mechanisms</data>
+    </edge>
+    <edge source="influenza hemagglutinin (HA)" target="DNA-LNP">
+      <data key="d0">induces</data>
+    </edge>
+    <edge source="Molnupiravir" target="SARS-CoV-2">
+      <data key="d0">treats</data>
+    </edge>
+    <edge source="ADCP" target="spike protein">
+      <data key="d0">activities</data>
+    </edge>
+    <edge source="vaccine delivery" target="microneedles">
+      <data key="d0">through the skin</data>
+    </edge>
+    <edge source="aged mice" target="K18-hACE2 transgenic mice">
+      <data key="d0">reduces</data>
+    </edge>
+    <edge source="dentists in India" target="attitude">
+      <data key="d0">towards COVID-19 vaccination</data>
+    </edge>
+    <edge source="A-910823" target="quadrivalent influenza vaccine">
+      <data key="d0">enhances</data>
+    </edge>
+    <edge source="calcinosis" target="SSc patients">
+      <data key="d0">increases</data>
+    </edge>
+    <edge source="dental practitioners" target="knowledge">
+      <data key="d0">regarding COVID-19 vaccination</data>
+    </edge>
+    <edge source="COVID-19 patients" target="chimeric RNAs">
+      <data key="d0">found</data>
+    </edge>
+    <edge source="antigen recognition" target="HLA">
+      <data key="d0">critical</data>
+    </edge>
+    <edge source="p30" target="zein nanoparticles">
+      <data key="d0">carries</data>
+    </edge>
+    <edge source="Kidney transplant recipients" target="SARS-CoV-2">
+      <data key="d0">immunity</data>
+    </edge>
+    <edge source="&lt;i&gt;Vaccine&lt;/i&gt;" target="Vaccine Journal">
+      <data key="d0">co-citation</data>
+    </edge>
+    <edge source="testicular atrophy" target="Zika virus">
+      <data key="d0">causes</data>
+    </edge>
+    <edge source="insulin" target="diabetes">
+      <data key="d0">regulates</data>
+    </edge>
+    <edge source="regulatory requirements" target="COVID-19 pandemic">
+      <data key="d0">evaluate</data>
     </edge>
   </graph>
 </graphml>

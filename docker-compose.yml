@@ -8,7 +8,7 @@ services:
       - "7474:7474"
       - "7687:7687"
     environment:
-      - NEO4J_AUTH=neo4j/test12345678
+      NEO4J_AUTH: neo4j/test12345678
     volumes:
       - neo4j_data:/data
 
@@ -17,15 +17,16 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: kg_app
+    network_mode: "host"  # Allow access to host network including DNS/VPN
     depends_on:
       - neo4j
     environment:
-      - NEO4J_URI=bolt://neo4j:7687
-      - NEO4J_USER=neo4j
-      - NEO4J_PASSWORD=test12345678
-      - LLM_MODEL_ID=mistralai/Mistral-7B-Instruct-v0.2
-      - ENTREZ_EMAIL=tpjoshi@umass.edu
-      - ENTREZ_API_KEY=15173a0f7e119ea8f97385cc057712867708
+      NEO4J_URI: bolt://localhost:7687  # Host mode needs localhost
+      NEO4J_USER: neo4j
+      NEO4J_PASSWORD: test12345678
+      LLM_MODEL_ID: mistralai/Mistral-7B-Instruct-v0.2
+      ENTREZ_EMAIL: tpjoshi@umass.edu
+      ENTREZ_API_KEY: 15173a0f7e119ea8f97385cc057712867708
     command: ["python3", "llama2.py"]
     volumes:
       - .:/app

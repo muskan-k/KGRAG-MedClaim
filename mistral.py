@@ -66,7 +66,7 @@ def extract_triples_llm(abstract_text):
     full_prompt = PROMPT_INSTRUCTIONS + "\n\nAbstract:\n" + abstract_text
     try:
         response = requests.post(
-        "http://host.docker.internal:11434/api/generate",
+        "http://localhost:11434/api/generate",
         json={"model": "mistral", "prompt": prompt, "stream": False}
     )
         response.raise_for_status()

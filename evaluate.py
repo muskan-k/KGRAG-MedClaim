@@ -47,7 +47,7 @@ def evaluate_from_claims(claims, labels):
                 llm_output = safe_parse_json(llm_output)
 
             verdict = llm_output.get("verdict", "").strip().upper()
-            mapped_verdict = label_map.get(mapped_verdict)
+            mapped_verdict = label_map.get(verdict)
 
             if mapped_verdict:
                 y_pred.append(verdict)
@@ -84,4 +84,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     claims, labels = load_labels_csv(args.labels_file)
-    evaluate_from_claims(claims[:50], labels[:50])  # or remove [:10] to evaluate all
+    evaluate_from_claims(claims, labels)
