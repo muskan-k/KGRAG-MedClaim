@@ -16,8 +16,8 @@ from peft import LoraConfig, get_peft_model
 # ─────────────────────────────────────────────────────────────────────────────
 # 0) CONFIG: how many batches per epoch
 # ─────────────────────────────────────────────────────────────────────────────
-BATCH_SIZE        = 50 if torch.cuda.is_available() else 1
-BATCHES_PER_EPOCH = 20
+BATCH_SIZE        = 50 if torch.cuda.is_available() else 4
+BATCHES_PER_EPOCH = 100
 MAX_TRAIN_EXAMPLES = BATCH_SIZE * BATCHES_PER_EPOCH
 MAX_EVAL_EXAMPLES  = BATCH_SIZE * BATCHES_PER_EPOCH
 
@@ -107,8 +107,10 @@ tok = raw.map(preprocess,
               batched=False)
 
 # slice only the first N examples so you get exactly 10 batches
-small_train = tok["train"].select(range(min(MAX_TRAIN_EXAMPLES, len(tok["train"]))))
-small_val   = tok["validation"].select(range(min(MAX_EVAL_EXAMPLES,  len(tok["validation"]))))
+# small_train = tok["train"].select(range(min(MAX_TRAIN_EXAMPLES, len(tok["train"]))))
+small_train = tok["train"]
+# small_val   = tok["validation"].select(range(min(MAX_EVAL_EXAMPLES,  len(tok["validation"]))))
+small_val   = tok["validation"]
 
 # ─────────────────────────────────────────────────────────────────────────────
 # 6) TrainingArguments (no unsupported args here)
@@ -116,13 +118,17 @@ small_val   = tok["validation"].select(range(min(MAX_EVAL_EXAMPLES,  len(tok["va
 training_args = TrainingArguments(
     output_dir=str(OUT_DIR),
     per_device_train_batch_size=BATCH_SIZE,
-    gradient_accumulation_steps=64,
+    gradient_accumulation_steps=8,
     num_train_epochs=10,
     learning_rate=2e-4,
     logging_steps=20,
     save_steps=500,
     fp16=torch.cuda.is_available(),
     push_to_hub=False,
+    logging_dir=str(OUT_DIR / "logs"),
+    report_to="none",
+    save_total_limit=1,
+    save_strategy="epoch",
     # if you’d rather stop by total steps, uncomment:
     # max_steps=100,
 )
