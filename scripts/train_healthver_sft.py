@@ -1,99 +1,99 @@
-# Full-parameter SFT of Falcon-7B on HealthVer data
+#!/usr/bin/env python3
+import os
 
-from transformers import (
-    AutoTokenizer,
-    AutoModelForCausalLM,
-    Trainer,
-    TrainingArguments,
-    DataCollatorForLanguageModeling
-)
+# 0) Force offline/local-only mode
+os.environ["HF_HUB_OFFLINE"] = "1"
+os.environ["TRANSFORMERS_OFFLINE"] = "1"
+
+from trl import SFTTrainer, DataCollatorForCompletionOnlyLM
+from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments
+from peft import LoraConfig
 from datasets import load_dataset
+import torch
 
-# 1) Configuration
-# Use a publicly available, non-gated model
-MODEL_NAME = "tiiuae/falcon-7b"
-OUTPUT_DIR = "models/falcon7b-healthver-sft"
+# 1) Configuration: local model & output directories
+MODEL_DIR  = "models/Mistral-7B-Instruct-v0.2"
+OUTPUT_DIR = "models/mistral-healthver-lora"
 
-# 2) Load tokenizer & model
-# Falcon-7B uses byte-level BPE tokenizer
-tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, use_fast=True)
-# Ensure padding token is defined
+# 2) Ensure offload folder exists (for weight offloading)
+os.makedirs("offload", exist_ok=True)
+
+# 3) Load tokenizer from local files only
+tokenizer = AutoTokenizer.from_pretrained(
+    MODEL_DIR,
+    trust_remote_code=True,
+    local_files_only=True
+)
 if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token
 
-model = AutoModelForCausalLM.from_pretrained(MODEL_NAME)
+# 4) Load model from local files only, with offloading config
+# 4) Load model from local files only, with offloading config
+model = AutoModelForCausalLM.from_pretrained(
+    MODEL_DIR,
+    torch_dtype=torch.float32,
+    device_map="auto",
+    offload_folder="offload",
+    trust_remote_code=True,
+    local_files_only=True,
+    low_cpu_mem_usage=True
+)
 
-# 3) Load & preprocess dataset
-# Expect JSONL with fields: 'prompt', 'completion'
+
+# 5) Load dataset splits
 data = load_dataset(
     "json",
     data_files={
-        "train": "healthver_train.jsonl",
+        "train":      "healthver_train.jsonl",
         "validation": "healthver_validation.jsonl"
     }
-)
-
-def preprocess(batch):
-    # Tokenize prompts
-    enc = tokenizer(
-        batch["prompt"],
-        truncation=True,
-        padding="longest",
-        max_length=1024
-    )
-    # Tokenize completions as labels
-    with tokenizer.as_target_tokenizer():
-        lbl = tokenizer(
-            batch["completion"],
-            truncation=True,
-            padding="longest",
-            max_length=512
-        )
-    enc["labels"] = lbl["input_ids"]
-    return enc
-
-# Apply preprocessing remove original columns
-data = data.map(
-    preprocess,
-    batched=True,
-    remove_columns=data["train"].column_names
 )
 train_ds = data["train"]
 val_ds   = data["validation"]
 
-# 4) Data collator for causal LM
-data_collator = DataCollatorForLanguageModeling(
+# 6) Data collator for completion-only LM
+data_collator = DataCollatorForCompletionOnlyLM(
     tokenizer=tokenizer,
-    mlm=False
+    response_template="JSON:",
+    instruction_template=None
 )
 
-# 5) Training arguments
+# 7) Training arguments
 args = TrainingArguments(
     output_dir=OUTPUT_DIR,
+    per_device_train_batch_size=4,
+    per_device_eval_batch_size=4,
+    gradient_accumulation_steps=4,
     num_train_epochs=3,
-    per_device_train_batch_size=1,
-    per_device_eval_batch_size=1,
-    learning_rate=2e-5,
-    evaluation_strategy="steps",
-    eval_steps=500,
-    save_steps=500,
-    save_total_limit=2,
-    logging_steps=100,
-    fp16=False,        # CPU or single-GPU
+    logging_steps=50,
+    evaluation_strategy="epoch",
+    save_strategy="epoch",
+    learning_rate=2e-4,
+    fp16=torch.cuda.is_available(),
+    bf16=False,
     report_to="none"
 )
 
-# 6) Trainer setup
-trainer = Trainer(
+# 8) Prepare LoRA config
+peft_config = LoraConfig(
+    r=16,
+    lora_alpha=32,
+    lora_dropout=0.05,
+    bias="none",
+    task_type="CAUSAL_LM"
+)
+
+# 9) Initialize SFTTrainer
+trainer = SFTTrainer(
     model=model,
     args=args,
     train_dataset=train_ds,
     eval_dataset=val_ds,
-    tokenizer=tokenizer,
-    data_collator=data_collator
+    data_collator=data_collator,
+    peft_config=peft_config
 )
 
-# 7) Run training and save
+# 10) Train & save
 trainer.train()
-trainer.save_model(OUTPUT_DIR)
+trainer.model.save_pretrained(OUTPUT_DIR)
 tokenizer.save_pretrained(OUTPUT_DIR)
