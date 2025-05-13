@@ -1,5 +1,3 @@
-# healthver_sft.py
-
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 
