@@ -1,7 +1,8 @@
 import argparse
 import os
 import torch
-from datasets import load_dataset
+import pandas as pd
+from datasets import Dataset
 from transformers import (
     AutoTokenizer,
     AutoModelForCausalLM,
@@ -10,6 +11,7 @@ from transformers import (
     TrainingArguments,
 )
 from peft import LoraConfig, get_peft_model
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -34,41 +36,48 @@ def main():
     OUTPUT_DIR = "healthver-sft"
     SEQ_LEN    = 400
 
-    # 1) Clone HealthVer if needed and load CSV splits
-    if not os.path.isdir("HealthVer"):
-        print("Cloning HealthVer dataset...")
-        os.system("git clone https://github.com/sarrouti/HealthVer.git")
-    data_files = {
-        "train":      "HealthVer/data/train.csv",
-        "validation": "HealthVer/data/dev.csv",
-    }
-    dataset = load_dataset("csv", data_files=data_files)
-    train_ds = dataset["train"]
-    val_ds   = dataset["validation"]
+    # 1) Clone HealthVer if needed
+    repo_dir = "HealthVer"
+    if not os.path.isdir(repo_dir):
+        os.system(f"git clone https://github.com/sarrouti/HealthVer.git {repo_dir}")
 
-    # 2) Tokenizer setup
+    # 2) Load CSVs via pandas and convert to HF Dataset
+    train_csv = os.path.join(repo_dir, "data/train.csv")
+    val_csv   = os.path.join(repo_dir, "data/dev.csv")
+    train_df  = pd.read_csv(train_csv)
+    val_df    = pd.read_csv(val_csv)
+    train_ds  = Dataset.from_pandas(train_df)
+    val_ds    = Dataset.from_pandas(val_df)
+
+    # 3) Tokenizer setup
     tokenizer = AutoTokenizer.from_pretrained(base_model, use_fast=True)
     tokenizer.model_max_length = SEQ_LEN
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
 
     def tokenize_fn(ex):
-        # ex has keys: 'id', 'evidence', 'claim', 'label', 'topic_ip', 'question'
+        # CSV columns: id,evidence,claim,label,topic_ip,question
         prompt = (
                 "Evidence:\n" + ex["evidence"] +
-                f"\n\nClaim: {ex['claim']}\n"
+                f"\n\nClaim: {ex['claim']}\n" +
                 f"Question: {ex['question']}"
         )
-        # No separate 'explanation' column in this CSV, so just use the label
         response = ex["label"]
         text = prompt + "\n### Response: " + response
         return tokenizer(text, truncation=True, max_length=SEQ_LEN)
 
+    train_tok = train_ds.map(
+        tokenize_fn,
+        batched=False,
+        remove_columns=train_ds.column_names
+    )
+    val_tok = val_ds.map(
+        tokenize_fn,
+        batched=False,
+        remove_columns=val_ds.column_names
+    )
 
-    train_tok = train_ds.map(tokenize_fn, batched=False, remove_columns=train_ds.column_names)
-    val_tok   = val_ds.map(tokenize_fn,   batched=False, remove_columns=val_ds.column_names)
-
-    # 3) Load model and inject LoRA adapters
+    # 4) Load base model and inject LoRA adapters
     model = AutoModelForCausalLM.from_pretrained(
         base_model,
         low_cpu_mem_usage=True,
@@ -93,7 +102,7 @@ def main():
     )
     model = get_peft_model(model, lora_cfg)
 
-    # 4) Trainer setup
+    # 5) Trainer setup
     data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
     training_args = TrainingArguments(
         output_dir=OUTPUT_DIR,
@@ -120,7 +129,7 @@ def main():
         data_collator=data_collator,
     )
 
-    # 5) Train and save
+    # 6) Train and save
     trainer.train()
     model.save_pretrained(OUTPUT_DIR)
     tokenizer.save_pretrained(OUTPUT_DIR)
