@@ -20,7 +20,8 @@ RUN pip install --no-cache-dir \
         protobuf sacremoses "neo4j==5.19" accelerate tqdm \
         "spacy==3.6.1" \
         "scispacy==0.5.3" \
-        "rank-bm25==0.2.2"
+        "rank-bm25==0.2.2" \
+        datasets
 
 # --- 3) install **local** model tarball --------------------------------------
 COPY en_core_sci_lg.tar.gz /tmp/en_core_sci_lg-0.5.3.tar.gz
@@ -31,5 +32,6 @@ RUN pip install /tmp/en_core_sci_lg-0.5.3.tar.gz && \
 # --- 4) your application code ------------------------------------------------
 COPY llama2.py query_kg.py .
 COPY rag_llm.py pubmed_fetch.py rag_pipeline.py query_kg_utils.py /app/
+COPY healthver_sft.py train_healthver_sft.py /app/
 
 CMD ["python3", "llama2.py"]
