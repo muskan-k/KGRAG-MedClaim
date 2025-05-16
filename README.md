@@ -8,7 +8,6 @@ This project implements a Graph-RAG pipeline to verify biomedical claims using b
 - **PubMed Retrieval**: Uses SciSpaCy + MeSH expansion + BM25 ranking to fetch relevant abstracts from PubMed.
 - **RAG + CoT Reasoning**: Fuses KG triples and abstracts in a Retrieval-Augmented Generation setup, with instruction fine-tuned Mistral-7B and hidden scratchpad reasoning.
 - **Structured Outputs**: Returns JSON-formatted verdicts (`SUPPORTS`, `REFUTES`, `NOT_ENOUGH_INFO`) with rationales.
-- 
 
 ## 📊 Experimental Setups
 
@@ -19,3 +18,5 @@ This project implements a Graph-RAG pipeline to verify biomedical claims using b
 | B2 SFT + KG + IFT             | 38.1%    | 0.328  | 0.533     | 0.351  |
 | B3 SFT + KG + CoT             | 47.3%    | 0.450  | 0.560     | 0.444  |
 | **B4 SFT + KG + CoT + IFT**   | **62.7%**| **0.611**| **0.689** | **0.552** |
+
+#### To run the script, simply run the LLM_GEN.ipynb file. The GitHub code is mostly experimental and was used for initial setup and experiments. Once the whole script was ready, it was migrated to Colab for simplicity.
