@@ -1,6 +1,6 @@
 # KGRAG-MedClaim: A Graph-RAG Approach for Medical Misinformation Detection
 
-This project implements a Graph-RAG pipeline to verify biomedical claims using both structured (knowledge graph) and unstructured (PubMed abstracts) evidence, paired with reasoning-enhanced large language models. Built on top of the [HealthVer](https://github.com/sarrouti/HealthVer) dataset.
+This project implements a Graph-RAG pipeline to verify biomedical claims using both structured (knowledge graph) and unstructured (PubMed abstracts) evidence, paired with reasoning-enhanced large language models. Built on top of the [HealthVer](https://github.com/sarrouti/HealthVer) dataset [[Sarrouti et al., 2021]](https://aclanthology.org/2021.emnlp-main.507/).
 
 ## 🚀 Key Features
 
